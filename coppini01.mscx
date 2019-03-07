@@ -650,9 +650,10 @@
         <Rest>
           <durationType>whole</durationType>
           </Rest>
-        <tick>44640</tick>
+        <tick>45120</tick>
         <Harmony>
           <name>V</name>
+          <pos x="-0.132719" y="-5"/>
           </Harmony>
         </Measure>
       <Measure number="25">
@@ -1198,7 +1199,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V65</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
