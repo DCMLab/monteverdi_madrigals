@@ -1,6 +1,6 @@
 # Source
 
-http://www3.cpdl.org/wiki/index.php/Lasciatemi_morire_(Claudio_Monteverdi)
+http://www.cpdl.org/wiki/index.php/Lasciatemi_morire_(Claudio_Monteverdi)
 
 # Editions
 
