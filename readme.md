@@ -22,29 +22,29 @@
 |19. Ardo, sì, ma non t'amo, SV39, 5vv                    |Ardo, sì, ma non t'amo                    | 39|     5|NaN |    |
 |20. Ardi o gela a tua voglia, SV39, 5vv                  |Ardi o gela a tua voglia                  | 39|     5|NaN |    |
 |21. Arsi e alsi a mia voglia, SV39, 5vv                  |Arsi e alsi a mia voglia                  | 39|     5|NaN |    |
-# Libro 2
-|                      full_title                      |                       title                       |SV |voices|year|                                link                                 |
-|------------------------------------------------------|---------------------------------------------------|---|-----:|----|---------------------------------------------------------------------|
-|1. Non si levava ancor - E dicea l'una sospirando, 5vv|Non si levava ancor - E dicea l'una sospirando, 5vv|NaN|   NaN|NaN |Non_si_levava_ancor_-_E_dicea_l%27una_sospirando_(Claudio_Monteverdi)|
-|2. Bevea fillide mia, 5vv                             |Bevea fillide mia                                  |NaN|     5|NaN |                                                                     |
-|3. Dolcissimi legami, 5vv                             |Dolcissimi legami                                  |NaN|     5|NaN |                                                                     |
-|4. Non giacinti o narcisi, 5vv                        |Non giacinti o narcisi                             |NaN|     5|NaN |                                                                     |
-|5. Intorno a due vermiglie, 5vv                       |Intorno a due vermiglie                            |NaN|     5|NaN |                                                                     |
-|6. Non sono in queste rive, 5vv                       |Non sono in queste rive                            |NaN|     5|NaN |                                                                     |
-|7. Tutte le bocche belle, 5vv                         |Tutte le bocche belle                              |NaN|     5|NaN |                                                                     |
-|8. Donna nel mio ritorno, 5vv                         |Donna nel mio ritorno                              |NaN|     5|NaN |                                                                     |
-|9. Quell'ombra esser vorrei, 5vv                      |Quell'ombra esser vorrei                           |NaN|     5|NaN |                                                                     |
-|10. S'andasse Amor a caccia, 5vv                      |S'andasse Amor a caccia                            |NaN|     5|NaN |                                                                     |
-|11. Mentre io miravo fiso, 5vv                        |Mentre io miravo fiso                              |NaN|     5|NaN |                                                                     |
-|12. Ecco mormorar l'onde, 5vv                         |Ecco mormorar l'onde                               |NaN|     5|NaN |                                                                     |
-|13. Dolcemente dormiva, 5vv                           |Dolcemente dormiva                                 |NaN|     5|NaN |                                                                     |
-|14. Se tu mi lassi, 5vv                               |Se tu mi lassi                                     |NaN|     5|NaN |                                                                     |
-|15. La bocca onde, 5vv                                |La bocca onde                                      |NaN|     5|NaN |                                                                     |
-|16. Crudel, perchè mi fuggi?, 5vv                     |Crudel, perchè mi fuggi?                           |NaN|     5|NaN |                                                                     |
-|17. Questo specchio ti dono, 5vv                      |Questo specchio ti dono                            |NaN|     5|NaN |                                                                     |
-|18. Non mi è grave il morire, 5vv                     |Non mi è grave il morire                           |NaN|     5|NaN |                                                                     |
-|19. Ti spontò l'ali amor la donna mia, 5vv            |Ti spontò l'ali amor la donna mia                  |NaN|     5|NaN |                                                                     |
-|20. Cantai un tempo, 5vv                              |Cantai un tempo                                    |NaN|     5|NaN |                                                                     |
+# Libro 2 (1590)
+| full_title                                             | title                                               | SV        | voices | link                                                                  | annotators |
+|--------------------------------------------------------|-----------------------------------------------------|-----------|-------:|-----------------------------------------------------------------------|------------|
+| 1. Non si levava ancor - E dicea l'una sospirando, 5vv | Non si levava ancor - E dicea l'una sospirando, 5vv | 40a & 40b |    NaN | Non_si_levava_ancor_-_E_dicea_l%27una_sospirando_(Claudio_Monteverdi) |            |
+| 2. Bevea fillide mia, 5vv                              | Bevea fillide mia                                   | 41        |      5 |                                                                       |            |
+| 3. Dolcissimi legami, 5vv                              | Dolcissimi legami                                   | 42        |      5 |                                                                       |            |
+| 4. Non giacinti o narcisi, 5vv                         | Non giacinti o narcisi                              | 43        |      5 |                                                                       |            |
+| 5. Intorno a due vermiglie, 5vv                        | Intorno a due vermiglie                             | 44        |      5 |                                                                       |            |
+| 6. Non sono in queste rive, 5vv                        | Non sono in queste rive                             | 45        |      5 |                                                                       |            |
+| 7. Tutte le bocche belle, 5vv                          | Tutte le bocche belle                               | 46        |      5 |                                                                       |            |
+| 8. Donna nel mio ritorno, 5vv                          | Donna nel mio ritorno                               | 47        |      5 |                                                                       |            |
+| 9. Quell'ombra esser vorrei, 5vv                       | Quell'ombra esser vorrei                            | 48        |      5 |                                                                       |            |
+| 10. S'andasse Amor a caccia, 5vv                       | S'andasse Amor a caccia                             | 49        |      5 |                                                                       |            |
+| 11. Mentre io miravo fiso, 5vv                         | Mentre io miravo fiso                               | 50        |      5 |                                                                       |            |
+| 12. Ecco mormorar l'onde, 5vv                          | Ecco mormorar l'onde                                | 51        |      5 |                                                                       | Adrian     |
+| 13. Dolcemente dormiva, 5vv                            | Dolcemente dormiva                                  | 52        |      5 |                                                                       |            |
+| 14. Se tu mi lassi, 5vv                                | Se tu mi lassi                                      | 53        |      5 |                                                                       |            |
+| 15. La bocca onde, 5vv                                 | La bocca onde                                       | 54        |      5 |                                                                       |            |
+| 16. Crudel, perchè mi fuggi?, 5vv                      | Crudel, perchè mi fuggi?                            | 55        |      5 |                                                                       |            |
+| 17. Questo specchio ti dono, 5vv                       | Questo specchio ti dono                             | 56        |      5 |                                                                       |            |
+| 18. Non mi è grave il morire, 5vv                      | Non mi è grave il morire                            | 57        |      5 |                                                                       |            |
+| 19. Ti spontò l'ali amor la donna mia, 5vv             | Ti spontò l'ali amor la donna mia                   | 58        |      5 |                                                                       |            |
+| 20. Cantai un tempo, 5vv                               | Cantai un tempo                                     | 59        |      5 |                                                                       |            |
 # Libro 3
 |                      full_title                      |                   title                    |SV |voices|year|link|
 |------------------------------------------------------|--------------------------------------------|--:|-----:|----|----|
