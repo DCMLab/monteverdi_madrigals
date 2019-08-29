@@ -55,19 +55,19 @@
 | 5. Stracciami pur il core, SV64, 5vv                   | Stracciami pur il core                       |  64 |      5 | NaN  |      |              |
 | 6. O rossignuol ch'in queste verdi fronde, SV65, 5vv   | O rossignuol ch'in queste verdi fronde       |  65 |      5 | NaN  |      |              |
 | 7. Se per estremo ardore, SV66, 5vv                    | Se per estremo ardore                        |  66 |      5 | NaN  |      |              |
-| 8. Vattene pur, crudel, con quella pace, SV67, 5vv     | Vattene pur, crudel, con quella pace         | 67a |      5 | NaN  |      |              |
-| 9. Là tra’l sangu’e le morti egro giacente, SV67, 5vv  | Là tra’l sangu’e le morti egro giacente      | 67b |      5 | NaN  |      |              |
-| 10. Poi ch'ella in sè tornò deserto e muto, SV67, 5vv  | Poi ch'ella in sè tornò deserto e muto       | 67c |      5 | NaN  |      |              |
-| 11. O primavera, gioventù de l'anno, SV68, 5vv         | O primavera, gioventù de l'anno              |  68 |      5 | NaN  |      | Adrian       |
-| 12. Perfidissimo volto ben l'usata bellezza, SV69, 5vv | Perfidissimo volto ben l'usata bellezza      |  69 |      5 | NaN  |      |              |
-| 13. Ch'io non t'ami, cor mio, SV70, 5vv                | Ch'io non t'ami, cor mio                     |  70 |      5 | NaN  |      |              |
-| 14. Occhi, un tempo mia vita, SV71, 5vv                | Occhi, un tempo mia vita                     |  71 |      5 | NaN  |      |              |
-| 15. Vivrò fra i miei tormenti e le mie cure, SV72, 5vv | Vivrò fra i miei tormenti e le mie cure      | 72a |      5 | NaN  |      |              |
-| 16. Ma dove, O lasso me, dove restaro ?, SV72, 5vv     | Ma dove, O lasso me, dove restaro ?          | 72b |      5 | NaN  |      |              |
-| 17. Io pur verrò là dove sete, SV72, 5vv               | Io pur verrò là dove sete                    | 72c |      5 | NaN  |      |              |
-| 18. Lumi miei, cari lumi, SV73, 5vv                    | Lumi miei, cari lumi                         |  73 |      5 | NaN  |      |              |
-| 19. Rimanti in pace a la dolente e bella Fillida, SV74 | Rimanti in pace a la dolente e bella Fillida | 74a |    NaN | NaN  |      |              |
-| 20. Ond'ei di morte la sua faccia impressa, SV74, 5vv  | Ond'ei di morte la sua faccia impressa       | 74b |      5 | NaN  |      |              |
+| 8a. Vattene pur, crudel, con quella pace, SV67, 5vv     | Vattene pur, crudel, con quella pace         | 67a |      5 | NaN  |      |              |
+| 8b. Là tra’l sangu’e le morti egro giacente, SV67, 5vv  | Là tra’l sangu’e le morti egro giacente      | 67b |      5 | NaN  |      |              |
+| 8c. Poi ch'ella in sè tornò deserto e muto, SV67, 5vv  | Poi ch'ella in sè tornò deserto e muto       | 67c |      5 | NaN  |      |              |
+| 9. O primavera, gioventù de l'anno, SV68, 5vv         | O primavera, gioventù de l'anno              |  68 |      5 | NaN  |      | Adrian       |
+| 10. Perfidissimo volto ben l'usata bellezza, SV69, 5vv | Perfidissimo volto ben l'usata bellezza      |  69 |      5 | NaN  |      |              |
+| 11. Ch'io non t'ami, cor mio, SV70, 5vv                | Ch'io non t'ami, cor mio                     |  70 |      5 | NaN  |      |              |
+| 12. Occhi, un tempo mia vita, SV71, 5vv                | Occhi, un tempo mia vita                     |  71 |      5 | NaN  |      |              |
+| 13a. Vivrò fra i miei tormenti e le mie cure, SV72, 5vv | Vivrò fra i miei tormenti e le mie cure      | 72a |      5 | NaN  |      |              |
+| 13b. Ma dove, O lasso me, dove restaro ?, SV72, 5vv     | Ma dove, O lasso me, dove restaro ?          | 72b |      5 | NaN  |      |              |
+| 13c. Io pur verrò là dove sete, SV72, 5vv               | Io pur verrò là dove sete                    | 72c |      5 | NaN  |      |              |
+| 14. Lumi miei, cari lumi, SV73, 5vv                    | Lumi miei, cari lumi                         |  73 |      5 | NaN  |      |              |
+| 15a. Rimanti in pace a la dolente e bella Fillida, SV74 | Rimanti in pace a la dolente e bella Fillida | 74a |    NaN | NaN  |      |              |
+| 15b. Ond'ei di morte la sua faccia impressa, SV74, 5vv  | Ond'ei di morte la sua faccia impressa       | 74b |      5 | NaN  |      |              |
 # Libro 4 (1603)
 | full_title                                                      | title                                      |  SV | voices | link                                               | annotator(s) |
 |-----------------------------------------------------------------|--------------------------------------------|----:|-------:|----------------------------------------------------|--------------|
@@ -76,65 +76,65 @@
 | 3. Cor mio, non mori? E mori!                                   | Cor mio, non mori? E mori!                 |  77 |    NaN | Cor_mio,_non_mori%3F_E_mori!_(Claudio_Monteverdi)  |              |
 | 4. Sfogava con le stelle, 5vv, 1603                             | Sfogava con le stelle                      |  78 |      5 | Sfogava_con_le_stelle_(Claudio_Monteverdi)         |              |
 | 5. Volgea l'anima mia                                           | Volgea l'anima mia                         |  79 |    NaN |                                                    |              |
-| 6. Anima mia, perdona                                           | Anima mia, perdona                         | 80a |    NaN |                                                    |              |
-| 7. Che se tu se' il cor mio, 5vv, 1603                          | Che se tu se' il cor mio                   | 80b |      5 |                                                    |              |
-| 8. Luci serene e chiare                                         | Luci serene e chiare                       |  81 |    NaN | Luci_serene_e_chiare_(Claudio_Monteverdi)          |              |
-| 9. La piaga c'ho nel core                                       | La piaga c'ho nel core                     |  82 |    NaN |                                                    |              |
-| 10. Voi pur da me partite                                       | Voi pur da me partite                      |  83 |    NaN |                                                    |              |
-| 11. A un giro sol                                               | A un giro sol                              |  84 |    NaN |                                                    |              |
-| 12. Ohimè, se tanto amate, 5vv, 1603                            | Ohimè, se tanto amate                      |  85 |      5 | Ohim%C3%A8,_se_tanto_amate_(Claudio_Monteverdi)    |              |
-| 13. Io mi son giovinetta, 5vv, 1603                             | Io mi son giovinetta                       |  86 |      5 |                                                    |              |
-| 14. Quel augellin che canta, 5vv, 1603                          | Quel augellin che canta                    |  87 |      5 | Augellin_(Claudio_Monteverdi)                      |              |
-| 15. Non più guerra, pietate                                     | Non più guerra, pietate                    |  88 |    NaN |                                                    |              |
-| 16. Sì ch'io vorrei morire, 5vv, 1603                           | Sì ch'io vorrei morire                     |  89 |      5 | S%C3%AC_ch%27io_vorrei_morire_(Claudio_Monteverdi) |              |
-| 17. Anima dolorosa che vivendo, SV 90, 5vv, 1603                | Anima dolorosa che vivendo                 |  90 |      5 | Anima_dolorosa_(Claudio_Monteverdi)                |              |
-| 18. Anima del cor mio poi che da me misera me, SV 91, 5vv, 1603 | Anima del cor mio poi che da me misera me  |  91 |      5 | Anima_del_cor_mio_(Claudio_Monteverdi)             |              |
-| 19. Longe da te, cor mio                                        | Longe da te, cor mio                       |  92 |    NaN |                                                    |              |
-| 20. Piagn' e sospira                                            | Piagn' e sospira                           |  93 |    NaN |                                                    | Adrian       |
+| 6a. Anima mia, perdona                                           | Anima mia, perdona                         | 80a |    NaN |                                                    |              |
+| 6b. Che se tu se' il cor mio, 5vv, 1603                          | Che se tu se' il cor mio                   | 80b |      5 |                                                    |              |
+| 7. Luci serene e chiare                                         | Luci serene e chiare                       |  81 |    NaN | Luci_serene_e_chiare_(Claudio_Monteverdi)          |              |
+| 8. La piaga c'ho nel core                                       | La piaga c'ho nel core                     |  82 |    NaN |                                                    |              |
+| 9. Voi pur da me partite                                       | Voi pur da me partite                      |  83 |    NaN |                                                    |              |
+| 10. A un giro sol                                               | A un giro sol                              |  84 |    NaN |                                                    |              |
+| 11. Ohimè, se tanto amate, 5vv, 1603                            | Ohimè, se tanto amate                      |  85 |      5 | Ohim%C3%A8,_se_tanto_amate_(Claudio_Monteverdi)    |              |
+| 12. Io mi son giovinetta, 5vv, 1603                             | Io mi son giovinetta                       |  86 |      5 |                                                    |              |
+| 13. Quel augellin che canta, 5vv, 1603                          | Quel augellin che canta                    |  87 |      5 | Augellin_(Claudio_Monteverdi)                      |              |
+| 14. Non più guerra, pietate                                     | Non più guerra, pietate                    |  88 |    NaN |                                                    |              |
+| 15. Sì ch'io vorrei morire, 5vv, 1603                           | Sì ch'io vorrei morire                     |  89 |      5 | S%C3%AC_ch%27io_vorrei_morire_(Claudio_Monteverdi) |              |
+| 16. Anima dolorosa che vivendo, SV 90, 5vv, 1603                | Anima dolorosa che vivendo                 |  90 |      5 | Anima_dolorosa_(Claudio_Monteverdi)                |              |
+| 17. Anima del cor mio poi che da me misera me, SV 91, 5vv, 1603 | Anima del cor mio poi che da me misera me  |  91 |      5 | Anima_del_cor_mio_(Claudio_Monteverdi)             |              |
+| 18. Longe da te, cor mio                                        | Longe da te, cor mio                       |  92 |    NaN |                                                    |              |
+| 19. Piagn' e sospira                                            | Piagn' e sospira                           |  93 |    NaN |                                                    | Adrian       |
 # Libro 5 (1605)
 | full_title                                                 | title                                      |   SV | voices | link                            | annotator(s) |
 |------------------------------------------------------------|--------------------------------------------|-----:|-------:|---------------------------------|--------------|
 | 1. Cruda Amarilli, 5vv, 1605                               | Cruda Amarilli                             |   94 |      5 |                                 | Adrian       |
 | 2. O Mirtillo, 5vv, 1605                                   | O Mirtillo                                 |   95 |      5 | O_Mirtillo_(Claudio_Monteverdi) |              |
 | 3. Era l'anima mia già presso a l'ultim' hore, 5vv, 1605   | Era l'anima mia già presso a l'ultim' hore |   96 |      5 |                                 | Adrian       |
-| 4. Ecco, Silvio, colei ch'in odio hai tanto, 5vv, 1605     | Ecco, Silvio, colei ch'in odio hai tanto   |  97a |      5 |                                 | Adrian       |
-| 5. Ma se con la pietà, 5vv, 1605                           | Ma se con la pietà                         |  97b |      5 |                                 |              |
-| 6. Dorinda, ah dirò mia, se mia non sei, 5vv, 1605         | Dorinda, ah dirò mia, se mia non sei       |  97c |      5 |                                 | Adrian       |
-| 7. Ecco, piegando le ginocchie a terra, 5vv, 1605          | Ecco, piegando le ginocchie a terra        |  97d |      5 |                                 | Adrian       |
-| 8. Ferir quel petto, Silvio, 5vv, 1605                     | Ferir quel petto, Silvio                   |  97e |      5 |                                 | Adrian       |
-| 9. Ch'io t'ami, e t'ami più de la mia vita                 | Ch'io t'ami, e t'ami più de la mia vita    |  98a |    NaN |                                 |              |
-| 10. Deh bella e cara, 5vv, 1605                            | Deh bella e cara                           |  98b |      5 |                                 | Adrian       |
-| 11. Ma tu piu che mai dura, 5vv, 1605                      | Ma tu piu che mai dura                     |  98c |      5 |                                 | Adrian       |
-| 12. Che dar più vi poss'io?                                | Che dar più vi poss'io?                    |   99 |    NaN |                                 |              |
-| 13. M'e più dolce il penar                                 | M'e più dolce il penar                     |  100 |    NaN |                                 |              |
-| 14. Ahi come a un vago sol cortese giro, SV 101, 5vv, 1605 | Ahi come a un vago sol cortese giro        |  101 |      5 |                                 | Adrian       |
-| 15. Troppo ben può questo tiranno amore, 5vv, 1605         | Troppo ben può questo tiranno amore        |  102 |      5 |                                 | Adrian       |
-| 16. Amor, se giusto sei                                    | Amor, se giusto sei                        |  103 |    NaN |                                 |              |
-| 17. T'amo mia vita, 5vv, 1605                              | T'amo mia vita                             |  104 |      5 |                                 | Adrian       |
-| 18. E cosi à poco à poco                                   | E cosi à poco à poco                       |  105 |    NaN |                                 |              |
-| 19. Questi vaghi concenti                                  | Questi vaghi concenti                      | 106a |    NaN |                                 |              |
-| 20. Ecco piegando                                          | Ecco piegando                              | 106b |    NaN |                                 |              |
+| 4a. Ecco, Silvio, colei ch'in odio hai tanto, 5vv, 1605     | Ecco, Silvio, colei ch'in odio hai tanto   |  97a |      5 |                                 | Adrian       |
+| 4b. Ma se con la pietà, 5vv, 1605                           | Ma se con la pietà                         |  97b |      5 |                                 |              |
+| 4c. Dorinda, ah dirò mia, se mia non sei, 5vv, 1605         | Dorinda, ah dirò mia, se mia non sei       |  97c |      5 |                                 | Adrian       |
+| 4d. Ecco, piegando le ginocchie a terra, 5vv, 1605          | Ecco, piegando le ginocchie a terra        |  97d |      5 |                                 | Adrian       |
+| 4e. Ferir quel petto, Silvio, 5vv, 1605                     | Ferir quel petto, Silvio                   |  97e |      5 |                                 | Adrian       |
+| 5a. Ch'io t'ami, e t'ami più de la mia vita                 | Ch'io t'ami, e t'ami più de la mia vita    |  98a |    NaN |                                 |              |
+| 5b. Deh bella e cara, 5vv, 1605                            | Deh bella e cara                           |  98b |      5 |                                 | Adrian       |
+| 5c. Ma tu piu che mai dura, 5vv, 1605                      | Ma tu piu che mai dura                     |  98c |      5 |                                 | Adrian       |
+| 6. Che dar più vi poss'io?                                | Che dar più vi poss'io?                    |   99 |    NaN |                                 |              |
+| 7. M'e più dolce il penar                                 | M'e più dolce il penar                     |  100 |    NaN |                                 |              |
+| 8. Ahi come a un vago sol cortese giro, SV 101, 5vv, 1605 | Ahi come a un vago sol cortese giro        |  101 |      5 |                                 | Adrian       |
+| 9. Troppo ben può questo tiranno amore, 5vv, 1605         | Troppo ben può questo tiranno amore        |  102 |      5 |                                 | Adrian       |
+| 10. Amor, se giusto sei                                    | Amor, se giusto sei                        |  103 |    NaN |                                 |              |
+| 11. T'amo mia vita, 5vv, 1605                              | T'amo mia vita                             |  104 |      5 |                                 | Adrian       |
+| 12. E cosi à poco à poco                                   | E cosi à poco à poco                       |  105 |    NaN |                                 |              |
+| 13a. Questi vaghi concenti                                  | Questi vaghi concenti                      | 106a |    NaN |                                 |              |
+| 13b. Ecco piegando                                          | Ecco piegando                              | 106b |    NaN |                                 |              |
 # Libro 6 (1614)
 | full_title                                                   | title                                      | SV   | voices | link                                                       | annotator(s) |
 |--------------------------------------------------------------|--------------------------------------------|------|-------:|------------------------------------------------------------|--------------|
-| 1. Lasciatemi morire, 5vv, 1614                              | Lasciatemi morire                          | 107a |      5 |                                                            | Adrian       |
-| 2. O Teseo, Teseo mio, 5vv, 1614                             | O Teseo, Teseo mio                         | 107b |      5 |                                                            |              |
-| 3. Dove, dove è la fede, 5vv, 1614                           | Dove, dove è la fede                       | 107c |      5 |                                                            |              |
-| 4. Ahi, che non pur risponde, 5vv, 1614                      | Ahi, che non pur risponde                  | 107d |      5 |                                                            |              |
-| 5. Zefiro torna e il bel tempo rimena, 5vv, 1614             | Zefiro torna e il bel tempo rimena         | 108  |      5 |                                                            |              |
-| 6. Una Donna fra l'altre honesta e bella vidi, 5vv, bc, 1614 | Una Donna fra l'altre honesta e bella vidi | 109  |      5 |                                                            |              |
-| 7. A Dio, Florida Bella, 5vv                                 | A Dio, Florida Bella                       | 110  |      5 |                                                            |              |
-| 8. Incenerite spoglie, avara tomba, 5vv, 1614                | Incenerite spoglie, avara tomba            | 111a |      5 | Incenerite_spoglie,_avara_tomba_(Claudio_Monteverdi)       |              |
-| 9. Ditelo, o fiumi e voi ch'udiste, 5vv, 1614                | Ditelo, o fiumi e voi ch'udiste            | 111b |      5 | Ditelo,_o_fiumi_e_voi_ch%27udiste_(Claudio_Monteverdi)     |              |
-| 10. Darà la notte il sol, 5vv, 1614                          | Darà la notte il sol                       | 111c |      5 | Dar%C3%A0_la_notte_il_sol_(Claudio_Monteverdi)             |              |
-| 11. Ma te raccoglie, o ninfa, 5vv, 1614                      | Ma te raccoglie, o ninfa                   | 111d |      5 | Ma_te_raccoglie,_o_ninfa_(Claudio_Monteverdi)              |              |
-| 12. O chiome d'or, neve gentil del seno, 5vv, 1614           | O chiome d'or, neve gentil del seno        | 111e |      5 | O_chiome_d%27or,_neve_gentil_del_seno_(Claudio_Monteverdi) |              |
-| 13. Dunque amate reliquie, 5vv, 1614                         | Dunque amate reliquie                      | 111f |      5 | Dunque_amate_reliquie_(Claudio_Monteverdi)                 |              |
-| 14. Ohimè il bel viso, 5vv, bc, 1614                         | Ohimè il bel viso                          | 112  |      5 |                                                            |              |
-| 15. Qui rise, O Tirsi, 5vv, bc, 1614                         | Qui rise, O Tirsi                          | 113  |      5 |                                                            |              |
-| 16. Misero Alceo, 5vv, bc, 1614                              | Misero Alceo                               | 114  |      5 |                                                            |              |
-| 17. Batto, qui pianse Ergasto, 5vv, bc, 1614                 | Batto, qui pianse Ergasto                  | 115  |      5 |                                                            |              |
-| 18. Presso un fiume tranquillo, 7vv, bc, 1614                | Presso un fiume tranquillo                 | 116  |      7 |                                                            |              |
+| 1a. Lasciatemi morire, 5vv, 1614                              | Lasciatemi morire                          | 107a |      5 |                                                            | Adrian       |
+| 1b. O Teseo, Teseo mio, 5vv, 1614                             | O Teseo, Teseo mio                         | 107b |      5 |                                                            |              |
+| 1c. Dove, dove è la fede, 5vv, 1614                           | Dove, dove è la fede                       | 107c |      5 |                                                            |              |
+| 1d. Ahi, che non pur risponde, 5vv, 1614                      | Ahi, che non pur risponde                  | 107d |      5 |                                                            |              |
+| 2. Zefiro torna e il bel tempo rimena, 5vv, 1614             | Zefiro torna e il bel tempo rimena         | 108  |      5 |                                                            |              |
+| 3. Una Donna fra l'altre honesta e bella vidi, 5vv, bc, 1614 | Una Donna fra l'altre honesta e bella vidi | 109  |      5 |                                                            |              |
+| 4. A Dio, Florida Bella, 5vv                                 | A Dio, Florida Bella                       | 110  |      5 |                                                            |              |
+| 5a. Incenerite spoglie, avara tomba, 5vv, 1614                | Incenerite spoglie, avara tomba            | 111a |      5 | Incenerite_spoglie,_avara_tomba_(Claudio_Monteverdi)       |              |
+| 5b. Ditelo, o fiumi e voi ch'udiste, 5vv, 1614                | Ditelo, o fiumi e voi ch'udiste            | 111b |      5 | Ditelo,_o_fiumi_e_voi_ch%27udiste_(Claudio_Monteverdi)     |              |
+| 5c. Darà la notte il sol, 5vv, 1614                          | Darà la notte il sol                       | 111c |      5 | Dar%C3%A0_la_notte_il_sol_(Claudio_Monteverdi)             |              |
+| 5d. Ma te raccoglie, o ninfa, 5vv, 1614                      | Ma te raccoglie, o ninfa                   | 111d |      5 | Ma_te_raccoglie,_o_ninfa_(Claudio_Monteverdi)              |              |
+| 5e. O chiome d'or, neve gentil del seno, 5vv, 1614           | O chiome d'or, neve gentil del seno        | 111e |      5 | O_chiome_d%27or,_neve_gentil_del_seno_(Claudio_Monteverdi) |              |
+| 5f. Dunque amate reliquie, 5vv, 1614                         | Dunque amate reliquie                      | 111f |      5 | Dunque_amate_reliquie_(Claudio_Monteverdi)                 |              |
+| 6. Ohimè il bel viso, 5vv, bc, 1614                         | Ohimè il bel viso                          | 112  |      5 |                                                            |              |
+| 7. Qui rise, O Tirsi, 5vv, bc, 1614                         | Qui rise, O Tirsi                          | 113  |      5 |                                                            |              |
+| 8. Misero Alceo, 5vv, bc, 1614                              | Misero Alceo                               | 114  |      5 |                                                            |              |
+| 9. Batto, qui pianse Ergasto, 5vv, bc, 1614                 | Batto, qui pianse Ergasto                  | 115  |      5 |                                                            |              |
+| 10. Presso un fiume tranquillo, 7vv, bc, 1614                | Presso un fiume tranquillo                 | 116  |      7 |                                                            |              |
 # Libro 7 (1619)
 | full_title                                                            | title                                         |  SV | voices | link                                               | annotator(s) |
 |-----------------------------------------------------------------------|-----------------------------------------------|----:|-------:|----------------------------------------------------|--------------|
@@ -188,7 +188,7 @@
 | 15. Ninfa che, scalza il piede e sciolto il crine, 3vv, bc, 1638     | Ninfa che, scalza il piede e sciolto il crine | 160  | 3      | Ninfa_che,_scalza_il_piede_e_sciolto_il_crine_(Claudio_Monteverdi)          |              |
 | 16. Dolcissimo uscignolo, 5vv, 1638                                  | Dolcissimo uscignolo                          |  161 |      5 | Dolcissimo_uscignolo_(Claudio_Monteverdi)                                   |              |
 | 17. Chi vol haver felice e lieto il core, 5vv, 1638                  | Chi vol haver felice e lieto il core          |  162 |      5 | Chi_vol_haver_felice_e_lieto_il_core_(Claudio_Monteverdi)                   |              |
-| 18. Lamento della Ninfa, 4vv, bc, 1638                               | Lamento della Ninfa                           |  163 |      4 |                                                                             |              |
+| 18. Lamento della Ninfa, 4vv, bc, 1638                               | Lamento della Ninfa                           |  163 |      4 |                                                                             | Adrian       |
 | 19. Perchè t'en fuggi, o Fillide?, 3vv, bc, 1638                     | Perchè t'en fuggi, o Fillide?                 |  164 |      3 | Perch%C3%A8_t%27en_fuggi,_o_Fillide%3F_(Claudio_Monteverdi)                 |              |
 | 20. Non partir, ritrosetta, 3vv, bc, 1638                            | Non partir, ritrosetta                        |  165 |      3 | Non_partir,_ritrosetta_(Claudio_Monteverdi)                                 |              |
 | 21. Su, su, su pastorelli vezzosi, 3vv, bc, 1638                     | Su, su, su pastorelli vezzosi                 |  166 |      3 | Su,_su,_su_pastorelli_vezzosi_(Claudio_Monteverdi)                          |              |
