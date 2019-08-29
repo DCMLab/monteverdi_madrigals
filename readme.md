@@ -68,29 +68,29 @@
 | 18. Lumi miei, cari lumi, SV73, 5vv                    | Lumi miei, cari lumi                         |  73 |      5 | NaN  |      |              |
 | 19. Rimanti in pace a la dolente e bella Fillida, SV74 | Rimanti in pace a la dolente e bella Fillida | 74a |    NaN | NaN  |      |              |
 | 20. Ond'ei di morte la sua faccia impressa, SV74, 5vv  | Ond'ei di morte la sua faccia impressa       | 74b |      5 | NaN  |      |              |
-# Libro 4
-|                          full_title                           |                  title                   |SV |voices|year|                       link                       |
-|---------------------------------------------------------------|------------------------------------------|--:|-----:|---:|--------------------------------------------------|
-|1. Ah! dolente partita, ah fin de la mia vita, SV 75, 5vv, 1603|Ah! dolente partita, ah fin de la mia vita| 75|     5|1603|Ah!_dolente_partita_(Claudio_Monteverdi)          |
-|2. Cor mio, mentre vi miro                                     |Cor mio, mentre vi miro                   |NaN|   NaN| NaN|Cor_mio,_mentre_vi_miro_(Claudio_Monteverdi)      |
-|3. Cor mio, non mori? E mori!                                  |Cor mio, non mori? E mori!                |NaN|   NaN| NaN|Cor_mio,_non_mori%3F_E_mori!_(Claudio_Monteverdi) |
-|4. Sfogava con le stelle, 5vv, 1603                            |Sfogava con le stelle                     |NaN|     5|1603|Sfogava_con_le_stelle_(Claudio_Monteverdi)        |
-|5. Volgea l'anima mia                                          |Volgea l'anima mia                        |NaN|   NaN| NaN|                                                  |
-|6. Anima mia, perdona                                          |Anima mia, perdona                        |NaN|   NaN| NaN|                                                  |
-|7. Che se tu se' il cor mio, 5vv, 1603                         |Che se tu se' il cor mio                  |NaN|     5|1603|                                                  |
-|8. Luci serene e chiare                                        |Luci serene e chiare                      |NaN|   NaN| NaN|Luci_serene_e_chiare_(Claudio_Monteverdi)         |
-|9. La piaga c'ho nel core                                      |La piaga c'ho nel core                    |NaN|   NaN| NaN|                                                  |
-|10. Voi pur da me partite                                      |Voi pur da me partite                     |NaN|   NaN| NaN|                                                  |
-|11. A un giro sol                                              |A un giro sol                             |NaN|   NaN| NaN|                                                  |
-|12. Ohimè, se tanto amate, 5vv, 1603                           |Ohimè, se tanto amate                     |NaN|     5|1603|Ohim%C3%A8,_se_tanto_amate_(Claudio_Monteverdi)   |
-|13. Io mi son giovinetta, 5vv, 1603                            |Io mi son giovinetta                      |NaN|     5|1603|                                                  |
-|14. Quel augellin che canta, 5vv, 1603                         |Quel augellin che canta                   |NaN|     5|1603|Augellin_(Claudio_Monteverdi)                     |
-|15. Non più guerra, pietate                                    |Non più guerra, pietate                   |NaN|   NaN| NaN|                                                  |
-|16. Sì ch'io vorrei morire, 5vv, 1603                          |Sì ch'io vorrei morire                    |NaN|     5|1603|S%C3%AC_ch%27io_vorrei_morire_(Claudio_Monteverdi)|
-|17. Anima dolorosa che vivendo, SV 90, 5vv, 1603               |Anima dolorosa che vivendo                | 90|     5|1603|Anima_dolorosa_(Claudio_Monteverdi)               |
-|18. Anima del cor mio poi che da me misera me, SV 91, 5vv, 1603|Anima del cor mio poi che da me misera me | 91|     5|1603|Anima_del_cor_mio_(Claudio_Monteverdi)            |
-|19. Longe da te, cor mio                                       |Longe da te, cor mio                      |NaN|   NaN| NaN|                                                  |
-|20. Piagn' e sospira                                           |Piagn' e sospira                          |NaN|   NaN| NaN|                                                  |
+# Libro 4 (1603)
+| full_title                                                      | title                                      |  SV | voices | link                                               | annotator(s) |
+|-----------------------------------------------------------------|--------------------------------------------|----:|-------:|----------------------------------------------------|--------------|
+| 1. Ah! dolente partita, ah fin de la mia vita, SV 75, 5vv, 1603 | Ah! dolente partita, ah fin de la mia vita |  75 |      5 | Ah!_dolente_partita_(Claudio_Monteverdi)           |              |
+| 2. Cor mio, mentre vi miro                                      | Cor mio, mentre vi miro                    |  76 |    NaN | Cor_mio,_mentre_vi_miro_(Claudio_Monteverdi)       |              |
+| 3. Cor mio, non mori? E mori!                                   | Cor mio, non mori? E mori!                 |  77 |    NaN | Cor_mio,_non_mori%3F_E_mori!_(Claudio_Monteverdi)  |              |
+| 4. Sfogava con le stelle, 5vv, 1603                             | Sfogava con le stelle                      |  78 |      5 | Sfogava_con_le_stelle_(Claudio_Monteverdi)         |              |
+| 5. Volgea l'anima mia                                           | Volgea l'anima mia                         |  79 |    NaN |                                                    |              |
+| 6. Anima mia, perdona                                           | Anima mia, perdona                         | 80a |    NaN |                                                    |              |
+| 7. Che se tu se' il cor mio, 5vv, 1603                          | Che se tu se' il cor mio                   | 80b |      5 |                                                    |              |
+| 8. Luci serene e chiare                                         | Luci serene e chiare                       |  81 |    NaN | Luci_serene_e_chiare_(Claudio_Monteverdi)          |              |
+| 9. La piaga c'ho nel core                                       | La piaga c'ho nel core                     |  82 |    NaN |                                                    |              |
+| 10. Voi pur da me partite                                       | Voi pur da me partite                      |  83 |    NaN |                                                    |              |
+| 11. A un giro sol                                               | A un giro sol                              |  84 |    NaN |                                                    |              |
+| 12. Ohimè, se tanto amate, 5vv, 1603                            | Ohimè, se tanto amate                      |  85 |      5 | Ohim%C3%A8,_se_tanto_amate_(Claudio_Monteverdi)    |              |
+| 13. Io mi son giovinetta, 5vv, 1603                             | Io mi son giovinetta                       |  86 |      5 |                                                    |              |
+| 14. Quel augellin che canta, 5vv, 1603                          | Quel augellin che canta                    |  87 |      5 | Augellin_(Claudio_Monteverdi)                      |              |
+| 15. Non più guerra, pietate                                     | Non più guerra, pietate                    |  88 |    NaN |                                                    |              |
+| 16. Sì ch'io vorrei morire, 5vv, 1603                           | Sì ch'io vorrei morire                     |  89 |      5 | S%C3%AC_ch%27io_vorrei_morire_(Claudio_Monteverdi) |              |
+| 17. Anima dolorosa che vivendo, SV 90, 5vv, 1603                | Anima dolorosa che vivendo                 |  90 |      5 | Anima_dolorosa_(Claudio_Monteverdi)                |              |
+| 18. Anima del cor mio poi che da me misera me, SV 91, 5vv, 1603 | Anima del cor mio poi che da me misera me  |  91 |      5 | Anima_del_cor_mio_(Claudio_Monteverdi)             |              |
+| 19. Longe da te, cor mio                                        | Longe da te, cor mio                       |  92 |    NaN |                                                    |              |
+| 20. Piagn' e sospira                                            | Piagn' e sospira                           |  93 |    NaN |                                                    | Adrian       |
 # Libro 5 (1605)
 | full_title                                                 | title                                      |   SV | voices | link                            | annotator(s) |
 |------------------------------------------------------------|--------------------------------------------|-----:|-------:|---------------------------------|--------------|
