@@ -207,7 +207,13 @@
 | 9. Non voglio amare per non penare                                 | Non voglio amare per non penare             | 172 |      3 |  NaN |                                                                |              |
 | 10. Come dolce oggi                                                 | Come dolce oggi                             | 173 |      3 |  NaN |                                                                |              |
 | 11. Alle danze, alle gioie                                          | Alle danze, alle gioie                      | 174 |      3 |  NaN |                                                                |              |
-| 12. Perché se m'odiavi                                              | Perché se m'odiavi                          | 175 |      3 |  NaN | Perch%C3%A9_se_m%27odiavi_(Claudio_Monteverdi)                 |              |
+| 12. Perché se m'odiavi                                              | Perché se m'odiavi                          | 175 |      3 |  NaN | Perch%C3%A9_se_m%27odiavi_(Claudio_Monteverdi)                 |Lars & Ya-Chuan|
 | 13. Si si ch'io v'amo, occhi vaghi, occhi belli                     | Si si ch'io v'amo, occhi vaghi, occhi belli | 176 |      3 |  NaN |                                                                |              |
 | 14. Su, su, su, pastorelli vezzosi                                  | Su, su, su, pastorelli vezzosi              | 177 |      3 |  NaN |                                                                |              |
 | 15. O mio bene, o mia vita                                          | O mio bene, o mia vita                      | 178 |      3 |  NaN |                                                                |              |
+
+# Others
+
+| title                 | voices | year | link                                                    | annotator(s) |
+|-----------------------|--------|------|---------------------------------------------------------|--------------|
+| Laudate pueri Dominum | 5      | 1650 | Laudate_pueri_a_5_voci_da_Cappella_(Claudio_Monteverdi) | adrian       |
