@@ -135,38 +135,38 @@
 | 16. Misero Alceo, 5vv, bc, 1614                              | Misero Alceo                               | 114  |      5 |                                                            |              |
 | 17. Batto, qui pianse Ergasto, 5vv, bc, 1614                 | Batto, qui pianse Ergasto                  | 115  |      5 |                                                            |              |
 | 18. Presso un fiume tranquillo, 7vv, bc, 1614                | Presso un fiume tranquillo                 | 116  |      7 |                                                            |              |
-# Libro 7
-|                             full_title                              |                    title                    |SV |voices|year|                       link                       |
-|---------------------------------------------------------------------|---------------------------------------------|--:|-----:|---:|--------------------------------------------------|
-|1. Tempro la cetra, 1v, 1619                                         |Tempro la cetra                              |NaN|     1|1619|Tempro_la_cetra_(Claudio_Monteverdi)              |
-|2. A quest'olmo, a quest’ ombre et a quest’ onde, SV 119, 6vv, 1619  |A quest'olmo, a quest’ ombre et a quest’ onde|119|     6|1619|A_quest%27olmo_(Claudio_Monteverdi)               |
-|3. Non è di gentil core, 2vv, bc, 1619                               |Non è di gentil core, 2vv                    |NaN|   NaN|1619|Non_%C3%A8_di_gentil_core_(Claudio_Monteverdi)    |
-|4. O come sei gentile, 2vv, bc, 1619                                 |O come sei gentile, 2vv                      |NaN|   NaN|1619|O_come_sei_gentile_(Claudio_Monteverdi)           |
-|5. Io son pur vezzosetta, 2vv, bc, 1619                              |Io son pur vezzosetta, 2vv                   |NaN|   NaN|1619|Io_son_pur_vezzosetta_(Claudio_Monteverdi)        |
-|6. O viva fiamma, 2vv, bc, 1619                                      |O viva fiamma, 2vv                           |NaN|   NaN|1619|O_viva_fiamma_(Claudio_Monteverdi)                |
-|7. Vorrei baciarti, 2vv, bc, 1619                                    |Vorrei baciarti, 2vv                         |NaN|   NaN|1619|Vorrei_baciarti_(Claudio_Monteverdi)              |
-|8. Dice la mia bellissima Licori 2vv, bc, 1619                       |Dice la mia bellissima Licori 2vv            |NaN|   NaN|1619|Dice_la_mia_bellissima_Licori_(Claudio_Monteverdi)|
-|9. Ah che non si conviene romper la fede, SV 125, 2vv, bc, 1619      |Ah che non si conviene romper la fede        |125|     2|1619|Ah_che_non_si_conviene_(Claudio_Monteverdi)       |
-|10. Non vedrò mai le stelle, 2vv, bc, 1619                           |Non vedrò mai le stelle                      |NaN|     2|1619|Non_vedr%C3%B2_mai_le_stelle_(Claudio_Monteverdi) |
-|11. Ecco vicine o bella Tigre                                        |Ecco vicine o bella Tigre                    |NaN|   NaN| NaN|Ecco_vicine_o_bella_Tigre_(Claudio_Monteverdi)    |
-|12. Perchè fuggi?                                                    |Perchè fuggi?                                |NaN|   NaN| NaN|Perch%C3%A8_fuggi%3F_(Claudio_Monteverdi)         |
-|13. Tornate                                                          |Tornate                                      |NaN|   NaN| NaN|Tornate_(Claudio_Monteverdi)                      |
-|14. Soave libertate                                                  |Soave libertate                              |NaN|   NaN| NaN|Soave_libertate_(Claudio_Monteverdi)              |
-|15. S'el vostro cor madonna                                          |S'el vostro cor madonna                      |NaN|   NaN| NaN|S%27el_vostro_cor_madonna_(Claudio_Monteverdi)    |
-|16. Interrotte speranze                                              |Interrotte speranze                          |NaN|   NaN| NaN|Interrotte_speranze_(Claudio_Monteverdi)          |
-|17. Augellin che la voce al canto spieghi, SV 133, 3vv, bc, 1619     |Augellin che la voce al canto spieghi        |133|     3|1619|Augellin_(Claudio_Monteverdi)                     |
-|18. Vaga su spina ascosa                                             |Vaga su spina ascosa                         |NaN|   NaN| NaN|Vaga_su_spina_ascosa_(Claudio_Monteverdi)         |
-|19. Eccomi pronta ai baci, 3vv, 1619                                 |Eccomi pronta ai baci                        |NaN|     3|1619|Eccomi_pronta_ai_baci_(Claudio_Monteverdi)        |
-|20. Parlo miser o taccio                                             |Parlo miser o taccio                         |NaN|   NaN| NaN|Parlo_miser_o_taccio_(Claudio_Monteverdi)         |
-|21. Tu Dormi? Ah crudo core, 4vv, 1619                               |Tu Dormi? Ah crudo core                      |NaN|     4|1619|                                                  |
-|22. Al lume delle stelle Tirsi sotto un alloro, SV 138, 4vv, bc, 1619|Al lume delle stelle Tirsi sotto un alloro   |138|     4|1619|Al_lume_delle_stelle_(Claudio_Monteverdi)         |
-|23. Con che soavità, 1v, 1619                                        |Con che soavità                              |NaN|     1|1619|Con_che_soavit%C3%A0_(Claudio_Monteverdi)         |
-|24. Ohimè dove il mio ben                                            |Ohimè dove il mio ben                        |NaN|   NaN| NaN|Il_mio_martir_(Claudio_Monteverdi)                |
-|25. Se i languidi miei sguardi                                       |Se i languidi miei sguardi                   |NaN|   NaN| NaN|Se_i_languidi_miei_sguardi_(Claudio_Monteverdi)   |
-|26. Se pur destina                                                   |Se pur destina                               |NaN|   NaN| NaN|Se_pur_destina_(Claudio_Monteverdi)               |
-|27. Chiome d'oro, 2vv, 1619                                          |Chiome d'oro                                 |NaN|     2|1619|Chiome_d%27oro_(Claudio_Monteverdi)               |
-|28. Amor che deggio far se non mi giova amar, SV 144, 4vv, 1619      |Amor che deggio far se non mi giova amar     |144|     4|1619|Se_non_mi_date_(Claudio_Monteverdi)               |
-|29. Tirsi e Clori                                                    |Tirsi e Clori                                |NaN|   NaN| NaN|Tirsi_e_Clori_(Claudio_Monteverdi)                |
+# Libro 7 (1619)
+| full_title                                                            | title                                         |  SV | voices | link                                               | annotator(s) |
+|-----------------------------------------------------------------------|-----------------------------------------------|----:|-------:|----------------------------------------------------|--------------|
+| 1. Tempro la cetra, 1v, 1619                                          | Tempro la cetra                               | 117 |      1 | Tempro_la_cetra_(Claudio_Monteverdi)               |              |
+| 2. Non è di gentil core, 2vv, bc, 1619                                | Non è di gentil core, 2vv                     | 118 | NaN    | Non_%C3%A8_di_gentil_core_(Claudio_Monteverdi)     |              |
+| 3. A quest'olmo, a quest’ ombre et a quest’ onde, SV 119, 6vv, 1619   | A quest'olmo, a quest’ ombre et a quest’ onde | 119 |      6 | A_quest%27olmo_(Claudio_Monteverdi)                |              |
+| 4. O come sei gentile, 2vv, bc, 1619                                  | O come sei gentile, 2vv                       | 120 |    NaN | O_come_sei_gentile_(Claudio_Monteverdi)            |              |
+| 5. Io son pur vezzosetta, 2vv, bc, 1619                               | Io son pur vezzosetta, 2vv                    | 121 |    NaN | Io_son_pur_vezzosetta_(Claudio_Monteverdi)         |              |
+| 6. O viva fiamma, 2vv, bc, 1619                                       | O viva fiamma, 2vv                            | 122 |    NaN | O_viva_fiamma_(Claudio_Monteverdi)                 |              |
+| 7. Vorrei baciarti, 2vv, bc, 1619                                     | Vorrei baciarti, 2vv                          | 123 |    NaN | Vorrei_baciarti_(Claudio_Monteverdi)               |              |
+| 8. Dice la mia bellissima Licori 2vv, bc, 1619                        | Dice la mia bellissima Licori 2vv             | 124 |    NaN | Dice_la_mia_bellissima_Licori_(Claudio_Monteverdi) |              |
+| 9. Ah che non si conviene romper la fede, SV 125, 2vv, bc, 1619       | Ah che non si conviene romper la fede         | 125 |      2 | Ah_che_non_si_conviene_(Claudio_Monteverdi)        |              |
+| 10. Non vedrò mai le stelle, 2vv, bc, 1619                            | Non vedrò mai le stelle                       | 126 |      2 | Non_vedr%C3%B2_mai_le_stelle_(Claudio_Monteverdi)  |              |
+| 11. Ecco vicine o bella Tigre                                         | Ecco vicine o bella Tigre                     | 127 |    NaN | Ecco_vicine_o_bella_Tigre_(Claudio_Monteverdi)     |              |
+| 12. Perchè fuggi?                                                     | Perchè fuggi?                                 | 128 |    NaN | Perch%C3%A8_fuggi%3F_(Claudio_Monteverdi)          |              |
+| 13. Tornate                                                           | Tornate                                       | 129 |    NaN | Tornate_(Claudio_Monteverdi)                       |              |
+| 14. Soave libertate                                                   | Soave libertate                               | 130 |    NaN | Soave_libertate_(Claudio_Monteverdi)               |              |
+| 15. S'el vostro cor madonna                                           | S'el vostro cor madonna                       | 131 |    NaN | S%27el_vostro_cor_madonna_(Claudio_Monteverdi)     |              |
+| 16. Interrotte speranze                                               | Interrotte speranze                           | 132 |    NaN | Interrotte_speranze_(Claudio_Monteverdi)           |              |
+| 17. Augellin che la voce al canto spieghi, SV 133, 3vv, bc, 1619      | Augellin che la voce al canto spieghi         | 133 |      3 | Augellin_(Claudio_Monteverdi)                      |              |
+| 18. Vaga su spina ascosa                                              | Vaga su spina ascosa                          | 134 |    NaN | Vaga_su_spina_ascosa_(Claudio_Monteverdi)          |              |
+| 19. Eccomi pronta ai baci, 3vv, 1619                                  | Eccomi pronta ai baci                         | 135 |      3 | Eccomi_pronta_ai_baci_(Claudio_Monteverdi)         |              |
+| 20. Parlo miser o taccio                                              | Parlo miser o taccio                          | 136 |    NaN | Parlo_miser_o_taccio_(Claudio_Monteverdi)          |              |
+| 21. Tu Dormi? Ah crudo core, 4vv, 1619                                | Tu Dormi? Ah crudo core                       | 137 |      4 |                                                    |              |
+| 22. Al lume delle stelle Tirsi sotto un alloro, SV 138, 4vv, bc, 1619 | Al lume delle stelle Tirsi sotto un alloro    | 138 |      4 | Al_lume_delle_stelle_(Claudio_Monteverdi)          |              |
+| 23. Con che soavità, 1v, 1619                                         | Con che soavità                               | 139 |      1 | Con_che_soavit%C3%A0_(Claudio_Monteverdi)          |              |
+| 24. Ohimè dove il mio ben                                             | Ohimè dove il mio ben                         | 140 |    NaN | Il_mio_martir_(Claudio_Monteverdi)                 |              |
+| 25. Se i languidi miei sguardi                                        | Se i languidi miei sguardi                    | 141 |    NaN | Se_i_languidi_miei_sguardi_(Claudio_Monteverdi)    |              |
+| 26. Se pur destina                                                    | Se pur destina                                | 142 |    NaN | Se_pur_destina_(Claudio_Monteverdi)                |              |
+| 27. Chiome d'oro, 2vv, 1619                                           | Chiome d'oro                                  | 143 |      2 | Chiome_d%27oro_(Claudio_Monteverdi)                |              |
+| 28. Amor che deggio far se non mi giova amar, SV 144, 4vv, 1619       | Amor che deggio far se non mi giova amar      | 144 |      4 | Se_non_mi_date_(Claudio_Monteverdi)                |              |
+| 29. Tirsi e Clori                                                     | Tirsi e Clori                                 | 145 |    NaN | Tirsi_e_Clori_(Claudio_Monteverdi)                 |              |
 # Libro 8
 |                             full_title                             |                    title                    |SV |voices|year|                                   link                                    |
 |--------------------------------------------------------------------|---------------------------------------------|--:|-----:|---:|---------------------------------------------------------------------------|
