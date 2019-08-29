@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>4592407</programRevision>
+  <programRevision>3543170</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -72,16 +72,16 @@
       <Page>
         <System>
           </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
         <System>
           </System>
         </Page>
       <Page>
         <System>
           </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
         <System>
           </System>
         </Page>
@@ -494,9 +494,6 @@
           </Chord>
         </Measure>
       <Measure number="4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
@@ -705,7 +702,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I6(9)</name>
+          <name>I6(+9)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -889,9 +886,6 @@
           </Chord>
         </Measure>
       <Measure number="9">
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -1306,7 +1300,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>III</name>
+          <name>i6</name>
+          <pos x="-1.20873" y="-5.97509"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
