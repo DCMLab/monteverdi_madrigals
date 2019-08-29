@@ -193,22 +193,21 @@
 | 20. Non partir, ritrosetta, 3vv, bc, 1638                            | Non partir, ritrosetta                        |  165 |      3 | Non_partir,_ritrosetta_(Claudio_Monteverdi)                                 |              |
 | 21. Su, su, su pastorelli vezzosi, 3vv, bc, 1638                     | Su, su, su pastorelli vezzosi                 |  166 |      3 | Su,_su,_su_pastorelli_vezzosi_(Claudio_Monteverdi)                          |              |
 | 22. Ballo delle Ingrate, SV 167                                      | Ballo delle Ingrate                           |  167 |    NaN |                                                                             |              |
-# Libro 9
-|                            full_title                             |                   title                   |SV |voices|year|                              link                               |
-|-------------------------------------------------------------------|-------------------------------------------|--:|-----:|---:|-----------------------------------------------------------------|
-|1. Bel pastor dal cui bel guardo                                   |Bel pastor dal cui bel guardo              |NaN|   NaN| NaN|                                                                 |
-|2. Zefiro torna e di soavi accenti, 2vv, bc, 1651                  |Zefiro torna e di soavi accenti            |NaN|     2|1651|                                                                 |
-|3. Se vittorie sì belle, 2vv, bc, 1638                             |Se vittorie sì belle                       |NaN|     2|1638|Se_vittorie_s%C3%AC_belle_(Claudio_Monteverdi)                   |
-|4. Armato il cor d'adamantina fede, SV 150, 2vv, bc, 1638          |Armato il cor d'adamantina fede            |150|     2|1638|                                                                 |
-|5. Ardo e scoprir, ahi lasso, io non ardisco, SV 158, 2vv, bc, 1638|Ardo e scoprir, ahi lasso, io non ardisco  |158|     2|1638|Ardo_e_scoprir,_ahi_lasso,_io_non_ardisco_(Claudio_Monteverdi)   |
-|6. O sia tranquillo il mare o pien d'orgoglio, 2vv, bc, 1638       |O sia tranquillo il mare o pien d'orgoglio |NaN|     2|1638|O_sia_tranquillo_il_mare_o_pien_d%27orgoglio_(Claudio_Monteverdi)|
-|7. Alcun non mi consigli, SV 169                                   |Alcun non mi consigli                      |169|   NaN| NaN|                                                                 |
-|8. Di far sempre gioire amor speranza dà                           |Di far sempre gioire amor speranza dà      |NaN|   NaN| NaN|                                                                 |
-|9. Quando dentro al tuo seno                                       |Quando dentro al tuo seno                  |NaN|   NaN| NaN|                                                                 |
-|10. Non voglio amare per non penare                                |Non voglio amare per non penare            |NaN|   NaN| NaN|                                                                 |
-|11. Come dolce oggi                                                |Come dolce oggi                            |NaN|   NaN| NaN|                                                                 |
-|12. Alle danze, alle gioie                                         |Alle danze, alle gioie                     |NaN|   NaN| NaN|                                                                 |
-|13. Perché se m'odiavi                                             |Perché se m'odiavi                         |NaN|   NaN| NaN|Perch%C3%A9_se_m%27odiavi_(Claudio_Monteverdi)                   |
-|14. Si si ch'io v'amo, occhi vaghi, occhi belli                    |Si si ch'io v'amo, occhi vaghi, occhi belli|NaN|   NaN| NaN|                                                                 |
-|15. Su, su, su, pastorelli vezzosi                                 |Su, su, su, pastorelli vezzosi             |NaN|   NaN| NaN|                                                                 |
-|16. O mio bene, o mia vita                                         |O mio bene, o mia vita                     |NaN|   NaN| NaN|                                                                 |
+# Libro 9 (1651)
+| full_title                                                          | title                                       |  SV | voices | year | link                                                           | annotator(s) |
+|---------------------------------------------------------------------|---------------------------------------------|----:|-------:|-----:|----------------------------------------------------------------|--------------|
+| 1. Bel pastor dal cui bel guardo                                    | Bel pastor dal cui bel guardo               | 168 |    NaN |  NaN |                                                                |              |
+| 2. Zefiro torna e di soavi accenti, 2vv, bc, 1651                   | Zefiro torna e di soavi accenti             | 108 |      2 | 1651 |                                                                |              |
+| 3. Se vittorie sì belle, 2vv, bc, 1638                              | Se vittorie sì belle                        | 149 |      2 | 1638 | Se_vittorie_s%C3%AC_belle_(Claudio_Monteverdi)                 |              |
+| 4. Armato il cor d'adamantina fede, SV 150, 2vv, bc, 1638           | Armato il cor d'adamantina fede             | 150 |      2 | 1638 |                                                                |              |
+| 5. Ardo e scoprir, ahi lasso, io non ardisco, SV 158, 2vv, bc, 1638 | Ardo e scoprir, ahi lasso, io non ardisco   | 152 |      2 | 1638 | Ardo_e_scoprir,_ahi_lasso,_io_non_ardisco_(Claudio_Monteverdi) |              |
+| 6. Alcun non mi consigli, SV 169                                    | Alcun non mi consigli                       | 169 |      3 |  NaN |                                                                |              |
+| 7. Di far sempre gioire amor speranza dà                            | Di far sempre gioire amor speranza dà       | 170 |      3 |  NaN |                                                                |              |
+| 8. Quando dentro al tuo seno                                        | Quando dentro al tuo seno                   | 171 |      3 |  NaN |                                                                |              |
+| 9. Non voglio amare per non penare                                 | Non voglio amare per non penare             | 172 |      3 |  NaN |                                                                |              |
+| 10. Come dolce oggi                                                 | Come dolce oggi                             | 173 |      3 |  NaN |                                                                |              |
+| 11. Alle danze, alle gioie                                          | Alle danze, alle gioie                      | 174 |      3 |  NaN |                                                                |              |
+| 12. Perché se m'odiavi                                              | Perché se m'odiavi                          | 175 |      3 |  NaN | Perch%C3%A9_se_m%27odiavi_(Claudio_Monteverdi)                 |              |
+| 13. Si si ch'io v'amo, occhi vaghi, occhi belli                     | Si si ch'io v'amo, occhi vaghi, occhi belli | 176 |      3 |  NaN |                                                                |              |
+| 14. Su, su, su, pastorelli vezzosi                                  | Su, su, su, pastorelli vezzosi              | 177 |      3 |  NaN |                                                                |              |
+| 15. O mio bene, o mia vita                                          | O mio bene, o mia vita                      | 178 |      3 |  NaN |                                                                |              |
