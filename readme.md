@@ -91,29 +91,29 @@
 |18. Anima del cor mio poi che da me misera me, SV 91, 5vv, 1603|Anima del cor mio poi che da me misera me | 91|     5|1603|Anima_del_cor_mio_(Claudio_Monteverdi)            |
 |19. Longe da te, cor mio                                       |Longe da te, cor mio                      |NaN|   NaN| NaN|                                                  |
 |20. Piagn' e sospira                                           |Piagn' e sospira                          |NaN|   NaN| NaN|                                                  |
-# Libro 5
-|                        full_title                        |                  title                   |SV |voices|year|                       link                       |
-|----------------------------------------------------------|------------------------------------------|--:|-----:|---:|--------------------------------------------------|
-|1. Cruda Amarilli, 5vv, 1605                              |Cruda Amarilli                            |NaN|     5|1605|                                                  |
-|2. O Mirtillo, 5vv, 1605                                  |O Mirtillo                                |NaN|     5|1605|O_Mirtillo_(Claudio_Monteverdi)                   |
-|3. Era l'anima mia già presso a l'ultim' hore, 5vv, 1605  |Era l'anima mia già presso a l'ultim' hore|NaN|     5|1605|                                                  |
-|4. Ecco, Silvio, colei ch'in odio hai tanto, 5vv, 1605    |Ecco, Silvio, colei ch'in odio hai tanto  |NaN|     5|1605|                                                  |
-|5. Ma se con la pietà, 5vv, 1605                          |Ma se con la pietà                        |NaN|     5|1605|                                                  |
-|6. Dorinda, ah dirò mia, se mia non sei, 5vv, 1605        |Dorinda, ah dirò mia, se mia non sei      |NaN|     5|1605|                                                  |
-|7. Ecco, piegando le ginocchie a terra, 5vv, 1605         |Ecco, piegando le ginocchie a terra       |NaN|     5|1605|                                                  |
-|8. Ferir quel petto, Silvio, 5vv, 1605                    |Ferir quel petto, Silvio                  |NaN|     5|1605|                                                  |
-|9. Ch'io t'ami, e t'ami più de la mia vita                |Ch'io t'ami, e t'ami più de la mia vita   |NaN|   NaN| NaN|                                                  |
-|10. Deh bella e cara, 5vv, 1605                           |Deh bella e cara                          |NaN|     5|1605|                                                  |
-|11. Ma tu piu che mai dura, 5vv, 1605                     |Ma tu piu che mai dura                    |NaN|     5|1605|                                                  |
-|12. Che dar più vi poss'io?                               |Che dar più vi poss'io?                   |NaN|   NaN| NaN|                                                  |
-|13. M'e più dolce il penar                                |M'e più dolce il penar                    |NaN|   NaN| NaN|                                                  |
-|14. Ahi come a un vago sol cortese giro, SV 101, 5vv, 1605|Ahi come a un vago sol cortese giro       |101|     5|1605|                                                  |
-|15. Troppo ben può questo tiranno amore, 5vv, 1605        |Troppo ben può questo tiranno amore       |NaN|     5|1605|                                                  |
-|16. Amor, se giusto sei                                   |Amor, se giusto sei                       |NaN|   NaN| NaN|                                                  |
-|17. T'amo mia vita, 5vv, 1605                             |T'amo mia vita                            |NaN|     5|1605|                                                  |
-|18. E cosi à poco à poco                                  |E cosi à poco à poco                      |NaN|   NaN| NaN| |
-|19. Questi vaghi concenti                                 |Questi vaghi concenti                     |NaN|   NaN| NaN|                                                  |
-|20. Ecco piegando                                         |Ecco piegando                             |NaN|   NaN| NaN|                                                  |
+# Libro 5 (1605)
+| full_title                                                 | title                                      |   SV | voices | link                            | annotator(s) |
+|------------------------------------------------------------|--------------------------------------------|-----:|-------:|---------------------------------|--------------|
+| 1. Cruda Amarilli, 5vv, 1605                               | Cruda Amarilli                             |   94 |      5 |                                 | Adrian       |
+| 2. O Mirtillo, 5vv, 1605                                   | O Mirtillo                                 |   95 |      5 | O_Mirtillo_(Claudio_Monteverdi) |              |
+| 3. Era l'anima mia già presso a l'ultim' hore, 5vv, 1605   | Era l'anima mia già presso a l'ultim' hore |   96 |      5 |                                 | Adrian       |
+| 4. Ecco, Silvio, colei ch'in odio hai tanto, 5vv, 1605     | Ecco, Silvio, colei ch'in odio hai tanto   |  97a |      5 |                                 | Adrian       |
+| 5. Ma se con la pietà, 5vv, 1605                           | Ma se con la pietà                         |  97b |      5 |                                 |              |
+| 6. Dorinda, ah dirò mia, se mia non sei, 5vv, 1605         | Dorinda, ah dirò mia, se mia non sei       |  97c |      5 |                                 | Adrian       |
+| 7. Ecco, piegando le ginocchie a terra, 5vv, 1605          | Ecco, piegando le ginocchie a terra        |  97d |      5 |                                 | Adrian       |
+| 8. Ferir quel petto, Silvio, 5vv, 1605                     | Ferir quel petto, Silvio                   |  97e |      5 |                                 | Adrian       |
+| 9. Ch'io t'ami, e t'ami più de la mia vita                 | Ch'io t'ami, e t'ami più de la mia vita    |  98a |    NaN |                                 |              |
+| 10. Deh bella e cara, 5vv, 1605                            | Deh bella e cara                           |  98b |      5 |                                 | Adrian       |
+| 11. Ma tu piu che mai dura, 5vv, 1605                      | Ma tu piu che mai dura                     |  98c |      5 |                                 | Adrian       |
+| 12. Che dar più vi poss'io?                                | Che dar più vi poss'io?                    |   99 |    NaN |                                 |              |
+| 13. M'e più dolce il penar                                 | M'e più dolce il penar                     |  100 |    NaN |                                 |              |
+| 14. Ahi come a un vago sol cortese giro, SV 101, 5vv, 1605 | Ahi come a un vago sol cortese giro        |  101 |      5 |                                 | Adrian       |
+| 15. Troppo ben può questo tiranno amore, 5vv, 1605         | Troppo ben può questo tiranno amore        |  102 |      5 |                                 | Adrian       |
+| 16. Amor, se giusto sei                                    | Amor, se giusto sei                        |  103 |    NaN |                                 |              |
+| 17. T'amo mia vita, 5vv, 1605                              | T'amo mia vita                             |  104 |      5 |                                 | Adrian       |
+| 18. E cosi à poco à poco                                   | E cosi à poco à poco                       |  105 |    NaN |                                 |              |
+| 19. Questi vaghi concenti                                  | Questi vaghi concenti                      | 106a |    NaN |                                 |              |
+| 20. Ecco piegando                                          | Ecco piegando                              | 106b |    NaN |                                 |              |
 # Libro 6
 |                         full_title                         |                  title                   |SV |voices|year|                           link                           |
 |------------------------------------------------------------|------------------------------------------|---|-----:|---:|----------------------------------------------------------|
