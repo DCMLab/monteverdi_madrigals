@@ -114,27 +114,27 @@
 | 18. E cosi à poco à poco                                   | E cosi à poco à poco                       |  105 |    NaN |                                 |              |
 | 19. Questi vaghi concenti                                  | Questi vaghi concenti                      | 106a |    NaN |                                 |              |
 | 20. Ecco piegando                                          | Ecco piegando                              | 106b |    NaN |                                 |              |
-# Libro 6
-|                         full_title                         |                  title                   |SV |voices|year|                           link                           |
-|------------------------------------------------------------|------------------------------------------|---|-----:|---:|----------------------------------------------------------|
-|1. Lasciatemi morire, 5vv, 1614                             |Lasciatemi morire                         |NaN|     5|1614|                                                          |
-|2. O Teseo, Teseo mio, 5vv, 1614                            |O Teseo, Teseo mio                        |NaN|     5|1614|                                                          |
-|3. Dove, dove è la fede, 5vv, 1614                          |Dove, dove è la fede                      |NaN|     5|1614|                                                          |
-|4. Ahi, che non pur risponde, 5vv, 1614                     |Ahi, che non pur risponde                 |NaN|     5|1614|                                                          |
-|5. Zefiro torna e il bel tempo rimena, 5vv, 1614            |Zefiro torna e il bel tempo rimena        |NaN|     5|1614|                                                          |
-|6. Una Donna fra l'altre honesta e bella vidi, 5vv, bc, 1614|Una Donna fra l'altre honesta e bella vidi|NaN|     5|1614|                                                          |
-|7. A Dio, Florida Bella, 5vv                                |A Dio, Florida Bella                      |NaN|     5| NaN|                                                          |
-|8. Incenerite spoglie, avara tomba, 5vv, 1614               |Incenerite spoglie, avara tomba           |NaN|     5|1614|Incenerite_spoglie,_avara_tomba_(Claudio_Monteverdi)      |
-|9. Ditelo, o fiumi e voi ch'udiste, 5vv, 1614               |Ditelo, o fiumi e voi ch'udiste           |NaN|     5|1614|Ditelo,_o_fiumi_e_voi_ch%27udiste_(Claudio_Monteverdi)    |
-|10. Darà la notte il sol, 5vv, 1614                         |Darà la notte il sol                      |NaN|     5|1614|Dar%C3%A0_la_notte_il_sol_(Claudio_Monteverdi)            |
-|11. Ma te raccoglie, o ninfa, 5vv, 1614                     |Ma te raccoglie, o ninfa                  |NaN|     5|1614|Ma_te_raccoglie,_o_ninfa_(Claudio_Monteverdi)             |
-|12. O chiome d'or, neve gentil del seno, 5vv, 1614          |O chiome d'or, neve gentil del seno       |NaN|     5|1614|O_chiome_d%27or,_neve_gentil_del_seno_(Claudio_Monteverdi)|
-|13. Dunque amate reliquie, 5vv, 1614                        |Dunque amate reliquie                     |NaN|     5|1614|Dunque_amate_reliquie_(Claudio_Monteverdi)                |
-|14. Ohimè il bel viso, 5vv, bc, 1614                        |Ohimè il bel viso                         |NaN|     5|1614|                                                          |
-|15. Qui rise, O Tirsi, 5vv, bc, 1614                        |Qui rise, O Tirsi                         |NaN|     5|1614|                                                          |
-|16. Misero Alceo, 5vv, bc, 1614                             |Misero Alceo                              |NaN|     5|1614|                                                          |
-|17. Batto, qui pianse Ergasto, 5vv, bc, 1614                |Batto, qui pianse Ergasto                 |NaN|     5|1614|                                                          |
-|18. Presso un fiume tranquillo, 7vv, bc, 1614               |Presso un fiume tranquillo                |NaN|     7|1614|                                                          |
+# Libro 6 (1614)
+| full_title                                                   | title                                      | SV   | voices | link                                                       | annotator(s) |
+|--------------------------------------------------------------|--------------------------------------------|------|-------:|------------------------------------------------------------|--------------|
+| 1. Lasciatemi morire, 5vv, 1614                              | Lasciatemi morire                          | 107a |      5 |                                                            | Adrian       |
+| 2. O Teseo, Teseo mio, 5vv, 1614                             | O Teseo, Teseo mio                         | 107b |      5 |                                                            |              |
+| 3. Dove, dove è la fede, 5vv, 1614                           | Dove, dove è la fede                       | 107c |      5 |                                                            |              |
+| 4. Ahi, che non pur risponde, 5vv, 1614                      | Ahi, che non pur risponde                  | 107d |      5 |                                                            |              |
+| 5. Zefiro torna e il bel tempo rimena, 5vv, 1614             | Zefiro torna e il bel tempo rimena         | 108  |      5 |                                                            |              |
+| 6. Una Donna fra l'altre honesta e bella vidi, 5vv, bc, 1614 | Una Donna fra l'altre honesta e bella vidi | 109  |      5 |                                                            |              |
+| 7. A Dio, Florida Bella, 5vv                                 | A Dio, Florida Bella                       | 110  |      5 |                                                            |              |
+| 8. Incenerite spoglie, avara tomba, 5vv, 1614                | Incenerite spoglie, avara tomba            | 111a |      5 | Incenerite_spoglie,_avara_tomba_(Claudio_Monteverdi)       |              |
+| 9. Ditelo, o fiumi e voi ch'udiste, 5vv, 1614                | Ditelo, o fiumi e voi ch'udiste            | 111b |      5 | Ditelo,_o_fiumi_e_voi_ch%27udiste_(Claudio_Monteverdi)     |              |
+| 10. Darà la notte il sol, 5vv, 1614                          | Darà la notte il sol                       | 111c |      5 | Dar%C3%A0_la_notte_il_sol_(Claudio_Monteverdi)             |              |
+| 11. Ma te raccoglie, o ninfa, 5vv, 1614                      | Ma te raccoglie, o ninfa                   | 111d |      5 | Ma_te_raccoglie,_o_ninfa_(Claudio_Monteverdi)              |              |
+| 12. O chiome d'or, neve gentil del seno, 5vv, 1614           | O chiome d'or, neve gentil del seno        | 111e |      5 | O_chiome_d%27or,_neve_gentil_del_seno_(Claudio_Monteverdi) |              |
+| 13. Dunque amate reliquie, 5vv, 1614                         | Dunque amate reliquie                      | 111f |      5 | Dunque_amate_reliquie_(Claudio_Monteverdi)                 |              |
+| 14. Ohimè il bel viso, 5vv, bc, 1614                         | Ohimè il bel viso                          | 112  |      5 |                                                            |              |
+| 15. Qui rise, O Tirsi, 5vv, bc, 1614                         | Qui rise, O Tirsi                          | 113  |      5 |                                                            |              |
+| 16. Misero Alceo, 5vv, bc, 1614                              | Misero Alceo                               | 114  |      5 |                                                            |              |
+| 17. Batto, qui pianse Ergasto, 5vv, bc, 1614                 | Batto, qui pianse Ergasto                  | 115  |      5 |                                                            |              |
+| 18. Presso un fiume tranquillo, 7vv, bc, 1614                | Presso un fiume tranquillo                 | 116  |      7 |                                                            |              |
 # Libro 7
 |                             full_title                              |                    title                    |SV |voices|year|                       link                       |
 |---------------------------------------------------------------------|---------------------------------------------|--:|-----:|---:|--------------------------------------------------|
