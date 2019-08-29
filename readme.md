@@ -45,29 +45,29 @@
 | 18. Non mi è grave il morire, 5vv                      | Non mi è grave il morire                            | 57        |      5 |                                                                       |            |
 | 19. Ti spontò l'ali amor la donna mia, 5vv             | Ti spontò l'ali amor la donna mia                   | 58        |      5 |                                                                       |            |
 | 20. Cantai un tempo, 5vv                               | Cantai un tempo                                     | 59        |      5 |                                                                       |            |
-# Libro 3
-|                      full_title                      |                   title                    |SV |voices|year|link|
-|------------------------------------------------------|--------------------------------------------|--:|-----:|----|----|
-|1. La giovinetta pianta, SV60, 5vv                    |La giovinetta pianta                        | 60|     5|NaN |    |
-|2. O come è gran martire, SV61, 5vv                   |O come è gran martire                       | 61|     5|NaN |    |
-|3. Sovra tenere herbette, SV62, 5vv                   |Sovra tenere herbette                       | 62|     5|NaN |    |
-|4. O dolce anima mia, SV63, 5vv                       |O dolce anima mia                           | 63|     5|NaN |    |
-|5. Stracciami pur il core, SV64, 5vv                  |Stracciami pur il core                      | 64|     5|NaN |    |
-|6. O rossignuol ch'in queste verdi fronde, SV65, 5vv  |O rossignuol ch'in queste verdi fronde      | 65|     5|NaN |    |
-|7. Se per estremo ardore, SV66, 5vv                   |Se per estremo ardore                       | 66|     5|NaN |    |
-|8. Vattene pur, crudel, con quella pace, SV67, 5vv    |Vattene pur, crudel, con quella pace        | 67|     5|NaN |    |
-|9. Là tra’l sangu’e le morti egro giacente, SV67, 5vv |Là tra’l sangu’e le morti egro giacente     | 67|     5|NaN |    |
-|10. Poi ch'ella in sè tornò deserto e muto, SV67, 5vv |Poi ch'ella in sè tornò deserto e muto      | 67|     5|NaN |    |
-|11. O primavera, gioventù de l'anno, SV68, 5vv        |O primavera, gioventù de l'anno             | 68|     5|NaN |    |
-|12. Perfidissimo volto ben l'usata bellezza, SV69, 5vv|Perfidissimo volto ben l'usata bellezza     | 69|     5|NaN |    |
-|13. Ch'io non t'ami, cor mio, SV70, 5vv               |Ch'io non t'ami, cor mio                    | 70|     5|NaN |    |
-|14. Occhi, un tempo mia vita, SV71, 5vv               |Occhi, un tempo mia vita                    | 71|     5|NaN |    |
-|15. Vivrò fra i miei tormenti e le mie cure, SV72, 5vv|Vivrò fra i miei tormenti e le mie cure     | 72|     5|NaN |    |
-|16. Ma dove, O lasso me, dove restaro ?, SV72, 5vv    |Ma dove, O lasso me, dove restaro ?         | 72|     5|NaN |    |
-|17. Io pur verrò là dove sete, SV72, 5vv              |Io pur verrò là dove sete                   | 72|     5|NaN |    |
-|18. Lumi miei, cari lumi, SV73, 5vv                   |Lumi miei, cari lumi                        | 73|     5|NaN |    |
-|19. Rimanti in pace a la dolente e bella Fillida, SV74|Rimanti in pace a la dolente e bella Fillida| 74|   NaN|NaN |    |
-|20. Ond'ei di morte la sua faccia impressa, SV74, 5vv |Ond'ei di morte la sua faccia impressa      | 74|     5|NaN |    |
+# Libro 3 (1592)
+| full_title                                             | title                                        |  SV | voices | year | link | annotator(s) |
+|--------------------------------------------------------|----------------------------------------------|----:|-------:|------|------|--------------|
+| 1. La giovinetta pianta, SV60, 5vv                     | La giovinetta pianta                         |  60 |      5 | NaN  |      |              |
+| 2. O come è gran martire, SV61, 5vv                    | O come è gran martire                        |  61 |      5 | NaN  |      |              |
+| 3. Sovra tenere herbette, SV62, 5vv                    | Sovra tenere herbette                        |  62 |      5 | NaN  |      |              |
+| 4. O dolce anima mia, SV63, 5vv                        | O dolce anima mia                            |  63 |      5 | NaN  |      |              |
+| 5. Stracciami pur il core, SV64, 5vv                   | Stracciami pur il core                       |  64 |      5 | NaN  |      |              |
+| 6. O rossignuol ch'in queste verdi fronde, SV65, 5vv   | O rossignuol ch'in queste verdi fronde       |  65 |      5 | NaN  |      |              |
+| 7. Se per estremo ardore, SV66, 5vv                    | Se per estremo ardore                        |  66 |      5 | NaN  |      |              |
+| 8. Vattene pur, crudel, con quella pace, SV67, 5vv     | Vattene pur, crudel, con quella pace         | 67a |      5 | NaN  |      |              |
+| 9. Là tra’l sangu’e le morti egro giacente, SV67, 5vv  | Là tra’l sangu’e le morti egro giacente      | 67b |      5 | NaN  |      |              |
+| 10. Poi ch'ella in sè tornò deserto e muto, SV67, 5vv  | Poi ch'ella in sè tornò deserto e muto       | 67c |      5 | NaN  |      |              |
+| 11. O primavera, gioventù de l'anno, SV68, 5vv         | O primavera, gioventù de l'anno              |  68 |      5 | NaN  |      | Adrian       |
+| 12. Perfidissimo volto ben l'usata bellezza, SV69, 5vv | Perfidissimo volto ben l'usata bellezza      |  69 |      5 | NaN  |      |              |
+| 13. Ch'io non t'ami, cor mio, SV70, 5vv                | Ch'io non t'ami, cor mio                     |  70 |      5 | NaN  |      |              |
+| 14. Occhi, un tempo mia vita, SV71, 5vv                | Occhi, un tempo mia vita                     |  71 |      5 | NaN  |      |              |
+| 15. Vivrò fra i miei tormenti e le mie cure, SV72, 5vv | Vivrò fra i miei tormenti e le mie cure      | 72a |      5 | NaN  |      |              |
+| 16. Ma dove, O lasso me, dove restaro ?, SV72, 5vv     | Ma dove, O lasso me, dove restaro ?          | 72b |      5 | NaN  |      |              |
+| 17. Io pur verrò là dove sete, SV72, 5vv               | Io pur verrò là dove sete                    | 72c |      5 | NaN  |      |              |
+| 18. Lumi miei, cari lumi, SV73, 5vv                    | Lumi miei, cari lumi                         |  73 |      5 | NaN  |      |              |
+| 19. Rimanti in pace a la dolente e bella Fillida, SV74 | Rimanti in pace a la dolente e bella Fillida | 74a |    NaN | NaN  |      |              |
+| 20. Ond'ei di morte la sua faccia impressa, SV74, 5vv  | Ond'ei di morte la sua faccia impressa       | 74b |      5 | NaN  |      |              |
 # Libro 4
 |                          full_title                           |                  title                   |SV |voices|year|                       link                       |
 |---------------------------------------------------------------|------------------------------------------|--:|-----:|---:|--------------------------------------------------|
