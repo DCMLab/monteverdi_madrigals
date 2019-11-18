@@ -16,4 +16,6 @@
 "Ws-mont-la3": "laudate_pueri_dominum",
 "Ws-mont-lam": "8-18",
 "Ws-mont-opr": "3-11",
+"Perche_se_m%27odiavi": "9-12",
+"Ws-mont-819": "8-19",
 }
