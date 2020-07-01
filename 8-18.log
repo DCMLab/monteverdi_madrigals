@@ -72,5 +72,9 @@ MC 97 is completing MC 96 but has not been excluded from bar count!
 MC 108 is longer 2 than its nominal duration 1.
 Done parsing 8-18.mscx
 
+The following chords could not be parsed:
+     mc  mn onset  label
+51   21  21     0   .bII
+238  82  82     4  VII66
 Failed to expand labels due to syntactic errors:
-'float' object is not iterable
+repl_spec() missing 1 required positional argument: 'special'

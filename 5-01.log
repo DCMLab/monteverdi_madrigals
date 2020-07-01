@@ -1,3 +1,5 @@
 Attempting to parse 5-01.mscx
 Done parsing 5-01.mscx
 
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

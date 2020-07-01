@@ -85,3 +85,5 @@ MC 83 is longer 2 than its nominal duration 1.
 MC 84 is longer 4 than its nominal duration 1.
 Done parsing 3-09.mscx
 
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

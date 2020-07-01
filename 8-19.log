@@ -1,11 +1,9 @@
 Attempting to parse 8-19.mscx
-MC 91 contains an empty <Harmony> tag. It is stored as 'empty_harmony'.
-MC 142 contains an empty <Harmony> tag. It is stored as 'empty_harmony'.
-Doublings: mc  onset
-91  1        empty_harmony
-    1                   v6
-Name: chords, dtype: object
 Done parsing 8-19.mscx
 
+The following chords could not be parsed:
+      mc   mn onset  label
+ix                        
+212  117  117   1/2  .bVII
 Failed to expand labels due to syntactic errors:
-'float' object is not iterable
+repl_spec() missing 1 required positional argument: 'special'
