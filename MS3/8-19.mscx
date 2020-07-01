@@ -3653,9 +3653,6 @@ from Madrigal Book VIII</text>
               </Note>
             </Chord>
           <Harmony>
-            <name></name>
-            </Harmony>
-          <Harmony>
             <name>v6</name>
             </Harmony>
           <Chord>
@@ -5569,9 +5566,6 @@ from Madrigal Book VIII</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name></name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
