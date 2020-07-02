@@ -1,5 +1,3 @@
-Attempting to parse 9-12.mscx
-Done parsing 9-12.mscx
+INFO     9-12.ms3 -- Attempting to parse 9-12.mscx
+INFO     9-12.ms3 -- Done parsing 9-12.mscx
 
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
