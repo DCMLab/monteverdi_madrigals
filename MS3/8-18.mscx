@@ -361,6 +361,7 @@ smguy@ihug.com.au</text>
           </Text>
         </VBox>
       <Measure len="1/4">
+        <irregular>1</irregular>
         <voice>
           <TimeSig>
             <subtype>1</subtype>
@@ -949,6 +950,7 @@ smguy@ihug.com.au</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3997,7 +3999,7 @@ smguy@ihug.com.au</text>
             <durationType>whole</durationType>
             </Rest>
           <Harmony>
-            <name>VII66</name>
+            <name>VII6</name>
             </Harmony>
           <Rest>
             <durationType>whole</durationType>
@@ -4631,10 +4633,12 @@ smguy@ihug.com.au</text>
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <TimeSig>
             <subtype>1</subtype>
@@ -4826,6 +4830,7 @@ smguy@ihug.com.au</text>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -6220,6 +6225,7 @@ smguy@ihug.com.au</text>
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -7858,6 +7864,7 @@ smguy@ihug.com.au</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
@@ -8310,6 +8317,7 @@ smguy@ihug.com.au</text>
             </Chord>
           <BarLine>
             <subtype>end</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>

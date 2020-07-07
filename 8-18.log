@@ -1,5 +1,4 @@
 INFO     8-18.ms3 -- Attempting to parse 8-18.mscx
-WARNING  8-18.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
 INFO     8-18.ms3 -- MC 28 is longer 6 than its nominal duration 3.
 INFO     8-18.ms3 -- MC 29 is longer 6 than its nominal duration 3.
 INFO     8-18.ms3 -- MC 30 is longer 6 than its nominal duration 3.
@@ -68,10 +67,5 @@ INFO     8-18.ms3 -- MC 92 is longer 6 than its nominal duration 3.
 INFO     8-18.ms3 -- MC 93 is longer 6 than its nominal duration 3.
 INFO     8-18.ms3 -- MC 94 is longer 6 than its nominal duration 3.
 INFO     8-18.ms3 -- MC 95 is longer 6 than its nominal duration 3.
-WARNING  8-18.ms3 -- MC 97 is completing MC 96 but has not been excluded from bar count!
 INFO     8-18.ms3 -- MC 108 is longer 2 than its nominal duration 1.
 INFO     8-18.ms3 -- Done parsing 8-18.mscx
-
-WARNING  8-18.expand_labels -- The following chords could not be parsed:
-     mc  mn onset  label
-238  82  82     4  VII66
