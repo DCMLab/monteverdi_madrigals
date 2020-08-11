@@ -14,3 +14,6 @@ INFO     laudate_pueri_dominum.ms3 -- MC 137 is longer 3 than its nominal durati
 INFO     laudate_pueri_dominum.ms3 -- MC 177 is longer 2 than its nominal duration 1.
 INFO     laudate_pueri_dominum.ms3 -- Done parsing laudate_pueri_dominum.mscx
 
+WARNING  laudate_pueri_dominum.expand_labels -- The following chords could not be parsed:
+     mc  mn onset  label
+200  80  80     0  .bIII
