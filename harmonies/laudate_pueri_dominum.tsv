@@ -58,7 +58,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 21	21	1/2	1/2	4/4	1	1	V		g	i		V	V						M	1	1	1, 5, 2		1	1
 22	22	0	0	4/4	1	1	I\\		g	i		I	I					\\	M	1	1	0, 4, 1		0	0
 23	23	0	0	4/4	1	1	i		g	i		i	i						m	1	1	0, -3, 1		0	0
-24	24	3/4	3/4	4/4	1	1	ii-#viio6		g	i										1	1				
+24	24	3/4	3/4	4/4	1	1	ii	#viio6	g	i		ii	ii						m	1	1	2, -1, 3		2	2
 25	25	0	0	4/4	1	1	III	i6	g	i		III	III						M	1	1	-3, 1, -2		-3	-3
 25	25	3/4	3/4	4/4	1	1	IV	ii6	g	i		IV	IV						M	1	1	-1, 3, 0		-1	-1
 26	26	0	0	4/4	1	1	v		g	i		v	v						m	1	1	1, -2, 2		1	1
