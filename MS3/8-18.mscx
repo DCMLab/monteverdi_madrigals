@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -19,81 +19,161 @@
       <pageTwosided>0</pageTwosided>
       <minSystemDistance>20.2</minSystemDistance>
       <maxSystemDistance>30</maxSystemDistance>
+      <lyricsMinDistance>0.25</lyricsMinDistance>
       <lyricsDashForce>0</lyricsDashForce>
-      <lyricsOddFontFace>Times New Roman</lyricsOddFontFace>
-      <lyricsOddFontSize>9.3378</lyricsOddFontSize>
+      <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
+      <lyricsOddFontFace>Edwin</lyricsOddFontFace>
+      <lyricsOddFontSize>10</lyricsOddFontSize>
       <lyricsOddFramePadding>0</lyricsOddFramePadding>
       <lyricsOddFrameWidth>0</lyricsOddFrameWidth>
-      <lyricsEvenFontFace>Times New Roman</lyricsEvenFontFace>
-      <lyricsEvenFontSize>9.3378</lyricsEvenFontSize>
+      <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
+      <lyricsEvenFontSize>10</lyricsEvenFontSize>
       <lyricsEvenFramePadding>0</lyricsEvenFramePadding>
       <lyricsEvenFrameWidth>0</lyricsEvenFrameWidth>
-      <doubleBarDistance>0.46</doubleBarDistance>
-      <endBarDistance>0.65</endBarDistance>
+      <barWidth>0.18</barWidth>
+      <doubleBarWidth>0.18</doubleBarWidth>
+      <endBarWidth>0.55</endBarWidth>
+      <doubleBarDistance>0.55</doubleBarDistance>
+      <endBarDistance>0.7</endBarDistance>
+      <repeatBarlineDotSeparation>0.7</repeatBarlineDotSeparation>
+      <bracketWidth>0.44</bracketWidth>
       <clefLeftMargin>0.64</clefLeftMargin>
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
+      <stemWidth>0.11</stemWidth>
       <barNoteDistance>1.2</barNoteDistance>
+      <staffLineWidth>0.11</staffLineWidth>
+      <ledgerLineLength>0.35</ledgerLineLength>
+      <hairpinWidth>0.12</hairpinWidth>
+      <hairpinFontFace>Edwin</hairpinFontFace>
+      <hairpinFontSize>10</hairpinFontSize>
+      <pedalLineWidth>0.11</pedalLineWidth>
+      <pedalFontFace>Edwin</pedalFontFace>
       <harmonyFretDist>0.5</harmonyFretDist>
+      <harmonyPlay>0</harmonyPlay>
       <chordSymbolPosBelow x="0" y="-5"/>
+      <chordSymbolAFontFace>Edwin</chordSymbolAFontFace>
+      <chordSymbolAFontSize>11</chordSymbolAFontSize>
+      <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
+      <chordSymbolBFontSize>11</chordSymbolBFontSize>
+      <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <slurMidWidth>0.21</slurMidWidth>
+      <musicalSymbolFont>Leland</musicalSymbolFont>
+      <musicalTextFont>Leland Text</musicalTextFont>
+      <voltaLineWidth>0.11</voltaLineWidth>
+      <ottavaLineWidth>0.11</ottavaLineWidth>
+      <ottavaFontFace>Edwin</ottavaFontFace>
+      <tupletFontFace>Edwin</tupletFontFace>
+      <tupletFontSize>9</tupletFontSize>
+      <defaultFontFace>Edwin</defaultFontFace>
       <defaultFramePadding>0.5</defaultFramePadding>
       <defaultFrameWidth>0.2</defaultFrameWidth>
       <defaultFrameRound>25</defaultFrameRound>
+      <titleFontFace>Edwin</titleFontFace>
+      <titleFontSize>22</titleFontSize>
       <titleFramePadding>0.5</titleFramePadding>
       <titleFrameWidth>0.2</titleFrameWidth>
       <titleFrameRound>25</titleFrameRound>
+      <subTitleFontFace>Edwin</subTitleFontFace>
+      <subTitleFontSize>16</subTitleFontSize>
       <subTitleFramePadding>0.5</subTitleFramePadding>
       <subTitleFrameWidth>0.2</subTitleFrameWidth>
       <subTitleFrameRound>25</subTitleFrameRound>
+      <composerFontFace>Edwin</composerFontFace>
+      <composerFontSize>10</composerFontSize>
       <composerFramePadding>0.5</composerFramePadding>
       <composerFrameWidth>0.2</composerFrameWidth>
       <composerFrameRound>25</composerFrameRound>
+      <lyricistFontFace>Edwin</lyricistFontFace>
+      <lyricistFontSize>10</lyricistFontSize>
       <lyricistFramePadding>0.5</lyricistFramePadding>
       <lyricistFrameWidth>0.2</lyricistFrameWidth>
       <lyricistFrameRound>25</lyricistFrameRound>
+      <fingeringFontFace>Edwin</fingeringFontFace>
       <fingeringFramePadding>0.5</fingeringFramePadding>
       <fingeringFrameWidth>0.2</fingeringFrameWidth>
       <fingeringFrameRound>25</fingeringFrameRound>
+      <lhGuitarFingeringFontFace>Edwin</lhGuitarFingeringFontFace>
       <lhGuitarFingeringFramePadding>0.5</lhGuitarFingeringFramePadding>
       <lhGuitarFingeringFrameWidth>0.2</lhGuitarFingeringFrameWidth>
       <lhGuitarFingeringFrameRound>25</lhGuitarFingeringFrameRound>
+      <rhGuitarFingeringFontFace>Edwin</rhGuitarFingeringFontFace>
+      <rhGuitarFingeringFontStyle>2</rhGuitarFingeringFontStyle>
       <rhGuitarFingeringFramePadding>0.5</rhGuitarFingeringFramePadding>
       <rhGuitarFingeringFrameWidth>0.2</rhGuitarFingeringFrameWidth>
       <rhGuitarFingeringFrameRound>25</rhGuitarFingeringFrameRound>
+      <stringNumberFontFace>Edwin</stringNumberFontFace>
+      <longInstrumentFontFace>Edwin</longInstrumentFontFace>
+      <longInstrumentFontSize>10</longInstrumentFontSize>
+      <shortInstrumentFontFace>Edwin</shortInstrumentFontFace>
+      <shortInstrumentFontSize>10</shortInstrumentFontSize>
+      <partInstrumentFontFace>Edwin</partInstrumentFontFace>
+      <partInstrumentFontSize>14</partInstrumentFontSize>
       <partInstrumentFramePadding>0.5</partInstrumentFramePadding>
       <partInstrumentFrameWidth>0.2</partInstrumentFrameWidth>
       <partInstrumentFrameRound>25</partInstrumentFrameRound>
+      <dynamicsFontFace>Edwin</dynamicsFontFace>
+      <dynamicsFontSize>11</dynamicsFontSize>
+      <expressionFontFace>Edwin</expressionFontFace>
+      <expressionFontSize>10</expressionFontSize>
+      <tempoFontFace>Edwin</tempoFontFace>
       <tempoFramePadding>0.5</tempoFramePadding>
       <tempoFrameWidth>0.2</tempoFrameWidth>
       <tempoFrameRound>25</tempoFrameRound>
+      <metronomeFontFace>Edwin</metronomeFontFace>
+      <metronomeFontStyle>0</metronomeFontStyle>
+      <measureNumberFontFace>Edwin</measureNumberFontFace>
+      <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
+      <measureNumberFontStyle>2</measureNumberFontStyle>
+      <translatorFontFace>Edwin</translatorFontFace>
+      <translatorFontSize>10</translatorFontSize>
+      <systemFontFace>Edwin</systemFontFace>
       <systemFramePadding>0.5</systemFramePadding>
       <systemFrameWidth>0.2</systemFrameWidth>
       <systemFrameRound>25</systemFrameRound>
+      <staffFontFace>Edwin</staffFontFace>
       <staffAlign>left,top</staffAlign>
       <staffPosAbove x="0" y="-4"/>
       <staffFramePadding>0.5</staffFramePadding>
       <staffFrameWidth>0.2</staffFrameWidth>
       <staffFrameRound>25</staffFrameRound>
+      <rehearsalMarkFontFace>Edwin</rehearsalMarkFontFace>
+      <rehearsalMarkFrameWidth>0.16</rehearsalMarkFrameWidth>
+      <rehearsalMarkFrameRound>0</rehearsalMarkFrameRound>
+      <repeatLeftFontFace>Edwin</repeatLeftFontFace>
+      <repeatLeftFontSize>18</repeatLeftFontSize>
       <repeatLeftFramePadding>0.5</repeatLeftFramePadding>
       <repeatLeftFrameWidth>0.2</repeatLeftFrameWidth>
       <repeatLeftFrameRound>25</repeatLeftFrameRound>
+      <repeatRightFontFace>Edwin</repeatRightFontFace>
+      <repeatRightFontSize>11</repeatRightFontSize>
       <repeatRightFramePadding>0.5</repeatRightFramePadding>
       <repeatRightFrameWidth>0.2</repeatRightFrameWidth>
       <repeatRightFrameRound>25</repeatRightFrameRound>
+      <frameFontFace>Edwin</frameFontFace>
+      <frameFontSize>10</frameFontSize>
+      <usePre_3_6_defaults>1</usePre_3_6_defaults>
+      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.36897</Spatium>
+      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="composed_end">1638</metaTag>
+    <metaTag name="composed_start">1638</metaTag>
     <metaTag name="composer">Claudio MONTEVERDI
 (1567 - 1643)</metaTag>
     <metaTag name="copyright">Steven Langley Guy, 18th December, 2004.
 smguy@ihug.com.au</metaTag>
     <metaTag name="creationDate">2019-03-11</metaTag>
+    <metaTag name="harmony_version">2.1.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
+    <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
@@ -109,9 +189,10 @@ smguy@ihug.com.au</metaTag>
         <barLineSpan>3</barLineSpan>
         </Staff>
       <trackName>Canto</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>Canto</longName>
         <trackName>Treble (2)</trackName>
+        <instrumentId>keyboard.piano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -145,6 +226,11 @@ smguy@ihug.com.au</metaTag>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Part>
@@ -155,11 +241,12 @@ smguy@ihug.com.au</metaTag>
         <barLineSpan>2</barLineSpan>
         </Staff>
       <trackName>Tenore primo</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>Tenore primo</longName>
         <trackName>Tenor (2)</trackName>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
+        <instrumentId>keyboard.piano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -203,11 +290,12 @@ smguy@ihug.com.au</metaTag>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Tenore secondo</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>Tenore secondo</longName>
         <trackName>Tenor (2)</trackName>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
+        <instrumentId>keyboard.piano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -250,9 +338,10 @@ smguy@ihug.com.au</metaTag>
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Basso</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>Basso</longName>
         <trackName>Bass (2) (2)</trackName>
+        <instrumentId>keyboard.piano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -295,7 +384,7 @@ smguy@ihug.com.au</metaTag>
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Spinetta o Chitarone</trackName>
-      <Instrument>
+      <Instrument id="harpsichord">
         <longName>Spinetta o Chitarone</longName>
         <trackName>Harpsichord</trackName>
         <minPitchP>29</minPitchP>
@@ -342,20 +431,27 @@ smguy@ihug.com.au</metaTag>
     <Staff id="1">
       <VBox>
         <height>9.5</height>
+        <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
+          <family>FreeSerif</family>
+          <size>12</size>
           <offset x="0" y="-9.89604"/>
           <text><font size="8.6101"></font><font face="Times New Roman"></font>Claudio MONTEVERDI
 (1567 - 1643)</text>
           </Text>
         <Text>
           <style>Title</style>
+          <family>FreeSerif</family>
+          <size>24</size>
           <offset x="0.16223" y="-10.2155"/>
           <text><font size="7.8825"></font><font face="Times New Roman"></font>Steven Langley Guy, 18th December, 2004.
 smguy@ihug.com.au</text>
           </Text>
         <Text>
           <style>Subtitle</style>
+          <family>FreeSerif</family>
+          <size>14</size>
           <offset x="1.29784" y="-5.63602"/>
           <text><font size="17.2203"></font><font face="Times New Roman"></font>LAMENTO DELLA NINFA</text>
           </Text>
@@ -369,18 +465,16 @@ smguy@ihug.com.au</text>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-30.986" y="-18.7475"/>
             <text><font size="10.1867"></font><font face="Times New Roman"></font><b>Non havea Febo ancora</b></text>
             </StaffText>
           <Tempo>
-            <tempo>1.66667</tempo>
+            <tempo>1.6666700000000001</tempo>
             <followText>1</followText>
             <offset x="-30.8181" y="-20.4298"/>
             <text><sym>metNoteQuarterUp</sym> = 100</text>
             </Tempo>
-          <Harmony>
-            <name>.C.I</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/4</duration>
@@ -392,139 +486,10 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>vi(2)</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
-          <location>
-            <fractions>3/8</fractions>
-            </location>
-          <Harmony>
-            <name>V(+4)</name>
-            <offset x="-2.3" y="-5"/>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
-          <location>
-            <fractions>3/8</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>I\\</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>IV6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>I64</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>I\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -535,108 +500,6 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-7/8</fractions>
-            </location>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>vii6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>iii</name>
-            </Harmony>
-          <location>
-            <fractions>3/8</fractions>
-            </location>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-5/8</fractions>
-            </location>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
-          <location>
-            <fractions>3/8</fractions>
-            </location>
-          <Harmony>
-            <name>vi.V</name>
-            <offset x="-1" y="-5"/>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>iv(#42)</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>iv(+#3)</name>
-            <offset x="-1.1" y="-5"/>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>V\\</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>VII-v6</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>VI</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -644,18 +507,6 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>#viio6/iv</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -663,35 +514,10 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>I6</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -699,242 +525,135 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>III</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>VI</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>ii</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>v</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>III</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>VI</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>.bII</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>vo6</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>III</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>III</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>v</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>III</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>i65</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>V(4)/VII</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>V/VII</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>ii7</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <name>#viio6(2)</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>#viio6</name>
-            </Harmony>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -942,9 +661,6 @@ smguy@ihug.com.au</text>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -961,46 +677,26 @@ smguy@ihug.com.au</text>
             <sigD>1</sigD>
             </TimeSig>
           <StaffText>
+            <family>FreeSerif</family>
             <offset x="-8.99966" y="-15.4291"/>
             <text><font size="10.1867"></font><font face="Times New Roman"></font><b>Amor </b></text>
             </StaffText>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/1</duration>
             </Rest>
-          <location>
-            <fractions>-3/1</fractions>
-            </location>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/1</duration>
             </Rest>
-          <location>
-            <fractions>-3/1</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -1018,9 +714,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1039,9 +732,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -1051,9 +741,6 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -1075,9 +762,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -1090,9 +774,6 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -1106,59 +787,20 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>VI</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/1</duration>
             </Rest>
-          <location>
-            <fractions>-5/1</fractions>
-            </location>
-          <Harmony>
-            <name>i64</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1170,9 +812,6 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -1189,9 +828,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -1209,9 +845,6 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1249,9 +882,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1282,9 +912,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -1300,9 +927,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1324,9 +948,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>VI</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1338,9 +959,6 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1359,9 +977,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1394,9 +1009,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6(2)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1408,9 +1020,6 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1426,9 +1035,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(2)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1440,27 +1046,18 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>V\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -1468,9 +1065,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1481,9 +1075,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i(+9)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1505,9 +1096,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1519,9 +1107,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6(+4)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1537,9 +1122,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1571,9 +1153,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1603,9 +1182,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i(#7)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1620,9 +1196,6 @@ smguy@ihug.com.au</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1633,9 +1206,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -1651,9 +1221,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>VI</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1675,9 +1242,6 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Spanner type="Slur">
@@ -1692,9 +1256,6 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1730,9 +1291,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i(9)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1744,9 +1302,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1758,9 +1313,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1787,9 +1339,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1821,9 +1370,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1835,9 +1381,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1856,9 +1399,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -1870,15 +1410,9 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>v</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -1889,9 +1423,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1923,9 +1454,6 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -1942,9 +1470,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -1959,9 +1484,6 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -1997,9 +1519,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(6)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2011,9 +1530,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2025,15 +1541,9 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(9)</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -2044,26 +1554,14 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/1</duration>
             </Rest>
-          <location>
-            <fractions>-3/1</fractions>
-            </location>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iio43</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2084,9 +1582,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2098,9 +1593,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2112,9 +1604,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2133,9 +1622,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2156,9 +1642,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -2186,9 +1669,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(2)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2199,9 +1679,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2223,9 +1700,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2265,9 +1739,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i(#7)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2281,9 +1752,6 @@ smguy@ihug.com.au</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2295,9 +1763,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2309,9 +1774,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i2</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2327,9 +1789,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2341,15 +1800,6 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/1</fractions>
-            </location>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2360,9 +1810,6 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -2381,9 +1828,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2416,9 +1860,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -2438,9 +1879,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(2)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2451,9 +1889,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2475,9 +1910,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2517,9 +1949,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>viio6(2)/VII</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2534,9 +1963,6 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>viio6/VII</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2551,9 +1977,6 @@ smguy@ihug.com.au</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2565,9 +1988,6 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2586,15 +2006,9 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(2)</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2616,9 +2030,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2630,9 +2041,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -2651,9 +2059,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2665,27 +2070,12 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/1</fractions>
-            </location>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>v6(+4)</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -2696,38 +2086,17 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iio43</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/1</duration>
             </Rest>
-          <location>
-            <fractions>-3/1</fractions>
-            </location>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
-          <location>
-            <fractions>2/1</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2749,9 +2118,6 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6(6)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -2766,9 +2132,6 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2797,9 +2160,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(6)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -2815,9 +2175,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2840,9 +2197,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -2857,9 +2211,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2887,9 +2238,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>VI6(2)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -2905,9 +2253,6 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>VI6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2930,9 +2275,6 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V7/III</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -2947,9 +2289,6 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -2976,9 +2315,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(2)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Note>
@@ -2994,9 +2330,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3019,9 +2352,6 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V\\</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -3041,9 +2371,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -3053,9 +2380,6 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3067,9 +2391,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6(+4)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3096,9 +2417,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iio43</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3110,9 +2428,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3124,9 +2439,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -3138,19 +2450,10 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-2/1</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -3160,9 +2463,6 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3173,9 +2473,6 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>VII6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3200,9 +2497,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>III(+4)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3213,9 +2507,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3226,9 +2517,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3261,9 +2549,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3298,9 +2583,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6(+4)</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -3320,9 +2602,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(2)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3334,9 +2613,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3358,9 +2634,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3372,9 +2645,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3393,9 +2663,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3407,27 +2674,12 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/1</fractions>
-            </location>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -3438,24 +2690,15 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <Harmony>
-            <name>VI</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -3476,9 +2719,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3490,9 +2730,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>VI6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3504,9 +2741,6 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3532,9 +2766,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3568,9 +2799,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3600,9 +2828,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3628,9 +2853,6 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -3647,9 +2869,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3680,9 +2899,6 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -3698,9 +2914,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3732,9 +2945,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3761,9 +2971,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3800,9 +3007,6 @@ smguy@ihug.com.au</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3828,9 +3032,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>viio6(2)/VII</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3846,9 +3047,6 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>viio6/VII</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3863,9 +3061,6 @@ smguy@ihug.com.au</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3890,9 +3085,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3925,9 +3117,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -3939,18 +3128,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/1</fractions>
-            </location>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -3969,9 +3146,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -3983,24 +3157,9 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-2/1</fractions>
-            </location>
-          <Harmony>
-            <name>viio6/VII</name>
-            </Harmony>
-          <location>
-            <fractions>2/1</fractions>
-            </location>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>VII6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -4011,44 +3170,14 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i6(+4)</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/1</duration>
             </Rest>
-          <location>
-            <fractions>-4/1</fractions>
-            </location>
-          <Harmony>
-            <name>iv7</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
-          <Harmony>
-            <name>V(64)</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
-          <location>
-            <fractions>1/1</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -4058,9 +3187,6 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -4095,9 +3221,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(6)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -4109,9 +3232,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -4123,9 +3243,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -4152,9 +3269,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -4166,9 +3280,6 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>VII</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -4184,9 +3295,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -4198,9 +3306,6 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -4221,9 +3326,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -4233,9 +3335,6 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -4272,9 +3371,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(6)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -4286,9 +3382,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -4300,9 +3393,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -4319,9 +3409,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -4331,9 +3418,6 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -4369,9 +3453,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6(6)</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -4383,9 +3464,6 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -4397,9 +3475,6 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -4429,9 +3504,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -4454,9 +3526,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -4473,9 +3542,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -4488,18 +3554,12 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -4507,9 +3567,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -4532,9 +3589,6 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -4554,9 +3608,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -4578,9 +3629,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -4592,9 +3640,6 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -4615,12 +3660,10 @@ smguy@ihug.com.au</text>
         <voice>
           <StaffText>
             <placement>below</placement>
+            <family>FreeSerif</family>
             <offset x="-127.518" y="61.9816"/>
             <text><font size="10.1867"></font><font face="Times New Roman"></font><b>Si tra sdegnosi</b></text>
             </StaffText>
-          <Harmony>
-            <name>i\\</name>
-            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Lyrics>
@@ -4646,14 +3689,11 @@ smguy@ihug.com.au</text>
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.66667</tempo>
+            <tempo>1.6666700000000001</tempo>
             <followText>1</followText>
             <offset x="-11.9104" y="-17.3376"/>
             <text><sym>metNoteQuarterUp</sym> = 100</text>
             </Tempo>
-          <Harmony>
-            <name>I.I</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -4661,24 +3701,9 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>vi6</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-5/8</fractions>
-            </location>
-          <Harmony>
-            <name>iii</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -4690,35 +3715,6 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>vi-IV6</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
-          <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <name>I\\</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -4729,101 +3725,52 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
-          <location>
-            <fractions>5/8</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <name>iii</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>IV</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <name>viio6/V</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>iii</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <name>I6(+4)</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <name>IVM7</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure len="8/4">
         <voice>
-          <Harmony>
-            <name>I\\</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/1</duration>
@@ -15006,6 +13953,10 @@ smguy@ihug.com.au</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>C.I</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -15034,6 +13985,10 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi(2)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15042,6 +13997,10 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15058,6 +14017,11 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(+4)</name>
+            <offset x="-2.3" y="-5"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -15070,6 +14034,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15078,6 +14046,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15086,6 +14058,10 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15102,10 +14078,21 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -15117,6 +14104,10 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15137,6 +14128,10 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15145,6 +14140,10 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15153,6 +14152,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -15161,6 +14164,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I64</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -15173,6 +14180,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -15181,6 +14192,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -15193,6 +14208,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -15202,6 +14221,10 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15214,6 +14237,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -15228,6 +14255,10 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -15244,6 +14275,10 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vii6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -15252,6 +14287,10 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -15261,6 +14300,10 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -15273,6 +14316,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15289,6 +14336,10 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -15297,6 +14348,10 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15313,6 +14368,11 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi.V</name>
+            <offset x="-1" y="-5"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -15325,6 +14385,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(#42)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -15334,6 +14398,11 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(+#3)</name>
+            <offset x="-1.1" y="-5"/>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15346,6 +14415,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -15357,6 +14430,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15365,6 +14442,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII-v6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15373,6 +14454,10 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15396,6 +14481,10 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio6/iv</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15404,6 +14493,10 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -15446,6 +14539,10 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15461,6 +14558,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -15472,6 +14573,10 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15484,6 +14589,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -15495,6 +14604,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15503,6 +14616,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15511,6 +14628,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15519,6 +14640,10 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15531,6 +14656,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15539,6 +14668,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15547,6 +14680,10 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15555,6 +14692,10 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15567,6 +14708,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15575,6 +14720,10 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15583,6 +14732,10 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15591,6 +14744,10 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15603,6 +14760,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bII</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15614,6 +14775,10 @@ smguy@ihug.com.au</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vo6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15622,6 +14787,10 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15630,6 +14799,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15642,6 +14815,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15650,6 +14827,10 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15658,6 +14839,10 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15666,6 +14851,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15678,6 +14867,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15686,6 +14879,10 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15694,6 +14891,10 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15714,6 +14915,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15722,6 +14927,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15730,6 +14939,10 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -15738,10 +14951,21 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -15750,6 +14974,20 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i65</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)/VII</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -15758,10 +14996,21 @@ smguy@ihug.com.au</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/VII</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii7</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -15771,6 +15020,20 @@ smguy@ihug.com.au</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio6(2)</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -15783,6 +15046,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -15801,6 +15068,10 @@ smguy@ihug.com.au</text>
             <sigN>3</sigN>
             <sigD>1</sigD>
             </TimeSig>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15809,6 +15080,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15821,6 +15096,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15829,6 +15108,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15841,6 +15124,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15849,6 +15136,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15861,6 +15152,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15869,6 +15164,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15881,6 +15180,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15889,6 +15192,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15901,6 +15208,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15909,6 +15220,27 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15917,10 +15249,28 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15929,6 +15279,20 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15941,6 +15305,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15949,6 +15317,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15961,6 +15333,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15969,6 +15345,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15981,6 +15361,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -15989,6 +15373,20 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16001,6 +15399,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16009,6 +15411,173 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6(2)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i(+9)</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6(+4)</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i(#7)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16021,6 +15590,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16029,6 +15602,20 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16041,6 +15628,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i(9)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16049,6 +15640,20 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16061,6 +15666,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16069,6 +15678,80 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16081,6 +15764,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16089,6 +15776,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16101,6 +15792,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(6)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16109,6 +15804,20 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(9)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16117,10 +15826,21 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16129,6 +15849,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16141,6 +15865,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio43</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16149,6 +15877,20 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16157,10 +15899,21 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16169,6 +15922,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16181,6 +15938,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16189,6 +15950,20 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16201,6 +15976,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i(#7)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16209,6 +15988,93 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i2</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16221,6 +16087,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16229,6 +16099,20 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16241,6 +16125,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6(2)/VII</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16249,6 +16137,506 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6/VII</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6(+4)</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio43</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6(6)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(6)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI6(2)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI6</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/III</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6(+4)</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio43</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII6</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III(+4)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6(+4)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16261,6 +16649,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16269,6 +16661,110 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16281,6 +16777,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16289,6 +16789,20 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI6</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16301,6 +16815,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16309,6 +16827,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16321,6 +16843,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16329,6 +16855,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16341,6 +16871,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16349,6 +16883,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16361,6 +16899,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16369,6 +16911,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16381,6 +16927,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16389,6 +16939,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16401,6 +16955,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6(2)/VII</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16409,6 +16967,20 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6/VII</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16421,6 +16993,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16429,6 +17005,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16437,10 +17017,28 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16449,6 +17047,107 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6/VII</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII6</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6(+4)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure len="6/1">
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16461,6 +17160,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(6)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16469,6 +17172,20 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16481,6 +17198,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16489,6 +17210,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16501,6 +17226,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16509,6 +17238,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16521,6 +17254,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16529,6 +17266,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16541,6 +17282,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(6)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16549,6 +17294,20 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16561,6 +17320,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16569,6 +17332,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16581,6 +17348,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(6)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16589,6 +17360,20 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16601,6 +17386,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16609,6 +17398,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16621,6 +17414,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16629,6 +17426,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16637,10 +17438,21 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16649,6 +17461,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16661,6 +17477,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="6/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16669,6 +17489,10 @@ smguy@ihug.com.au</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>breve</durationType>
@@ -16677,490 +17501,21 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/1">
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>-1</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure len="2/1">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Note>
@@ -17180,6 +17535,10 @@ smguy@ihug.com.au</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I.I</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -17209,6 +17568,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi6</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -17218,6 +17581,10 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -17226,6 +17593,10 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -17282,6 +17653,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi-IV6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17293,6 +17668,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17300,10 +17679,21 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17318,6 +17708,10 @@ smguy@ihug.com.au</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -17335,6 +17729,10 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -17347,6 +17745,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -17355,6 +17757,10 @@ smguy@ihug.com.au</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -17363,6 +17769,10 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -17384,6 +17794,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -17401,6 +17815,10 @@ smguy@ihug.com.au</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6/V</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -17413,6 +17831,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -17422,6 +17844,20 @@ smguy@ihug.com.au</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6(+4)</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IVM7</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -17434,6 +17870,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -17443,6 +17883,16 @@ smguy@ihug.com.au</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -17455,6 +17905,10 @@ smguy@ihug.com.au</text>
         </Measure>
       <Measure len="8/4">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <Chord>
             <durationType>breve</durationType>
             <Note>
