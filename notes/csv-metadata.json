@@ -1,0 +1,209 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw#",
+    {
+      "@language": "en "
+    }
+  ],
+  "dc:title": "Note tables for monteverdi_madrigals",
+  "dialect": {
+    "delimiter": "\t"
+  },
+  "dc:description": "One feature matrix per score, containing one row per note head. Not every row represents an onset because note heads may be tied together (see column 'tied'). For more information, please refer to the docs at https://johentsch.github.io/ms3/columns",
+  "dc:created": "2023-02-28T15:52:27",
+  "dc:creator": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/johentsch/ms3",
+      "name": "ms3",
+      "description": "A parser for MuseScore 3 files.",
+      "author": {
+        "name": "Johannes Hentschel",
+        "@id": "https://orcid.org/0000-0002-1986-9545"
+      },
+      "softwareVersion": "1.2.4"
+    }
+  ],
+  "tables": [
+    {
+      "url": "2-12.tsv"
+    },
+    {
+      "url": "3-09.tsv"
+    },
+    {
+      "url": "3-11.tsv"
+    },
+    {
+      "url": "4-19.tsv"
+    },
+    {
+      "url": "4-20.tsv"
+    },
+    {
+      "url": "5-01.tsv"
+    },
+    {
+      "url": "5-03.tsv"
+    },
+    {
+      "url": "5-04a.tsv"
+    },
+    {
+      "url": "5-04c.tsv"
+    },
+    {
+      "url": "5-04d.tsv"
+    },
+    {
+      "url": "5-04e.tsv"
+    },
+    {
+      "url": "5-05b.tsv"
+    },
+    {
+      "url": "5-05c.tsv"
+    },
+    {
+      "url": "5-06.tsv"
+    },
+    {
+      "url": "5-07.tsv"
+    },
+    {
+      "url": "5-08.tsv"
+    },
+    {
+      "url": "5-09.tsv"
+    },
+    {
+      "url": "5-10.tsv"
+    },
+    {
+      "url": "5-11.tsv"
+    },
+    {
+      "url": "5-14.tsv"
+    },
+    {
+      "url": "5-15.tsv"
+    },
+    {
+      "url": "5-17.tsv"
+    },
+    {
+      "url": "6-01a.tsv"
+    },
+    {
+      "url": "8-18.tsv"
+    },
+    {
+      "url": "8-19.tsv"
+    },
+    {
+      "url": "9-12.tsv"
+    },
+    {
+      "url": "laudate_pueri_dominum.tsv"
+    }
+  ],
+  "tableSchema": {
+    "columns": [
+      {
+        "titles": "mc",
+        "datatype": "integer",
+        "dc:description": "Measure count."
+      },
+      {
+        "titles": "mn",
+        "datatype": "string",
+        "dc:description": "Measure number."
+      },
+      {
+        "titles": "quarterbeats",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "duration_qb",
+        "datatype": "float"
+      },
+      {
+        "titles": "mc_onset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        },
+        "dc:description": "An event's distance (fraction of a whole note) from the beginning of the MC."
+      },
+      {
+        "titles": "mn_onset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        },
+        "dc:description": "An event's distance (fraction of a whole note) from the beginning of the MN."
+      },
+      {
+        "titles": "timesig",
+        "datatype": "string"
+      },
+      {
+        "titles": "staff",
+        "datatype": "integer"
+      },
+      {
+        "titles": "voice",
+        "datatype": "integer"
+      },
+      {
+        "titles": "duration",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "nominal_duration",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "scalar",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "tied",
+        "datatype": "integer"
+      },
+      {
+        "titles": "tpc",
+        "datatype": "integer"
+      },
+      {
+        "titles": "midi",
+        "datatype": "integer"
+      },
+      {
+        "titles": "name",
+        "datatype": "string"
+      },
+      {
+        "titles": "octave",
+        "datatype": "integer"
+      },
+      {
+        "titles": "chord_id",
+        "datatype": "integer"
+      }
+    ]
+  }
+}
