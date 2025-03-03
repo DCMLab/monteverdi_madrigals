@@ -5,11 +5,10 @@
       "@language": "en "
     }
   ],
-  "dc:title": "DCML harmony annotations for monteverdi_madrigals",
+  "dc:title": "chords for monteverdi_madrigals",
   "dialect": {
     "delimiter": "\t"
   },
-  "dc:description": "One feature matrix per score, containing one line per label. The first columns (until 'label') are the same as in extracted 'labels' tables with the difference that only those harmony labels that match the DCML harmony annotation standard (dcmlab.github.io/standards) are included. Since these follow a specific syntax, they can be split into their components (features) and transformed into scale degrees. For more information, please refer to the docs at https://johentsch.github.io/ms3/columns",
   "dc:created": "2025-03-03T14:27:41",
   "dc:creator": [
     {
@@ -148,6 +147,9 @@
         "dc:description": "An event's distance (fraction of a whole note) from the beginning of the MN."
       },
       {
+        "titles": "event"
+      },
+      {
         "titles": "timesig",
         "datatype": "string"
       },
@@ -160,90 +162,52 @@
         "datatype": "integer"
       },
       {
-        "titles": "label",
-        "datatype": "string"
-      },
-      {
-        "titles": "alt_label",
-        "datatype": "string"
-      },
-      {
-        "titles": "globalkey",
-        "datatype": "string"
-      },
-      {
-        "titles": "localkey",
-        "datatype": "string"
-      },
-      {
-        "titles": "pedal",
-        "datatype": "string"
-      },
-      {
-        "titles": "chord",
-        "datatype": "string"
-      },
-      {
-        "titles": "numeral",
-        "datatype": "string"
-      },
-      {
-        "titles": "form",
-        "datatype": "string"
-      },
-      {
-        "titles": "figbass",
-        "datatype": "string"
-      },
-      {
-        "titles": "changes",
-        "datatype": "string"
-      },
-      {
-        "titles": "relativeroot",
-        "datatype": "string"
-      },
-      {
-        "titles": "cadence",
-        "datatype": "string"
-      },
-      {
-        "titles": "phraseend",
-        "datatype": "string"
-      },
-      {
-        "titles": "chord_type",
-        "datatype": "string"
-      },
-      {
-        "titles": "globalkey_is_minor",
-        "datatype": "boolean"
-      },
-      {
-        "titles": "localkey_is_minor",
-        "datatype": "boolean"
-      },
-      {
-        "titles": "chord_tones",
+        "titles": "duration",
         "datatype": {
           "base": "string",
-          "format": "\\(-?\\d+, ?-?\\d+\\)"
+          "format": "-?\\d+(?:\\/\\d+)?"
         }
       },
       {
-        "titles": "added_tones",
+        "titles": "gracenote",
+        "datatype": "string"
+      },
+      {
+        "titles": "tremolo"
+      },
+      {
+        "titles": "nominal_duration",
         "datatype": {
           "base": "string",
-          "format": "\\(-?\\d+, ?-?\\d+\\)"
+          "format": "-?\\d+(?:\\/\\d+)?"
         }
       },
       {
-        "titles": "root",
+        "titles": "scalar",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "chord_id",
         "datatype": "integer"
       },
       {
-        "titles": "bass_note",
-        "datatype": "integer"
+        "titles": "lyrics_1"
+      },
+      {
+        "titles": "staff_text"
+      },
+      {
+        "titles": "tempo"
+      },
+      {
+        "titles": "qpm"
+      },
+      {
+        "titles": "slur",
+        "datatype": "string"
       }
     ]
   }
