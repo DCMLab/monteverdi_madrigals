@@ -250,4 +250,4 @@
 |laudate_pueri_dominum|     177|   386|2.1.0   |Lars & Ya-Chuan|
 
 
-*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
+*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
