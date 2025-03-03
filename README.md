@@ -219,14 +219,13 @@
 | Laudate pueri Dominum | 5      | 1650 | Laudate_pueri_a_5_voci_da_Cappella_(Claudio_Monteverdi) | adrian       |
 
 
-# Overview
+## Overview
 |      file_name      |measures|labels|standard|  annotators   |
 |---------------------|-------:|-----:|--------|---------------|
 |2-12                 |      93|   225|2.1.0   |Adrian Nagel   |
 |3-09                 |      84|   190|2.1.0   |Adrian Nagel   |
 |3-11                 |      84|   190|2.1.0   |               |
 |4-19                 |     111|   185|2.1.0   |Adrian Nagel   |
-|4-20                 |     111|   185|2.1.0   |               |
 |5-01                 |      67|   176|2.1.0   |Adrian Nagel   |
 |5-03                 |      74|   152|2.1.0   |Adrian Nagel   |
 |5-04a                |      82|   128|2.1.0   |Adrian Nagel   |
@@ -251,4 +250,4 @@
 |laudate_pueri_dominum|     177|   386|2.1.0   |Lars & Ya-Chuan|
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.4.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*

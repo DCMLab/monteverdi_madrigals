@@ -12,7 +12,7 @@
 "coppini20": "5-14",
 "Ecco_mormorar_Monteverdi": "2-12",
 "Monteverdi_Lamento-a-minor": "6-01",
-"Monteverdi_Piagne_Sospira-Libro-IV": "4-20",
+"Monteverdi_Piagne_Sospira-Libro-IV": "4-19",
 "Ws-mont-la3": "laudate_pueri_dominum",
 "Ws-mont-lam": "8-18",
 "Ws-mont-opr": "3-11",
