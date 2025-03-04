@@ -1,4 +1,39 @@
-# Libro 1
+![Version](https://img.shields.io/github/v/release/DCMLab/monteverdi_madrigals?display_name=tag)
+[![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://zenodo.org/badge/latestdoi/{{ zenodo_badge_id }})
+![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/monteverdi_madrigals)
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
+
+
+This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
+and serves as welcome page for both 
+
+* the GitHub repo [https://github.com/DCMLab/monteverdi_madrigals](https://github.com/DCMLab/monteverdi_madrigals) and the corresponding
+* documentation page [https://dcmlab.github.io/monteverdi_madrigals](https://dcmlab.github.io/monteverdi_madrigals)
+
+For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/monteverdi_madrigals/introduction).
+
+# Claudio Monteverdi – Madrigals
+
+
+## Cite as
+
+## Version history
+
+See the [GitHub releases](https://github.com/DCMLab/monteverdi_madrigals/releases).
+
+## Questions, Suggestions, Corrections, Bug Reports
+
+Please [create an issue](https://github.com/DCMLab/monteverdi_madrigals/issues) and/or feel free to fork and submit pull requests.
+
+## License
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
+## The nine books
+
+### Libro 1
 |                       full_title                        |                  title                   |SV |voices|year|link|
 |---------------------------------------------------------|------------------------------------------|--:|-----:|----|----|
 |1. Ch'io ami la mia vita, SV23, 5vv                      |Ch'io ami la mia vita                     | 23|     5|NaN |    |
@@ -22,7 +57,7 @@
 |19. Ardo, sì, ma non t'amo, SV39, 5vv                    |Ardo, sì, ma non t'amo                    | 39|     5|NaN |    |
 |20. Ardi o gela a tua voglia, SV39, 5vv                  |Ardi o gela a tua voglia                  | 39|     5|NaN |    |
 |21. Arsi e alsi a mia voglia, SV39, 5vv                  |Arsi e alsi a mia voglia                  | 39|     5|NaN |    |
-# Libro 2 (1590)
+### Libro 2 (1590)
 | full_title                                             | title                                               | SV        | voices | link                                                                  | annotators |
 |--------------------------------------------------------|-----------------------------------------------------|-----------|-------:|-----------------------------------------------------------------------|------------|
 | 1. Non si levava ancor - E dicea l'una sospirando, 5vv | Non si levava ancor - E dicea l'una sospirando, 5vv | 40a & 40b |    NaN | Non_si_levava_ancor_-_E_dicea_l%27una_sospirando_(Claudio_Monteverdi) |            |
@@ -45,7 +80,7 @@
 | 18. Non mi è grave il morire, 5vv                      | Non mi è grave il morire                            | 57        |      5 |                                                                       |            |
 | 19. Ti spontò l'ali amor la donna mia, 5vv             | Ti spontò l'ali amor la donna mia                   | 58        |      5 |                                                                       |            |
 | 20. Cantai un tempo, 5vv                               | Cantai un tempo                                     | 59        |      5 |                                                                       |            |
-# Libro 3 (1592)
+### Libro 3 (1592)
 | full_title                                             | title                                        |  SV | voices | year | link | annotator(s) |
 |--------------------------------------------------------|----------------------------------------------|----:|-------:|------|------|--------------|
 | 1. La giovinetta pianta, SV60, 5vv                     | La giovinetta pianta                         |  60 |      5 | NaN  |      |              |
@@ -68,7 +103,7 @@
 | 14. Lumi miei, cari lumi, SV73, 5vv                    | Lumi miei, cari lumi                         |  73 |      5 | NaN  |      |              |
 | 15a. Rimanti in pace a la dolente e bella Fillida, SV74 | Rimanti in pace a la dolente e bella Fillida | 74a |    NaN | NaN  |      |              |
 | 15b. Ond'ei di morte la sua faccia impressa, SV74, 5vv  | Ond'ei di morte la sua faccia impressa       | 74b |      5 | NaN  |      |              |
-# Libro 4 (1603)
+### Libro 4 (1603)
 | full_title                                                      | title                                      |  SV | voices | link                                               | annotator(s) |
 |-----------------------------------------------------------------|--------------------------------------------|----:|-------:|----------------------------------------------------|--------------|
 | 1. Ah! dolente partita, ah fin de la mia vita, SV 75, 5vv, 1603 | Ah! dolente partita, ah fin de la mia vita |  75 |      5 | Ah!_dolente_partita_(Claudio_Monteverdi)           |              |
@@ -91,7 +126,7 @@
 | 17. Anima del cor mio poi che da me misera me, SV 91, 5vv, 1603 | Anima del cor mio poi che da me misera me  |  91 |      5 | Anima_del_cor_mio_(Claudio_Monteverdi)             |              |
 | 18. Longe da te, cor mio                                        | Longe da te, cor mio                       |  92 |    NaN |                                                    |              |
 | 19. Piagn' e sospira                                            | Piagn' e sospira                           |  93 |    NaN |                                                    | Adrian       |
-# Libro 5 (1605)
+### Libro 5 (1605)
 | full_title                                                 | title                                      |   SV | voices | link                            | annotator(s) |
 |------------------------------------------------------------|--------------------------------------------|-----:|-------:|---------------------------------|--------------|
 | 1. Cruda Amarilli, 5vv, 1605                               | Cruda Amarilli                             |   94 |      5 |                                 | Adrian       |
@@ -114,7 +149,7 @@
 | 12. E cosi à poco à poco                                   | E cosi à poco à poco                       |  105 |    NaN |                                 |              |
 | 13a. Questi vaghi concenti                                  | Questi vaghi concenti                      | 106a |    NaN |                                 |              |
 | 13b. Ecco piegando                                          | Ecco piegando                              | 106b |    NaN |                                 |              |
-# Libro 6 (1614)
+### Libro 6 (1614)
 | full_title                                                   | title                                      | SV   | voices | link                                                       | annotator(s) |
 |--------------------------------------------------------------|--------------------------------------------|------|-------:|------------------------------------------------------------|--------------|
 | 1a. Lasciatemi morire, 5vv, 1614                              | Lasciatemi morire                          | 107a |      5 |                                                            | Adrian       |
@@ -135,7 +170,7 @@
 | 8. Misero Alceo, 5vv, bc, 1614                              | Misero Alceo                               | 114  |      5 |                                                            |              |
 | 9. Batto, qui pianse Ergasto, 5vv, bc, 1614                 | Batto, qui pianse Ergasto                  | 115  |      5 |                                                            |              |
 | 10. Presso un fiume tranquillo, 7vv, bc, 1614                | Presso un fiume tranquillo                 | 116  |      7 |                                                            |              |
-# Libro 7 (1619)
+### Libro 7 (1619)
 | full_title                                                            | title                                         |  SV | voices | link                                               | annotator(s) |
 |-----------------------------------------------------------------------|-----------------------------------------------|----:|-------:|----------------------------------------------------|--------------|
 | 1. Tempro la cetra, 1v, 1619                                          | Tempro la cetra                               | 117 |      1 | Tempro_la_cetra_(Claudio_Monteverdi)               |              |
@@ -167,7 +202,7 @@
 | 27. Chiome d'oro, 2vv, 1619                                           | Chiome d'oro                                  | 143 |      2 | Chiome_d%27oro_(Claudio_Monteverdi)                |              |
 | 28. Amor che deggio far se non mi giova amar, SV 144, 4vv, 1619       | Amor che deggio far se non mi giova amar      | 144 |      4 | Se_non_mi_date_(Claudio_Monteverdi)                |              |
 | 29. Tirsi e Clori                                                     | Tirsi e Clori                                 | 145 |    NaN | Tirsi_e_Clori_(Claudio_Monteverdi)                 |              |
-# Libro 8 (1638)
+### Libro 8 (1638)
 | full_title                                                           | title                                         |   SV | voices | link                                                                        | annotator(s) |
 |----------------------------------------------------------------------|-----------------------------------------------|-----:|-------:|-----------------------------------------------------------------------------|--------------|
 | 1. Altri canti d'Amor, tenero arciero, SV 146, 6vv, 1638             | Altri canti d'Amor, tenero arciero            |  146 |      6 | Altri_canti_d%27Amor,_tenero_arciero_(Claudio_Monteverdi)                   |              |
@@ -193,7 +228,7 @@
 | 20. Non partir, ritrosetta, 3vv, bc, 1638                            | Non partir, ritrosetta                        |  165 |      3 | Non_partir,_ritrosetta_(Claudio_Monteverdi)                                 |              |
 | 21. Su, su, su pastorelli vezzosi, 3vv, bc, 1638                     | Su, su, su pastorelli vezzosi                 |  166 |      3 | Su,_su,_su_pastorelli_vezzosi_(Claudio_Monteverdi)                          |              |
 | 22. Ballo delle Ingrate, SV 167                                      | Ballo delle Ingrate                           |  167 |    NaN |                                                                             |              |
-# Libro 9 (1651)
+### Libro 9 (1651)
 | full_title                                                          | title                                       |  SV | voices | year | link                                                           | annotator(s) |
 |---------------------------------------------------------------------|---------------------------------------------|----:|-------:|-----:|----------------------------------------------------------------|--------------|
 | 1. Bel pastor dal cui bel guardo                                    | Bel pastor dal cui bel guardo               | 168 |    NaN |  NaN |                                                                |              |
@@ -218,6 +253,15 @@
 |-----------------------|--------|------|---------------------------------------------------------|--------------|
 | Laudate pueri Dominum | 5      | 1650 | Laudate_pueri_a_5_voci_da_Cappella_(Claudio_Monteverdi) | adrian       |
 
+
+## File naming convention
+
+Except for `laudate_pueri_dominum`, the madrigals follow the convention
+
+```regex
+(?<book>\d)-
+(?<no>\d{2}(?<part>a|b|c|d|e)?)
+```
 
 ## Overview
 |      file_name      |measures|labels|standard|  annotators   |
