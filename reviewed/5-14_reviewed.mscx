@@ -150,6 +150,7 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1605</metaTag>
     <metaTag name="composed_start">1605</metaTag>
     <metaTag name="composer"></metaTag>
