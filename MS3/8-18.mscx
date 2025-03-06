@@ -163,24 +163,27 @@
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1638</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Claudio_Monteverdi#</metaTag>
     <metaTag name="composed_start">1638</metaTag>
-    <metaTag name="composer">Claudio MONTEVERDI
-(1567 - 1643)</metaTag>
+    <metaTag name="composer">Claudio Monteverdi</metaTag>
     <metaTag name="copyright">Steven Langley Guy, 18th December, 2004.
 smguy@ihug.com.au</metaTag>
     <metaTag name="creationDate">2019-03-11</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Madrigals%2C_Book_8%2C_SV_146%E2%80%93167_(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">18</metaTag>
+    <metaTag name="movementTitle">Lamento della Ninfa</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/bc9eb6a9-b9cd-3b23-9332-17753cb1ed70</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">LAMENTO DELLA NINFA</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/178279485</metaTag>
+    <metaTag name="workNumber">SV 163</metaTag>
+    <metaTag name="workTitle">Madrigali guerriri, et amorosi...Libro ottavo</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">

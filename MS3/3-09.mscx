@@ -163,26 +163,28 @@
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1592</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Claudio_Monteverdi#</metaTag>
     <metaTag name="composed_start">1592</metaTag>
-    <metaTag name="composer">Claudio MONTEVERDI
-(1567 - 1643)</metaTag>
+    <metaTag name="composer">Claudio Monteverdi</metaTag>
     <metaTag name="copyright">Created by Steven Langley Guy
 on Saturday, the 20th of March, 2004.
 Completed at 3.29 p.m.</metaTag>
     <metaTag name="creationDate">2019-03-11</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Madrigals%2C_Book_3%2C_SV_60%E2%80%9374_(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">9</metaTag>
+    <metaTag name="movementTitle">O primavera gioventù del anno</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/dd6ef6f0-4da7-45d1-9b31-3f4aeb018cb0</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Il Terzo Libro de' Madrigali, 1592.
-O primavera giovantù de l'anno</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/189350929</metaTag>
+    <metaTag name="workNumber">SV 68</metaTag>
+    <metaTag name="workTitle">Il terzo libro de madrigali</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
