@@ -149,7 +149,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.48</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -220,10 +219,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
         </Instrument>
       </Part>
@@ -268,10 +268,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
         </Instrument>
       </Part>
@@ -316,10 +317,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
         </Instrument>
       </Part>
@@ -336,6 +338,7 @@
         <shortName>T.</shortName>
         <trackName>Tenor</trackName>
         <instrumentId>voice.tenor</instrumentId>
+        <clef>G8vb</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -365,12 +368,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
-        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -385,6 +388,7 @@
         <shortName>B.</shortName>
         <trackName>Bass</trackName>
         <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -414,20 +418,28 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
-        <clef>F</clef>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>2.7</height>
+        <height>16.054</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
+          <offset x="0" y="0.213012"/>
           <text>12. Ecco mormorar l’onde e tremolar le fronde, SV 51</text>
           </Text>
         <Text>
@@ -449,17 +461,11 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>FreeSerif</family>
-            <offset x="-26.527" y="-16.8037"/>
-            <text><font size="19"></font><font face="Times New Roman"></font>Ecco mormorar l'onde</text>
-            </StaffText>
-          <StaffText>
-            <family>FreeSerif</family>
-            <offset x="83.2554" y="-14.4108"/>
-            <text><font size="11"></font><font face="Times New Roman"></font>Claudio Monteverdi
-(1567-1643)</text>
-            </StaffText>
+          <Tempo>
+            <tempo>1.8666666666666667</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 112</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>

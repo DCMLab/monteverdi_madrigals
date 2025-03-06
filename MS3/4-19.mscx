@@ -216,7 +216,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.37583</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -286,8 +285,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -300,6 +300,8 @@
         </Staff>
       <trackName>Soprano</trackName>
       <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
         <trackName>Soprano</trackName>
         <instrumentId>voice.soprano</instrumentId>
         <Articulation>
@@ -331,13 +333,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <longName>Soprano</longName>
-        <shortName>S.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -380,8 +381,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -399,6 +401,7 @@
         <shortName>T.</shortName>
         <trackName>Tenor</trackName>
         <instrumentId>voice.tenor</instrumentId>
+        <clef>G8vb</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -428,12 +431,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -444,8 +447,11 @@
         </Staff>
       <trackName>Bass</trackName>
       <Instrument id="bass">
+        <longName>Bass</longName>
+        <shortName>B.</shortName>
         <trackName>Bass</trackName>
         <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -475,19 +481,24 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <longName>Bass</longName>
-        <shortName>B.</shortName>
-        <clef>F</clef>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>2.7</height>
+        <height>15.624</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Subtitle</style>
@@ -509,6 +520,12 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 120</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/1</duration>
