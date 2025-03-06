@@ -177,19 +177,17 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <shortName>S.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -197,15 +195,17 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <shortName>S.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -213,15 +213,17 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Alto</trackName>
+      <Instrument id="alto">
+        <longName>Alto</longName>
+        <trackName>Alto</trackName>
+        <instrumentId>voice.alto</instrumentId>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <shortName>A.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -229,15 +231,18 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Tenor</trackName>
+      <Instrument id="tenor">
+        <longName>Tenor</longName>
+        <trackName>Tenor</trackName>
+        <instrumentId>voice.tenor</instrumentId>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <shortName>T.</shortName>
+        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -246,21 +251,36 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Bass</trackName>
+      <Instrument id="bass">
+        <longName>Bass</longName>
+        <trackName>Bass</trackName>
+        <instrumentId>voice.bass</instrumentId>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <shortName>B.</shortName>
+        <clef>F</clef>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
         <height>10</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>5. Deh bella e cara, SV 98b</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: Il quinto libro de madrigali</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Claudio Monteverdi</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>

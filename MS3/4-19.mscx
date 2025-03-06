@@ -251,12 +251,12 @@
           </StaffType>
         <bracket type="0" span="5" col="0"/>
         </Staff>
-      <trackName>C1</trackName>
-      <Instrument id="grand-piano">
-        <longName>C1</longName>
-        <shortName>C1</shortName>
-        <trackName>Grand Piano</trackName>
-        <instrumentId>keyboard.piano.grand</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -286,14 +286,8 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="32"/>
-          <controller ctrl="7" value="101"/>
-          <controller ctrl="10" value="63"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <controller ctrl="7" value="101"/>
+          <program value="52"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -304,10 +298,10 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>MusicXML Part</trackName>
-      <Instrument id="hammond-organ">
-        <trackName>Hammond Organ</trackName>
-        <instrumentId>keyboard.organ.drawbar</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -337,11 +331,13 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="16"/>
-          <controller ctrl="7" value="101"/>
+          <program value="52"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -349,12 +345,12 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>A</trackName>
-      <Instrument id="guitar-nylon">
-        <longName>A</longName>
-        <shortName>A</shortName>
-        <trackName>Jazz Guitar</trackName>
-        <instrumentId>pluck.guitar.nylon-string</instrumentId>
+      <trackName>Alto</trackName>
+      <Instrument id="alto">
+        <longName>Alto</longName>
+        <shortName>A.</shortName>
+        <trackName>Alto</trackName>
+        <instrumentId>voice.alto</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -384,8 +380,8 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="26"/>
-          <controller ctrl="7" value="101"/>
+          <program value="52"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -397,12 +393,12 @@
           </StaffType>
         <defaultClef>G8vb</defaultClef>
         </Staff>
-      <trackName>T</trackName>
-      <Instrument id="oboe">
-        <longName>T</longName>
-        <shortName>T</shortName>
-        <trackName>Oboe</trackName>
-        <instrumentId>wind.reed.oboe</instrumentId>
+      <trackName>Tenor</trackName>
+      <Instrument id="tenor">
+        <longName>Tenor</longName>
+        <shortName>T.</shortName>
+        <trackName>Tenor</trackName>
+        <instrumentId>voice.tenor</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -432,11 +428,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="68"/>
-          <controller ctrl="7" value="101"/>
+          <program value="52"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
+        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -445,10 +442,10 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>MusicXML Part</trackName>
-      <Instrument id="trombone">
-        <trackName>Trombone</trackName>
-        <instrumentId>brass.trombone</instrumentId>
+      <trackName>Bass</trackName>
+      <Instrument id="bass">
+        <trackName>Bass</trackName>
+        <instrumentId>voice.bass</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -478,11 +475,14 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="57"/>
-          <controller ctrl="7" value="101"/>
+          <program value="52"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
+        <longName>Bass</longName>
+        <shortName>B.</shortName>
+        <clef>F</clef>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -490,16 +490,16 @@
         <height>2.7</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>from: Il quarto libro de madrigali</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <size>6.5</size>
-          <offset x="0" y="-5.84105"/>
-          <text><font size="9.1"></font><b>Claudio Monteverdi 1567-1643</b></text>
+          <text>Claudio Monteverdi</text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>6.5</size>
-          <offset x="0" y="-5.15313"/>
-          <text><font size="11.7"></font><b>Piagn'e sospira (Libro IV)</b></text>
+          <text>19. Piagn’e sospira e quandi caldi raggi, SV 93</text>
           </Text>
         </VBox>
       <Measure>

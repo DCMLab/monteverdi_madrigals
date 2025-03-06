@@ -178,12 +178,12 @@
           </StaffType>
         <bracket type="0" span="5" col="0"/>
         </Staff>
-      <trackName>Soprano I</trackName>
-      <Instrument id="voice">
-        <longName>Soprano I</longName>
-        <shortName>S. I</shortName>
-        <trackName>Instrument 1</trackName>
-        <instrumentId>voice.vocals</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -216,11 +216,7 @@
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <controller ctrl="10" value="63"/>
-          <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
         </Instrument>
       </Part>
@@ -229,12 +225,12 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>Soprano II</trackName>
-      <Instrument id="voice">
-        <longName>Soprano II</longName>
-        <shortName>S. II</shortName>
-        <trackName>Instrument 1</trackName>
-        <instrumentId>voice.vocals</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -267,6 +263,7 @@
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
         </Instrument>
       </Part>
@@ -279,7 +276,7 @@
       <Instrument id="alto">
         <longName>Alto</longName>
         <shortName>A.</shortName>
-        <trackName>Instrument 1</trackName>
+        <trackName>Alto</trackName>
         <instrumentId>voice.alto</instrumentId>
         <Articulation>
           <velocity>100</velocity>
@@ -313,6 +310,7 @@
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
         </Instrument>
       </Part>
@@ -322,11 +320,11 @@
           </StaffType>
         <defaultClef>G8vb</defaultClef>
         </Staff>
-      <trackName>Tenore</trackName>
+      <trackName>Tenor</trackName>
       <Instrument id="tenor">
-        <longName>Tenore</longName>
+        <longName>Tenor</longName>
         <shortName>T.</shortName>
-        <trackName>Instrument 1</trackName>
+        <trackName>Tenor</trackName>
         <instrumentId>voice.tenor</instrumentId>
         <Articulation>
           <velocity>100</velocity>
@@ -360,7 +358,9 @@
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -369,11 +369,11 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Basso</trackName>
+      <trackName>Bass</trackName>
       <Instrument id="bass">
-        <longName>Basso</longName>
+        <longName>Bass</longName>
         <shortName>B.</shortName>
-        <trackName>Instrument 1</trackName>
+        <trackName>Bass</trackName>
         <instrumentId>voice.bass</instrumentId>
         <Articulation>
           <velocity>100</velocity>
@@ -407,7 +407,9 @@
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <clef>F</clef>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -416,12 +418,15 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <text>Lamento d'Arianna</text>
+          <text>1. Lamento d'Arianna, SV 107</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: Il sesto libro de madrigali</text>
           </Text>
         <Text>
           <style>Composer</style>
-          <offset x="0" y="-7.99904"/>
-          <text>C. Monteverdi</text>
+          <text>Claudio Monteverdi</text>
           </Text>
         </VBox>
       <Measure>

@@ -180,18 +180,17 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>unbenannt1</trackName>
-      <Instrument id="piccolo-oboe">
-        <trackName></trackName>
-        <instrumentId>wind.reed.oboe.piccolo</instrumentId>
+      <trackName>Alto</trackName>
+      <Instrument id="alto">
+        <trackName>Alto</trackName>
+        <instrumentId>voice.alto</instrumentId>
         <Channel>
-          <program value="68"/>
+          <program value="52"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <longName>Alto</longName>
+        <shortName>A.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -200,14 +199,18 @@
           </StaffType>
         <defaultClef>G8vb</defaultClef>
         </Staff>
-      <trackName>unbenannt2</trackName>
-      <Instrument id="piccolo-oboe">
-        <trackName></trackName>
-        <instrumentId>wind.reed.oboe.piccolo</instrumentId>
+      <trackName>Tenor</trackName>
+      <Instrument id="tenor">
+        <trackName>Tenor</trackName>
+        <instrumentId>voice.tenor</instrumentId>
         <Channel>
-          <program value="68"/>
+          <program value="52"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <longName>Tenor</longName>
+        <shortName>T.</shortName>
+        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -216,14 +219,18 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>unbenannt3</trackName>
-      <Instrument id="piccolo-oboe">
-        <trackName></trackName>
-        <instrumentId>wind.reed.oboe.piccolo</instrumentId>
+      <trackName>Bass</trackName>
+      <Instrument id="bass">
+        <trackName>Bass</trackName>
+        <instrumentId>voice.bass</instrumentId>
         <Channel>
-          <program value="68"/>
+          <program value="52"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <longName>Bass</longName>
+        <shortName>B.</shortName>
+        <clef>F</clef>
         </Instrument>
       </Part>
     <Part>
@@ -232,20 +239,36 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>unbenannt4</trackName>
-      <Instrument id="harpsichord">
-        <trackName></trackName>
-        <instrumentId>keyboard.harpsichord</instrumentId>
+      <trackName>Bass</trackName>
+      <Instrument id="bass">
+        <trackName>Bass</trackName>
+        <instrumentId>voice.bass</instrumentId>
         <Channel>
-          <program value="6"/>
+          <program value="52"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <longName>Bass</longName>
+        <shortName>B.</shortName>
+        <clef>F</clef>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
         <height>10</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>19. Perchè ten fuggi o Fillide, SV 164</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: Madrigali guerriri, et amorosi...Libro ottavo</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Claudio Monteverdi</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>

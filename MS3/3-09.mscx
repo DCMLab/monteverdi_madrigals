@@ -192,11 +192,11 @@ Completed at 3.29 p.m.</metaTag>
         <bracket type="0" span="5" col="0"/>
         <barLineSpan>4</barLineSpan>
         </Staff>
-      <trackName>Canto</trackName>
-      <Instrument id="piano">
-        <longName>Canto</longName>
-        <trackName>Soprano (2)</trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -226,15 +226,12 @@ Completed at 3.29 p.m.</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <controller ctrl="10" value="63"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <shortName>S.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -243,11 +240,11 @@ Completed at 3.29 p.m.</metaTag>
           </StaffType>
         <barLineSpan>3</barLineSpan>
         </Staff>
-      <trackName>Quinto</trackName>
-      <Instrument id="piano">
-        <longName>Quinto</longName>
-        <trackName>Mezzo-soprano (2)</trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -277,10 +274,12 @@ Completed at 3.29 p.m.</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <shortName>S.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -290,15 +289,14 @@ Completed at 3.29 p.m.</metaTag>
         <barLineSpan>2</barLineSpan>
         </Staff>
       <trackName>Alto</trackName>
-      <Instrument id="viola">
+      <Instrument id="alto">
         <longName>Alto</longName>
-        <trackName>Countertenor (2)</trackName>
+        <trackName>Alto</trackName>
         <minPitchP>48</minPitchP>
         <maxPitchP>93</maxPitchP>
         <minPitchA>48</minPitchA>
         <maxPitchA>79</maxPitchA>
-        <instrumentId>strings.viola</instrumentId>
-        <clef>C3</clef>
+        <instrumentId>voice.alto</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -328,18 +326,12 @@ Completed at 3.29 p.m.</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="41"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
-        <Channel name="pizzicato">
-          <program value="45"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="tremolo">
-          <program value="44"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <shortName>A.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -349,15 +341,15 @@ Completed at 3.29 p.m.</metaTag>
         <defaultClef>G8vb</defaultClef>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <trackName>Tenore</trackName>
-      <Instrument id="contrabass">
-        <longName>Tenore</longName>
-        <trackName>Tenor Trombone</trackName>
+      <trackName>Tenor</trackName>
+      <Instrument id="tenor">
+        <longName>Tenor</longName>
+        <trackName>Tenor</trackName>
         <minPitchP>24</minPitchP>
         <maxPitchP>67</maxPitchP>
         <minPitchA>28</minPitchA>
         <maxPitchA>62</maxPitchA>
-        <instrumentId>strings.contrabass</instrumentId>
+        <instrumentId>voice.tenor</instrumentId>
         <concertClef>F8vb</concertClef>
         <transposingClef>F</transposingClef>
         <Articulation>
@@ -389,18 +381,13 @@ Completed at 3.29 p.m.</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="43"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
-        <Channel name="pizzicato">
-          <program value="32"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="tremolo">
-          <program value="44"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <shortName>T.</shortName>
+        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -409,15 +396,15 @@ Completed at 3.29 p.m.</metaTag>
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Basso</trackName>
-      <Instrument id="contrabass">
-        <longName>Basso</longName>
-        <trackName>Bass (2) (2)</trackName>
+      <trackName>Bass</trackName>
+      <Instrument id="bass">
+        <longName>Bass</longName>
+        <trackName>Bass</trackName>
         <minPitchP>24</minPitchP>
         <maxPitchP>67</maxPitchP>
         <minPitchA>28</minPitchA>
         <maxPitchA>62</maxPitchA>
-        <instrumentId>strings.contrabass</instrumentId>
+        <instrumentId>voice.bass</instrumentId>
         <concertClef>F8vb</concertClef>
         <transposingClef>F</transposingClef>
         <Articulation>
@@ -449,18 +436,13 @@ Completed at 3.29 p.m.</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="43"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
-        <Channel name="pizzicato">
-          <program value="32"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="tremolo">
-          <program value="44"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <shortName>B.</shortName>
+        <clef>F</clef>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -469,9 +451,15 @@ Completed at 3.29 p.m.</metaTag>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <text><font size="11.4205"></font><font face="Times New Roman"></font><i>O primavera gioventù de l'anno</i></text>
+          <text>9. O primavera gioventù del anno, SV 68</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: Il terzo libro de madrigali</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Claudio Monteverdi</text>
           </Text>
         </VBox>
       <Measure len="8/4">
