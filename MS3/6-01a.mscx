@@ -143,7 +143,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -213,10 +212,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
         </Instrument>
       </Part>
@@ -260,10 +260,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
         </Instrument>
       </Part>
@@ -307,10 +308,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
         </Instrument>
       </Part>
@@ -326,6 +328,7 @@
         <shortName>T.</shortName>
         <trackName>Tenor</trackName>
         <instrumentId>voice.tenor</instrumentId>
+        <clef>G8vb</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -355,12 +358,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
-        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -375,6 +378,7 @@
         <shortName>B.</shortName>
         <trackName>Bass</trackName>
         <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -404,17 +408,24 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
-        <clef>F</clef>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>13.2511</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
@@ -439,7 +450,8 @@
           <Tempo>
             <tempo>1.43333</tempo>
             <followText>1</followText>
-            <offset x="-20.2332" y="-15.3671"/>
+            <visible>0</visible>
+            <offset x="1.44108" y="-2.79602"/>
             <text><sym>metNoteQuarterUp</sym> = 86</text>
             </Tempo>
           <Rest>

@@ -446,7 +446,7 @@ smguy@ihug.com.au</metaTag>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>9.5</height>
+        <height>16.989</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
@@ -469,15 +469,11 @@ smguy@ihug.com.au</metaTag>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>FreeSerif</family>
-            <offset x="-30.986" y="-18.7475"/>
-            <text><font size="10.1867"></font><font face="Times New Roman"></font><b>Non havea Febo ancora</b></text>
-            </StaffText>
           <Tempo>
             <tempo>1.6666700000000001</tempo>
             <followText>1</followText>
-            <offset x="-30.8181" y="-20.4298"/>
+            <visible>0</visible>
+            <offset x="1.96697" y="-2.45626"/>
             <text><sym>metNoteQuarterUp</sym> = 100</text>
             </Tempo>
           <Rest>
@@ -686,6 +682,12 @@ smguy@ihug.com.au</metaTag>
             <offset x="-8.99966" y="-15.4291"/>
             <text><font size="10.1867"></font><font face="Times New Roman"></font><b>Amor </b></text>
             </StaffText>
+          <Tempo>
+            <tempo>7.2000000000000002</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 144</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/1</duration>

@@ -217,7 +217,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.4464</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -256,6 +255,7 @@
       <trackName>Soprano</trackName>
       <Instrument id="soprano">
         <longName>Soprano</longName>
+        <shortName>S.</shortName>
         <trackName>Soprano</trackName>
         <instrumentId>voice.soprano</instrumentId>
         <Articulation>
@@ -287,12 +287,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <shortName>S.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -304,6 +304,7 @@
       <trackName>Alto</trackName>
       <Instrument id="alto">
         <longName>Alto</longName>
+        <shortName>A.</shortName>
         <trackName>Alto</trackName>
         <minPitchP>52</minPitchP>
         <maxPitchP>77</maxPitchP>
@@ -339,12 +340,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <shortName>A.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -357,6 +358,7 @@
       <trackName>Alto</trackName>
       <Instrument id="alto">
         <longName>Alto</longName>
+        <shortName>A.</shortName>
         <trackName>Alto</trackName>
         <instrumentId>voice.alto</instrumentId>
         <Articulation>
@@ -388,12 +390,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <shortName>A.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -406,6 +408,7 @@
       <trackName>Tenor</trackName>
       <Instrument id="tenor">
         <longName>Tenor</longName>
+        <shortName>T.</shortName>
         <trackName>Tenor</trackName>
         <minPitchP>48</minPitchP>
         <maxPitchP>72</maxPitchP>
@@ -442,12 +445,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <shortName>T.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -459,6 +462,7 @@
       <trackName>Bass</trackName>
       <Instrument id="bass">
         <longName>Bass</longName>
+        <shortName>B.</shortName>
         <trackName>Bass</trackName>
         <minPitchP>28</minPitchP>
         <maxPitchP>67</maxPitchP>
@@ -467,8 +471,7 @@
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
         <instrumentId>voice.bass</instrumentId>
-        <concertClef>F8vb</concertClef>
-        <transposingClef>F</transposingClef>
+        <clef>F</clef>
         <StringData>
           <frets>24</frets>
           <string>28</string>
@@ -505,13 +508,19 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <shortName>B.</shortName>
-        <clef>F</clef>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -542,6 +551,12 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.3999999999999999</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 144</b></text>
+            </Tempo>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -32732,7 +32747,7 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1</fractions>
+            <fractions>-1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -32898,7 +32913,7 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1</fractions>
+            <fractions>-1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>

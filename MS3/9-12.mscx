@@ -396,7 +396,7 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>9.6</height>
+        <height>14.1019</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Subtitle</style>
@@ -417,6 +417,12 @@
             <sigN>3</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.6666666666666665</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 80</b></text>
+            </Tempo>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -1532,6 +1538,12 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1.3333333333333333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 80</b></text>
+            </Tempo>
           <Rest>
             <durationType>16th</durationType>
             </Rest>

@@ -146,7 +146,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -182,15 +181,16 @@
         </Staff>
       <trackName>Alto</trackName>
       <Instrument id="alto">
+        <longName>Alto</longName>
+        <shortName>A.</shortName>
         <trackName>Alto</trackName>
         <instrumentId>voice.alto</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
-        <longName>Alto</longName>
-        <shortName>A.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -201,16 +201,17 @@
         </Staff>
       <trackName>Tenor</trackName>
       <Instrument id="tenor">
-        <trackName>Tenor</trackName>
-        <instrumentId>voice.tenor</instrumentId>
-        <Channel>
-          <program value="52"/>
-          <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
-          </Channel>
         <longName>Tenor</longName>
         <shortName>T.</shortName>
+        <trackName>Tenor</trackName>
+        <instrumentId>voice.tenor</instrumentId>
         <clef>G8vb</clef>
+        <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Part>
@@ -221,16 +222,17 @@
         </Staff>
       <trackName>Bass</trackName>
       <Instrument id="bass">
-        <trackName>Bass</trackName>
-        <instrumentId>voice.bass</instrumentId>
-        <Channel>
-          <program value="52"/>
-          <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
-          </Channel>
         <longName>Bass</longName>
         <shortName>B.</shortName>
+        <trackName>Bass</trackName>
+        <instrumentId>voice.bass</instrumentId>
         <clef>F</clef>
+        <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Part>
@@ -241,21 +243,28 @@
         </Staff>
       <trackName>Bass</trackName>
       <Instrument id="bass">
-        <trackName>Bass</trackName>
-        <instrumentId>voice.bass</instrumentId>
-        <Channel>
-          <program value="52"/>
-          <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
-          </Channel>
         <longName>Bass</longName>
         <shortName>B.</shortName>
+        <trackName>Bass</trackName>
+        <instrumentId>voice.bass</instrumentId>
         <clef>F</clef>
+        <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>16.5045</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
@@ -279,18 +288,16 @@
           <StaffText>
             <family>Times New Roman</family>
             <size>12</size>
-            <offset x="-4.57061" y="-13.3911"/>
-            <text>19. Perchè te 'n fuggi, o Fillide?
-A 3, Alto Tenore e Basso
-from Madrigal Book VIII</text>
-            </StaffText>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
             <offset x="86.4369" y="-11.9232"/>
             <text>Claudio Monteverdi
 1567-1643</text>
             </StaffText>
+          <Tempo>
+            <tempo>5.333333333333333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 160</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/1</duration>
@@ -14531,14 +14538,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -14647,14 +14654,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -14926,14 +14933,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -15278,14 +15285,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -15396,14 +15403,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -15551,14 +15558,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -15729,14 +15736,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I\\</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -15879,14 +15886,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -16110,14 +16117,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -16454,14 +16461,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio(2)</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio(2)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -16618,14 +16625,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -16800,14 +16807,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -16981,14 +16988,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -17155,14 +17162,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i\\</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17292,14 +17299,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv.V6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv.V6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17330,14 +17337,14 @@ from Madrigal Book VIII</text>
               </Note>
             </Chord>
           <location>
-            <fractions>-2</fractions>
+            <fractions>-1/960</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65</name>
             </Harmony>
           <location>
-            <fractions>1</fractions>
+            <fractions>1/1920</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -17363,14 +17370,14 @@ from Madrigal Book VIII</text>
               </Note>
             </Chord>
           <location>
-            <fractions>-2</fractions>
+            <fractions>-1/960</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6(6)</name>
             </Harmony>
           <location>
-            <fractions>1</fractions>
+            <fractions>1/1920</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -17417,14 +17424,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17569,14 +17576,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17710,14 +17717,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17827,14 +17834,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6/ii</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/ii</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17923,14 +17930,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -18075,14 +18082,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -18252,14 +18259,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iii65</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii65</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -18391,14 +18398,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI6</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -18551,14 +18558,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -18703,14 +18710,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -18851,14 +18858,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -19057,14 +19064,14 @@ from Madrigal Book VIII</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
