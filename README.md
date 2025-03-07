@@ -14,6 +14,19 @@ For information on how to obtain and use the dataset, please refer to [this docu
 
 # Claudio Monteverdi – Madrigals
 
+This corpus of annotated [MuseScore](https://musescore.org) files has been created within
+the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
+the\r [DCML harmony annotation standard](https://github.com/DCMLab/standards).
+Claudio Monteverdi's nine books of madrigals span the entirety of the composer's\r DCML harmony annotation standard
+career, from his adolescence to his very old age. For this reason, they evince the transition, Monteverdi's\r
+great innovation, from the blended interlocking lines of Renaissance polyphony to the solid verticals and\r
+speech-like rhythms of Baroque operatic homophony. Arguably the centrepiece of this collection is the\r
+ubiquitous and sensational "Cruda Amarilli," whose striking unprepared dissonances scandalized fellow\r
+composer Giovanni Artusi and prompted an infamous feud between the two musicians. Besides a selection\r
+of madrigals, this repository also features the stunning and energetic "Laudate pueri," a posthumously\r
+published psalm setting that merges rich Renaissance-style imitation with definitively Monteverdian\r
+text-setting techniques.
+
 
 ## Cite as
 
