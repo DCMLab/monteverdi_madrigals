@@ -281,7 +281,6 @@ Except for `laudate_pueri_dominum`, the madrigals follow the convention
 |---------------------|-------:|-----:|--------|---------------|
 |2-12                 |      93|   225|2.1.0   |Adrian Nagel   |
 |3-09                 |      84|   190|2.1.0   |Adrian Nagel   |
-|3-11                 |      84|   190|2.1.0   |               |
 |4-19                 |     111|   185|2.1.0   |Adrian Nagel   |
 |5-01                 |      67|   176|2.1.0   |Adrian Nagel   |
 |5-03                 |      74|   152|2.1.0   |Adrian Nagel   |
