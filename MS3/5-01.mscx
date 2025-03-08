@@ -178,12 +178,12 @@
         </Staff>
       <trackName>Soprano</trackName>
       <Instrument id="soprano">
-        <longName>Soprano</longName>
-        <shortName>S.</shortName>
-        <trackName>Soprano</trackName>
+        <longName>Soprano I</longName>
+        <shortName>S. I</shortName>
+        <trackName>Soprano I</trackName>
         <instrumentId>voice.soprano</instrumentId>
         <Channel>
-          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -197,12 +197,12 @@
         </Staff>
       <trackName>Soprano</trackName>
       <Instrument id="soprano">
-        <longName>Soprano</longName>
-        <shortName>S.</shortName>
-        <trackName>Soprano</trackName>
+        <longName>Soprano II</longName>
+        <shortName>S. II</shortName>
+        <trackName>Soprano II</trackName>
         <instrumentId>voice.soprano</instrumentId>
         <Channel>
-          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -304,7 +304,7 @@
             <tempo>2</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 120</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 120</b></text>
             </Tempo>
           <Chord>
             <durationType>whole</durationType>
