@@ -1,9 +1,7 @@
 mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	timesig	staff	voice	duration	nominal_duration	scalar	chord_id	lyrics_1	staff_text	tempo	qpm	metronome_base	metronome_number	tempo_visible
-1	1	0	0	0.0	0	0	StaffText	3/1	1	1	0					"19. Perchè te 'n fuggi, o Fillide?
-A 3, Alto Tenore e Basso
-from Madrigal Book VIII"					
 1	1	0	0	0.0	0	0	StaffText	3/1	1	1	0					"Claudio Monteverdi
 1567-1643"					
+1	1	0	0	0.0	0	0	Tempo	3/1	1	1	0						𝅗𝅥=160	320.0	𝅗𝅥	160.0	0.0
 1	1	8	8	4.0	2	2	Chord	3/1	2	1	1	1	1	0	Per-						
 1	1	8	8	4.0	2	2	Chord	3/1	4	1	1	1	1	1							
 2	2	12	12	4.0	0	0	Chord	3/1	2	1	1	1	1	2	chè						
