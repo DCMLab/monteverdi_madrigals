@@ -143,7 +143,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -152,38 +151,41 @@
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1605</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Claudio_Monteverdi#</metaTag>
     <metaTag name="composed_start">1605</metaTag>
-    <metaTag name="composer"></metaTag>
+    <metaTag name="composer">Claudio Monteverdi</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-03-04</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Madrigals%2C_Book_5%2C_SV_94%E2%80%93106_(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">5</metaTag>
+    <metaTag name="movementTitle">Ma ti piu che mai dura</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/326fce6a-a491-4044-82e9-0cdc5299d098</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/178955022</metaTag>
+    <metaTag name="workNumber">SV 98c</metaTag>
+    <metaTag name="workTitle">Il quinto libro de madrigali</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Channel>
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -193,13 +195,16 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Channel>
-          <program value="0"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -209,13 +214,16 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Alto</trackName>
+      <Instrument id="alto">
+        <longName>Alto</longName>
+        <shortName>A.</shortName>
+        <trackName>Alto</trackName>
+        <instrumentId>voice.alto</instrumentId>
         <Channel>
-          <program value="0"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -226,13 +234,17 @@
           </StaffType>
         <defaultClef>G8vb</defaultClef>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Tenor</trackName>
+      <Instrument id="tenor">
+        <longName>Tenor</longName>
+        <shortName>T.</shortName>
+        <trackName>Tenor</trackName>
+        <instrumentId>voice.tenor</instrumentId>
+        <clef>G8vb</clef>
         <Channel>
-          <program value="0"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -243,12 +255,22 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>vox</trackName>
-      <Instrument id="piano">
-        <longName>vox</longName>
-        <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Bass</trackName>
+      <Instrument id="bass">
+        <longName>Bass</longName>
+        <shortName>B.</shortName>
+        <trackName>Bass</trackName>
+        <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
@@ -258,6 +280,18 @@
       <VBox>
         <height>10</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>5. Ma ti piu che mai dura, SV 98c</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: Il quinto libro de madrigali</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Claudio Monteverdi</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -268,6 +302,12 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1.7333333333333334</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 104</b></text>
+            </Tempo>
           <Rest>
             <durationType>whole</durationType>
             </Rest>

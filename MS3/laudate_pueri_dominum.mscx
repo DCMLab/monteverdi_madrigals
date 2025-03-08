@@ -217,7 +217,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.4464</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -225,23 +224,27 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Lars &amp; Ya-Chuan</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1620</metaTag>
-    <metaTag name="composed_start">1620</metaTag>
-    <metaTag name="composer"></metaTag>
+    <metaTag name="composed_end">1650</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Claudio_Monteverdi#</metaTag>
+    <metaTag name="composed_start">1650</metaTag>
+    <metaTag name="composer">Claudio Monteverdi</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-03-11</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Messa%2C_salmi_concertati_e_parte_da_capella%2C_et_letanie_della_B._V._(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">7</metaTag>
+    <metaTag name="movementTitle">Laudate pueri Dominum</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/b83893cb-97e2-473b-972a-63e5056291a8</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/294761275</metaTag>
+    <metaTag name="workNumber">SV 196</metaTag>
+    <metaTag name="workTitle">Messa et salmi</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -249,11 +252,12 @@
         <bracket type="0" span="5" col="0"/>
         <barLineSpan>4</barLineSpan>
         </Staff>
-      <trackName>Canto</trackName>
-      <Instrument id="voice">
-        <longName>Canto</longName>
-        <trackName>Strumento3</trackName>
-        <instrumentId>voice.vocals</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -283,14 +287,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="7" value="101"/>
-          <controller ctrl="10" value="63"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -305,7 +304,8 @@
       <trackName>Alto</trackName>
       <Instrument id="alto">
         <longName>Alto</longName>
-        <trackName>Strumento4</trackName>
+        <shortName>A.</shortName>
+        <trackName>Alto</trackName>
         <minPitchP>52</minPitchP>
         <maxPitchP>77</maxPitchP>
         <minPitchA>55</minPitchA>
@@ -340,8 +340,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -357,7 +358,8 @@
       <trackName>Alto</trackName>
       <Instrument id="alto">
         <longName>Alto</longName>
-        <trackName>Strumento4</trackName>
+        <shortName>A.</shortName>
+        <trackName>Alto</trackName>
         <instrumentId>voice.alto</instrumentId>
         <Articulation>
           <velocity>100</velocity>
@@ -388,8 +390,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -402,10 +405,11 @@
         <defaultClef>G8vb</defaultClef>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <trackName>Tenore</trackName>
+      <trackName>Tenor</trackName>
       <Instrument id="tenor">
-        <longName>Tenore</longName>
-        <trackName>Strumento5</trackName>
+        <longName>Tenor</longName>
+        <shortName>T.</shortName>
+        <trackName>Tenor</trackName>
         <minPitchP>48</minPitchP>
         <maxPitchP>72</maxPitchP>
         <minPitchA>48</minPitchA>
@@ -441,8 +445,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -454,19 +459,19 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Basso</trackName>
-      <Instrument id="fretless-electric-bass">
-        <longName>Basso</longName>
-        <trackName>Pianoforte a coda</trackName>
+      <trackName>Bass</trackName>
+      <Instrument id="bass">
+        <longName>Bass</longName>
+        <shortName>B.</shortName>
+        <trackName>Bass</trackName>
         <minPitchP>28</minPitchP>
         <maxPitchP>67</maxPitchP>
         <minPitchA>28</minPitchA>
         <maxPitchA>65</maxPitchA>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
-        <instrumentId>pluck.bass.fretless</instrumentId>
-        <concertClef>F8vb</concertClef>
-        <transposingClef>F</transposingClef>
+        <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <StringData>
           <frets>24</frets>
           <string>28</string>
@@ -503,17 +508,17 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <Channel name="slap">
-          <program value="36"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="pop">
-          <program value="37"/>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -523,18 +528,16 @@
         <height>18.7</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>from: Messa et salmi</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <size>8.2</size>
-          <offset x="0" y="-16.9659"/>
-          <text><font size="9.6"></font>Claudio Monteverdi</text>
+          <text>Claudio Monteverdi</text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>8.2</size>
-          <offset x="0" y="-4.61438"/>
-          <text><font size="19.2"></font>Laudate pueri
-<font size="14.4"></font>a 5 voci da Cappella
-(1650)</text>
+          <text>7. Laudate pueri Dominum, SV 196</text>
           </Text>
         </VBox>
       <Measure>
@@ -548,6 +551,12 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.3999999999999999</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 144</b></text>
+            </Tempo>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -32738,7 +32747,7 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1</fractions>
+            <fractions>-1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -32904,7 +32913,7 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1</fractions>
+            <fractions>-1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>

@@ -152,7 +152,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.75101</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -161,22 +160,25 @@
     <metaTag name="annotators">Lars &amp; Ya-Chuan</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1651</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Claudio_Monteverdi#</metaTag>
     <metaTag name="composed_start">1651</metaTag>
     <metaTag name="composer">Claudio Monteverdi</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-08-08</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Madrigals%2C_Book_9%2C_SV_168%E2%80%93178_(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">12</metaTag>
+    <metaTag name="movementTitle">Perchè se modiavi</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/dbe4dcf7-918e-449f-9b84-209341286a4e</metaTag>
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Perche se m'odiavi</metaTag>
+    <metaTag name="workNumber">SV 175</metaTag>
+    <metaTag name="workTitle">Madrigali e canzonette...Libro nono</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -293,8 +295,9 @@
       <Instrument id="bass">
         <longName>Bass</longName>
         <shortName>B.</shortName>
-        <trackName>Bass (2)</trackName>
+        <trackName>Bass</trackName>
         <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -324,7 +327,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -336,20 +341,19 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Basso Continuo</trackName>
-      <Instrument id="contrabass">
-        <longName>Basso Continuo</longName>
-        <shortName>Db.</shortName>
-        <trackName>Double Bass</trackName>
+      <trackName>Harpsichord</trackName>
+      <Instrument id="harpsichord">
+        <longName>Continuo</longName>
+        <shortName>Hch.</shortName>
+        <trackName>Harpsichord</trackName>
         <minPitchP>24</minPitchP>
         <maxPitchP>67</maxPitchP>
         <minPitchA>28</minPitchA>
         <maxPitchA>62</maxPitchA>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
-        <instrumentId>strings.contrabass</instrumentId>
-        <concertClef>F8vb</concertClef>
-        <transposingClef>F</transposingClef>
+        <instrumentId>keyboard.harpsichord</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -379,35 +383,32 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="43"/>
+          <program value="6"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
-        <Channel name="pizzicato">
-          <program value="32"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="tremolo">
-          <program value="44"/>
+        <Channel name="harmony">
+          <program value="0"/>
+          <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>9.6</height>
+        <height>14.1019</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>from: Madrigali e canzonette...Libro nono</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <family>FreeSerif</family>
-          <size>12</size>
-          <text><font size="11.0064"></font><font face="Times New Roman"></font>Claudio Monteverdi</text>
+          <text>Claudio Monteverdi</text>
           </Text>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <text><font size="22.0128"></font><font face="Times New Roman"></font>Perche se m'odiavi</text>
+          <text>12. Perchè se modiavi, SV 175</text>
           </Text>
         </VBox>
       <Measure>
@@ -416,6 +417,12 @@
             <sigN>3</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.6666666666666665</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 80</b></text>
+            </Tempo>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -1531,6 +1538,12 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1.3333333333333333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 80</b></text>
+            </Tempo>
           <Rest>
             <durationType>16th</durationType>
             </Rest>

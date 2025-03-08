@@ -216,7 +216,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.37583</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -226,34 +225,38 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1603</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Claudio_Monteverdi#</metaTag>
     <metaTag name="composed_start">1603</metaTag>
-    <metaTag name="composer"></metaTag>
+    <metaTag name="composer">Claudio Monteverdi</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-03-15</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Madrigals%2C_Book_4%2C_SV_75%E2%80%9393_(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">19</metaTag>
+    <metaTag name="movementTitle">Piagn’e sospira e quandi caldi raggi</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/e664e8fb-76d6-419d-8c0c-e4e9579573bb</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/197653496</metaTag>
+    <metaTag name="workNumber">SV 93</metaTag>
+    <metaTag name="workTitle">Il quarto libro de madrigali</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
         <bracket type="0" span="5" col="0"/>
         </Staff>
-      <trackName>C1</trackName>
-      <Instrument id="grand-piano">
-        <longName>C1</longName>
-        <shortName>C1</shortName>
-        <trackName>Grand Piano</trackName>
-        <instrumentId>keyboard.piano.grand</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -283,14 +286,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="32"/>
-          <controller ctrl="7" value="101"/>
-          <controller ctrl="10" value="63"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <controller ctrl="7" value="101"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -301,10 +299,12 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>MusicXML Part</trackName>
-      <Instrument id="hammond-organ">
-        <trackName>Hammond Organ</trackName>
-        <instrumentId>keyboard.organ.drawbar</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -334,8 +334,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="16"/>
-          <controller ctrl="7" value="101"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -346,12 +347,12 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>A</trackName>
-      <Instrument id="guitar-nylon">
-        <longName>A</longName>
-        <shortName>A</shortName>
-        <trackName>Jazz Guitar</trackName>
-        <instrumentId>pluck.guitar.nylon-string</instrumentId>
+      <trackName>Alto</trackName>
+      <Instrument id="alto">
+        <longName>Alto</longName>
+        <shortName>A.</shortName>
+        <trackName>Alto</trackName>
+        <instrumentId>voice.alto</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -381,8 +382,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="26"/>
-          <controller ctrl="7" value="101"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -394,12 +396,13 @@
           </StaffType>
         <defaultClef>G8vb</defaultClef>
         </Staff>
-      <trackName>T</trackName>
-      <Instrument id="oboe">
-        <longName>T</longName>
-        <shortName>T</shortName>
-        <trackName>Oboe</trackName>
-        <instrumentId>wind.reed.oboe</instrumentId>
+      <trackName>Tenor</trackName>
+      <Instrument id="tenor">
+        <longName>Tenor</longName>
+        <shortName>T.</shortName>
+        <trackName>Tenor</trackName>
+        <instrumentId>voice.tenor</instrumentId>
+        <clef>G8vb</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -429,8 +432,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="68"/>
-          <controller ctrl="7" value="101"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -442,10 +446,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>MusicXML Part</trackName>
-      <Instrument id="trombone">
-        <trackName>Trombone</trackName>
-        <instrumentId>brass.trombone</instrumentId>
+      <trackName>Bass</trackName>
+      <Instrument id="bass">
+        <longName>Bass</longName>
+        <shortName>B.</shortName>
+        <trackName>Bass</trackName>
+        <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -475,8 +482,16 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="57"/>
-          <controller ctrl="7" value="101"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -484,19 +499,19 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>2.7</height>
+        <height>15.624</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>from: Il quarto libro de madrigali</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <size>6.5</size>
-          <offset x="0" y="-5.84105"/>
-          <text><font size="9.1"></font><b>Claudio Monteverdi 1567-1643</b></text>
+          <text>Claudio Monteverdi</text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>6.5</size>
-          <offset x="0" y="-5.15313"/>
-          <text><font size="11.7"></font><b>Piagn'e sospira (Libro IV)</b></text>
+          <text>19. Piagn’e sospira e quandi caldi raggi, SV 93</text>
           </Text>
         </VBox>
       <Measure>
@@ -506,6 +521,12 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 120</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/1</duration>

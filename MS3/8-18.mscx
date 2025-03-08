@@ -163,24 +163,27 @@
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1638</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Claudio_Monteverdi#</metaTag>
     <metaTag name="composed_start">1638</metaTag>
-    <metaTag name="composer">Claudio MONTEVERDI
-(1567 - 1643)</metaTag>
+    <metaTag name="composer">Claudio Monteverdi</metaTag>
     <metaTag name="copyright">Steven Langley Guy, 18th December, 2004.
 smguy@ihug.com.au</metaTag>
     <metaTag name="creationDate">2019-03-11</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Madrigals%2C_Book_8%2C_SV_146%E2%80%93167_(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">18</metaTag>
+    <metaTag name="movementTitle">Lamento della Ninfa</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/bc9eb6a9-b9cd-3b23-9332-17753cb1ed70</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">LAMENTO DELLA NINFA</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/178279485</metaTag>
+    <metaTag name="workNumber">SV 163</metaTag>
+    <metaTag name="workTitle">Madrigali guerriri, et amorosi...Libro ottavo</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -188,11 +191,11 @@ smguy@ihug.com.au</metaTag>
         <bracket type="0" span="4" col="0"/>
         <barLineSpan>3</barLineSpan>
         </Staff>
-      <trackName>Canto</trackName>
-      <Instrument id="piano">
-        <longName>Canto</longName>
-        <trackName>Treble (2)</trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -222,15 +225,12 @@ smguy@ihug.com.au</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <controller ctrl="10" value="63"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <shortName>S.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -240,13 +240,13 @@ smguy@ihug.com.au</metaTag>
         <defaultClef>G8vb</defaultClef>
         <barLineSpan>2</barLineSpan>
         </Staff>
-      <trackName>Tenore primo</trackName>
-      <Instrument id="piano">
-        <longName>Tenore primo</longName>
-        <trackName>Tenor (2)</trackName>
+      <trackName>Tenor</trackName>
+      <Instrument id="tenor">
+        <longName>Tenor</longName>
+        <trackName>Tenor</trackName>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
-        <instrumentId>keyboard.piano</instrumentId>
+        <instrumentId>voice.tenor</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -276,10 +276,13 @@ smguy@ihug.com.au</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <shortName>T.</shortName>
+        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -289,13 +292,13 @@ smguy@ihug.com.au</metaTag>
         <defaultClef>G8vb</defaultClef>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <trackName>Tenore secondo</trackName>
-      <Instrument id="piano">
-        <longName>Tenore secondo</longName>
-        <trackName>Tenor (2)</trackName>
+      <trackName>Tenor</trackName>
+      <Instrument id="tenor">
+        <longName>Tenor</longName>
+        <trackName>Tenor</trackName>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
-        <instrumentId>keyboard.piano</instrumentId>
+        <instrumentId>voice.tenor</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -325,10 +328,13 @@ smguy@ihug.com.au</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <shortName>T.</shortName>
+        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -337,11 +343,11 @@ smguy@ihug.com.au</metaTag>
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Basso</trackName>
-      <Instrument id="piano">
-        <longName>Basso</longName>
-        <trackName>Bass (2) (2)</trackName>
-        <instrumentId>keyboard.piano</instrumentId>
+      <trackName>Bass</trackName>
+      <Instrument id="bass">
+        <longName>Bass</longName>
+        <trackName>Bass</trackName>
+        <instrumentId>voice.bass</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -371,10 +377,13 @@ smguy@ihug.com.au</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
+          <controller ctrl="32" value="17"/>
           </Channel>
+        <shortName>B.</shortName>
+        <clef>F</clef>
         </Instrument>
       </Part>
     <Part>
@@ -430,30 +439,19 @@ smguy@ihug.com.au</metaTag>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>9.5</height>
+        <height>16.989</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
-          <family>FreeSerif</family>
-          <size>12</size>
-          <offset x="0" y="-9.89604"/>
-          <text><font size="8.6101"></font><font face="Times New Roman"></font>Claudio MONTEVERDI
-(1567 - 1643)</text>
+          <text>Claudio Monteverdi</text>
           </Text>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <offset x="0.16223" y="-10.2155"/>
-          <text><font size="7.8825"></font><font face="Times New Roman"></font>Steven Langley Guy, 18th December, 2004.
-smguy@ihug.com.au</text>
+          <text>18. Lamento della Ninfa, SV 163</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <family>FreeSerif</family>
-          <size>14</size>
-          <offset x="1.29784" y="-5.63602"/>
-          <text><font size="17.2203"></font><font face="Times New Roman"></font>LAMENTO DELLA NINFA</text>
+          <text>from: Madrigali guerriri, et amorosi...Libro ottavo</text>
           </Text>
         </VBox>
       <Measure len="1/4">
@@ -464,15 +462,11 @@ smguy@ihug.com.au</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>FreeSerif</family>
-            <offset x="-30.986" y="-18.7475"/>
-            <text><font size="10.1867"></font><font face="Times New Roman"></font><b>Non havea Febo ancora</b></text>
-            </StaffText>
           <Tempo>
             <tempo>1.6666700000000001</tempo>
             <followText>1</followText>
-            <offset x="-30.8181" y="-20.4298"/>
+            <visible>0</visible>
+            <offset x="1.96697" y="-2.45626"/>
             <text><sym>metNoteQuarterUp</sym> = 100</text>
             </Tempo>
           <Rest>
@@ -681,6 +675,12 @@ smguy@ihug.com.au</text>
             <offset x="-8.99966" y="-15.4291"/>
             <text><font size="10.1867"></font><font face="Times New Roman"></font><b>Amor </b></text>
             </StaffText>
+          <Tempo>
+            <tempo>7.2000000000000002</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 144</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/1</duration>

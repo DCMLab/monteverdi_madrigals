@@ -14,6 +14,19 @@ For information on how to obtain and use the dataset, please refer to [this docu
 
 # Claudio Monteverdi – Madrigals
 
+This corpus of annotated [MuseScore](https://musescore.org) files has been created within
+the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
+the\r [DCML harmony annotation standard](https://github.com/DCMLab/standards).
+Claudio Monteverdi's nine books of madrigals span the entirety of the composer's\r
+career, from his adolescence to his very old age. For this reason, they evince the transition, Monteverdi's\r
+great innovation, from the blended interlocking lines of Renaissance polyphony to the solid verticals and\r
+speech-like rhythms of Baroque operatic homophony. Arguably the centrepiece of this collection is the\r
+ubiquitous and sensational "Cruda Amarilli," whose striking unprepared dissonances scandalized fellow\r
+composer Giovanni Artusi and prompted an infamous feud between the two musicians. Besides a selection\r
+of madrigals, this repository also features the stunning and energetic "Laudate pueri," a posthumously\r
+published psalm setting that merges rich Renaissance-style imitation with definitively Monteverdian\r
+text-setting techniques.
+
 
 ## Cite as
 
@@ -268,7 +281,6 @@ Except for `laudate_pueri_dominum`, the madrigals follow the convention
 |---------------------|-------:|-----:|--------|---------------|
 |2-12                 |      93|   225|2.1.0   |Adrian Nagel   |
 |3-09                 |      84|   190|2.1.0   |Adrian Nagel   |
-|3-11                 |      84|   190|2.1.0   |               |
 |4-19                 |     111|   185|2.1.0   |Adrian Nagel   |
 |5-01                 |      67|   176|2.1.0   |Adrian Nagel   |
 |5-03                 |      74|   152|2.1.0   |Adrian Nagel   |
@@ -278,15 +290,9 @@ Except for `laudate_pueri_dominum`, the madrigals follow the convention
 |5-04e                |      95|   219|2.1.0   |Adrian Nagel   |
 |5-05b                |      58|    98|2.1.0   |Adrian Nagel   |
 |5-05c                |      75|   151|2.1.0   |Adrian Nagel   |
-|5-06                 |      53|   105|2.1.0   |               |
-|5-07                 |      59|   125|2.1.0   |               |
-|5-08                 |      95|   219|2.1.0   |Adrian Nagel   |
+|5-08                 |      91|   167|2.1.0   |               |
 |5-09                 |      84|   167|2.1.0   |Adrian Nagel   |
-|5-10                 |      58|    98|2.1.0   |               |
-|5-11                 |      75|   151|2.1.0   |Adrian Nagel   |
-|5-14                 |      91|   167|2.1.0   |               |
-|5-15                 |      84|   167|2.1.0   |               |
-|5-17                 |      57|   104|2.1.0   |               |
+|5-11                 |      57|   104|2.1.0   |               |
 |6-01a                |      34|    83|2.1.0   |Adrian Nagel   |
 |8-18                 |     106|   295|2.1.0   |Adrian Nagel   |
 |8-19                 |     142|   281|2.1.0   |Lars & Ya-Chuan|

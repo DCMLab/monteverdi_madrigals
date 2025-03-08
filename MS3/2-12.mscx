@@ -149,7 +149,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.48</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -158,22 +157,26 @@
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1590</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Claudio_Monteverdi#</metaTag>
     <metaTag name="composed_start">1590</metaTag>
-    <metaTag name="composer"></metaTag>
+    <metaTag name="composer">Claudio Monteverdi</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-03-11</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Madrigals%2C_Book_2%2C_SV_40%E2%80%9359_(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">12</metaTag>
+    <metaTag name="movementTitle">Ecco mormorar l’onde e tremolar le fronde</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/dc9e4bd6-d021-4fda-9af5-3e9c76edf889</metaTag>
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/178035735</metaTag>
+    <metaTag name="workNumber">SV 51</metaTag>
+    <metaTag name="workTitle">Il secondo libro de madrigali</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -181,12 +184,12 @@
         <bracket type="0" span="5" col="0"/>
         <barLineSpan>4</barLineSpan>
         </Staff>
-      <trackName>Soprano I</trackName>
-      <Instrument id="Winds">
-        <longName>Soprano I</longName>
-        <shortName>S I</shortName>
-        <trackName>Midi_74</trackName>
-        <instrumentId>wind.group</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -216,12 +219,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="73"/>
-          <controller ctrl="10" value="63"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -233,12 +233,12 @@
           </StaffType>
         <barLineSpan>3</barLineSpan>
         </Staff>
-      <trackName>Soprano II</trackName>
-      <Instrument id="Winds">
-        <longName>Soprano II</longName>
-        <shortName>S II</shortName>
-        <trackName>Midi_74</trackName>
-        <instrumentId>wind.group</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -268,7 +268,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="73"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -283,8 +285,8 @@
       <trackName>Alto</trackName>
       <Instrument id="alto">
         <longName>Alto</longName>
-        <shortName>A</shortName>
-        <trackName>Midi_74</trackName>
+        <shortName>A.</shortName>
+        <trackName>Alto</trackName>
         <instrumentId>voice.alto</instrumentId>
         <Articulation>
           <velocity>100</velocity>
@@ -315,7 +317,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="73"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -331,9 +335,10 @@
       <trackName>Tenor</trackName>
       <Instrument id="tenor">
         <longName>Tenor</longName>
-        <shortName>T</shortName>
-        <trackName>Midi_74</trackName>
+        <shortName>T.</shortName>
+        <trackName>Tenor</trackName>
         <instrumentId>voice.tenor</instrumentId>
+        <clef>G8vb</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -363,7 +368,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="73"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -378,9 +385,10 @@
       <trackName>Bass</trackName>
       <Instrument id="bass">
         <longName>Bass</longName>
-        <shortName>B</shortName>
-        <trackName>Midi_74</trackName>
+        <shortName>B.</shortName>
+        <trackName>Bass</trackName>
         <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -410,7 +418,16 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="73"/>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -418,8 +435,21 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>2.7</height>
+        <height>16.054</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <offset x="0" y="0.213012"/>
+          <text>12. Ecco mormorar l’onde e tremolar le fronde, SV 51</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: Il secondo libro de madrigali</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Claudio Monteverdi</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -431,17 +461,11 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>FreeSerif</family>
-            <offset x="-26.527" y="-16.8037"/>
-            <text><font size="19"></font><font face="Times New Roman"></font>Ecco mormorar l'onde</text>
-            </StaffText>
-          <StaffText>
-            <family>FreeSerif</family>
-            <offset x="83.2554" y="-14.4108"/>
-            <text><font size="11"></font><font face="Times New Roman"></font>Claudio Monteverdi
-(1567-1643)</text>
-            </StaffText>
+          <Tempo>
+            <tempo>1.8666666666666667</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 112</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
