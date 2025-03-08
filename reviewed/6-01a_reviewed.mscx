@@ -143,7 +143,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -153,34 +152,38 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1614</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Claudio_Monteverdi#</metaTag>
     <metaTag name="composed_start">1614</metaTag>
-    <metaTag name="composer">C. Monteverdi</metaTag>
+    <metaTag name="composer">Claudio Monteverdi</metaTag>
     <metaTag name="copyright">© Les Éditions Outremontaises, 2006</metaTag>
     <metaTag name="creationDate">2019-03-11</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Madrigals%2C_Book_6%2C_SV_107%E2%80%93116_(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementNumber">1</metaTag>
     <metaTag name="movementTitle">Lamento d'Arianna</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/85926888-c6a4-32ef-99ee-6d1bc9a9d8e0</metaTag>
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/294160870</metaTag>
+    <metaTag name="workNumber">SV 107</metaTag>
+    <metaTag name="workTitle">Il sesto libro de madrigali</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
         <bracket type="0" span="5" col="0"/>
         </Staff>
-      <trackName>Soprano I</trackName>
-      <Instrument id="voice">
-        <longName>Soprano I</longName>
-        <shortName>S. I</shortName>
-        <trackName>Instrument 1</trackName>
-        <instrumentId>voice.vocals</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -210,12 +213,9 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="10" value="63"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -226,12 +226,12 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>Soprano II</trackName>
-      <Instrument id="voice">
-        <longName>Soprano II</longName>
-        <shortName>S. II</shortName>
-        <trackName>Instrument 1</trackName>
-        <instrumentId>voice.vocals</instrumentId>
+      <trackName>Soprano</trackName>
+      <Instrument id="soprano">
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -261,6 +261,8 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -276,7 +278,7 @@
       <Instrument id="alto">
         <longName>Alto</longName>
         <shortName>A.</shortName>
-        <trackName>Instrument 1</trackName>
+        <trackName>Alto</trackName>
         <instrumentId>voice.alto</instrumentId>
         <Articulation>
           <velocity>100</velocity>
@@ -307,6 +309,8 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -319,12 +323,13 @@
           </StaffType>
         <defaultClef>G8vb</defaultClef>
         </Staff>
-      <trackName>Tenore</trackName>
+      <trackName>Tenor</trackName>
       <Instrument id="tenor">
-        <longName>Tenore</longName>
+        <longName>Tenor</longName>
         <shortName>T.</shortName>
-        <trackName>Instrument 1</trackName>
+        <trackName>Tenor</trackName>
         <instrumentId>voice.tenor</instrumentId>
+        <clef>G8vb</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -354,6 +359,8 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -366,12 +373,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Basso</trackName>
+      <trackName>Bass</trackName>
       <Instrument id="bass">
-        <longName>Basso</longName>
+        <longName>Bass</longName>
         <shortName>B.</shortName>
-        <trackName>Instrument 1</trackName>
+        <trackName>Bass</trackName>
         <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -401,7 +409,16 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -409,16 +426,19 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>13.2511</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <text>Lamento d'Arianna</text>
+          <text>1. Lamento d'Arianna, SV 107</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: Il sesto libro de madrigali</text>
           </Text>
         <Text>
           <style>Composer</style>
-          <offset x="0" y="-7.99904"/>
-          <text>C. Monteverdi</text>
+          <text>Claudio Monteverdi</text>
           </Text>
         </VBox>
       <Measure>
@@ -431,7 +451,8 @@
           <Tempo>
             <tempo>1.43333</tempo>
             <followText>1</followText>
-            <offset x="-20.2332" y="-15.3671"/>
+            <visible>0</visible>
+            <offset x="1.44108" y="-2.79602"/>
             <text><sym>metNoteQuarterUp</sym> = 86</text>
             </Tempo>
           <Rest>
