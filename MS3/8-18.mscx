@@ -154,7 +154,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.36897</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -194,6 +193,7 @@ smguy@ihug.com.au</metaTag>
       <trackName>Soprano</trackName>
       <Instrument id="soprano">
         <longName>Soprano</longName>
+        <shortName>S.</shortName>
         <trackName>Soprano</trackName>
         <instrumentId>voice.soprano</instrumentId>
         <Articulation>
@@ -225,12 +225,12 @@ smguy@ihug.com.au</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
-        <shortName>S.</shortName>
         </Instrument>
       </Part>
     <Part>
@@ -243,10 +243,12 @@ smguy@ihug.com.au</metaTag>
       <trackName>Tenor</trackName>
       <Instrument id="tenor">
         <longName>Tenor I</longName>
+        <shortName>T. I</shortName>
         <trackName>Tenor I</trackName>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
         <instrumentId>voice.tenor</instrumentId>
+        <clef>G8vb</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -276,13 +278,11 @@ smguy@ihug.com.au</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="32" value="17"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
-        <shortName>T. I</shortName>
-        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -295,10 +295,12 @@ smguy@ihug.com.au</metaTag>
       <trackName>Tenor</trackName>
       <Instrument id="tenor">
         <longName>Tenor II</longName>
+        <shortName>T. II</shortName>
         <trackName>Tenor II</trackName>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
         <instrumentId>voice.tenor</instrumentId>
+        <clef>G8vb</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -328,13 +330,11 @@ smguy@ihug.com.au</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="32" value="17"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
-        <shortName>T. II</shortName>
-        <clef>G8vb</clef>
         </Instrument>
       </Part>
     <Part>
@@ -346,8 +346,10 @@ smguy@ihug.com.au</metaTag>
       <trackName>Bass</trackName>
       <Instrument id="bass">
         <longName>Bass</longName>
+        <shortName>B.</shortName>
         <trackName>Bass</trackName>
         <instrumentId>voice.bass</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -377,24 +379,23 @@ smguy@ihug.com.au</metaTag>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
-          <controller ctrl="32" value="17"/>
           </Channel>
-        <shortName>B.</shortName>
-        <clef>F</clef>
         </Instrument>
       </Part>
     <Part>
       <Staff id="5">
         <StaffType group="pitched">
           </StaffType>
-        <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Spinetta o Chitarone</trackName>
+      <trackName>Continuo</trackName>
       <Instrument id="harpsichord">
-        <longName>Spinetta o Chitarone</longName>
+        <longName>Continuo</longName>
+        <shortName>C.</shortName>
         <trackName>Harpsichord</trackName>
         <minPitchP>29</minPitchP>
         <maxPitchP>89</maxPitchP>
@@ -432,6 +433,11 @@ smguy@ihug.com.au</metaTag>
           </Articulation>
         <Channel>
           <program value="6"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -13948,6 +13954,10 @@ smguy@ihug.com.au</metaTag>
     <Staff id="5">
       <Measure len="1/4">
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <TimeSig>
             <subtype>1</subtype>
             <sigN>4</sigN>
