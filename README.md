@@ -1,4 +1,108 @@
-# Libro 1
+![Version](https://img.shields.io/github/v/release/DCMLab/monteverdi_madrigals?display_name=tag)
+[![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://doi.org/{{ concept_doi }})
+![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/monteverdi_madrigals)
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
+
+
+This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
+and serves as welcome page for both 
+
+* the GitHub repo [https://github.com/DCMLab/monteverdi_madrigals](https://github.com/DCMLab/monteverdi_madrigals) and the corresponding
+* documentation page [https://dcmlab.github.io/monteverdi_madrigals](https://dcmlab.github.io/monteverdi_madrigals)
+
+For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/monteverdi_madrigals/introduction).
+
+# Claudio Monteverdi – Madrigals (A corpus of annotated scores)
+
+This corpus of annotated [MuseScore](https://musescore.org) files has been created within
+the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
+the\r [DCML harmony annotation standard](https://github.com/DCMLab/standards).
+Claudio Monteverdi's nine books of madrigals span the entirety of the composer's\r
+career, from his adolescence to his very old age. For this reason, they evince the transition, Monteverdi's\r
+great innovation, from the blended interlocking lines of Renaissance polyphony to the solid verticals and\r
+speech-like rhythms of Baroque operatic homophony. Arguably the centrepiece of this collection is the\r
+ubiquitous and sensational "Cruda Amarilli," whose striking unprepared dissonances scandalized fellow\r
+composer Giovanni Artusi and prompted an infamous feud between the two musicians. Besides a selection\r
+of madrigals, this repository also features the stunning and energetic "Laudate pueri," a posthumously\r
+published psalm setting that merges rich Renaissance-style imitation with definitively Monteverdian\r
+text-setting techniques.
+
+## Getting the data
+
+* download repository as a [ZIP file](https://github.com/DCMLab/monteverdi_madrigals/archive/main.zip)
+* download a [Frictionless Datapackage](https://specs.frictionlessdata.io/data-package/) that includes concatenations
+  of the TSV files in the four folders (`measures`, `notes`, `chords`, and `harmonies`) and a JSON descriptor:
+  * [monteverdi_madrigals.zip](https://github.com/DCMLab/monteverdi_madrigals/releases/latest/download/monteverdi_madrigals.zip)
+  * [monteverdi_madrigals.datapackage.json](https://github.com/DCMLab/monteverdi_madrigals/releases/latest/download/monteverdi_madrigals.datapackage.json)
+* clone the repo: `git clone https://github.com/DCMLab/monteverdi_madrigals.git` 
+
+
+## Data Formats
+
+Each piece in this corpus is represented by five files with identical name prefixes, each in its own folder. 
+For example, the 12th madrigal from the 2nd book has the following files:
+
+* `MS3/2-12.mscx`: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.
+* `notes/2-12.notes.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+* `measures/2-12.measures.tsv`: A table with relevant information about the measures in the score.
+* `chords/2-12.chords.tsv`: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).
+* `harmonies/2-12.harmonies.tsv`: A table of the included harmony labels (including cadences and phrases) with their positions in the score.
+
+Each TSV file comes with its own JSON descriptor that describes the meanings and datatypes of the columns ("fields") it contains,
+follows the [Frictionless specification](https://specs.frictionlessdata.io/tabular-data-resource/),
+and can be used to validate and correctly load the described file. 
+
+### Opening Scores
+
+After navigating to your local copy, you can open the scores in the folder `MS3` with the free and open source score
+editor [MuseScore](https://musescore.org). Please note that the scores have been edited, annotated and tested with
+[MuseScore 3.6.2](https://github.com/musescore/MuseScore/releases/tag/v3.6.2). 
+MuseScore 4 has since been released which renders them correctly but cannot store them back in the same format.
+
+### Opening TSV files in a spreadsheet
+
+Tab-separated value (TSV) files are like Comma-separated value (CSV) files and can be opened with most modern text
+editors. However, for correctly displaying the columns, you might want to use a spreadsheet or an addon for your
+favourite text editor. When you use a spreadsheet such as Excel, it might annoy you by interpreting fractions as
+dates. This can be circumvented by using `Data --> From Text/CSV` or the free alternative
+[LibreOffice Calc](https://www.libreoffice.org/download/download/). Other than that, TSV data can be loaded with
+every modern programming language.
+
+### Loading TSV files in Python
+
+Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
+to use this code to load any TSV files related to this repository (provided you're doing it in Python). After a quick
+`pip install -U ms3` (requires Python 3.10 or later) you'll be able to load any TSV like this:
+
+```python
+import ms3
+
+labels = ms3.load_tsv("harmonies/2-12.harmonies.tsv")
+notes = ms3.load_tsv("notes/2-12.notes.tsv")
+```
+
+
+## Version history
+
+See the [GitHub releases](https://github.com/DCMLab/monteverdi_madrigals/releases).
+
+## Questions, Suggestions, Corrections, Bug Reports
+
+Please [create an issue](https://github.com/DCMLab/monteverdi_madrigals/issues) and/or feel free to fork and submit pull requests.
+
+## Cite as
+
+> Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Claudio Monteverdi – Madrigals (A corpus of annotated scores) [Data set]. Zenodo. https://doi.org/{{ concept_doi }}
+
+## License
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
+## The nine books
+
+### Libro 1
 |                       full_title                        |                  title                   |SV |voices|year|link|
 |---------------------------------------------------------|------------------------------------------|--:|-----:|----|----|
 |1. Ch'io ami la mia vita, SV23, 5vv                      |Ch'io ami la mia vita                     | 23|     5|NaN |    |
@@ -22,7 +126,7 @@
 |19. Ardo, sì, ma non t'amo, SV39, 5vv                    |Ardo, sì, ma non t'amo                    | 39|     5|NaN |    |
 |20. Ardi o gela a tua voglia, SV39, 5vv                  |Ardi o gela a tua voglia                  | 39|     5|NaN |    |
 |21. Arsi e alsi a mia voglia, SV39, 5vv                  |Arsi e alsi a mia voglia                  | 39|     5|NaN |    |
-# Libro 2 (1590)
+### Libro 2 (1590)
 | full_title                                             | title                                               | SV        | voices | link                                                                  | annotators |
 |--------------------------------------------------------|-----------------------------------------------------|-----------|-------:|-----------------------------------------------------------------------|------------|
 | 1. Non si levava ancor - E dicea l'una sospirando, 5vv | Non si levava ancor - E dicea l'una sospirando, 5vv | 40a & 40b |    NaN | Non_si_levava_ancor_-_E_dicea_l%27una_sospirando_(Claudio_Monteverdi) |            |
@@ -45,7 +149,7 @@
 | 18. Non mi è grave il morire, 5vv                      | Non mi è grave il morire                            | 57        |      5 |                                                                       |            |
 | 19. Ti spontò l'ali amor la donna mia, 5vv             | Ti spontò l'ali amor la donna mia                   | 58        |      5 |                                                                       |            |
 | 20. Cantai un tempo, 5vv                               | Cantai un tempo                                     | 59        |      5 |                                                                       |            |
-# Libro 3 (1592)
+### Libro 3 (1592)
 | full_title                                             | title                                        |  SV | voices | year | link | annotator(s) |
 |--------------------------------------------------------|----------------------------------------------|----:|-------:|------|------|--------------|
 | 1. La giovinetta pianta, SV60, 5vv                     | La giovinetta pianta                         |  60 |      5 | NaN  |      |              |
@@ -68,7 +172,7 @@
 | 14. Lumi miei, cari lumi, SV73, 5vv                    | Lumi miei, cari lumi                         |  73 |      5 | NaN  |      |              |
 | 15a. Rimanti in pace a la dolente e bella Fillida, SV74 | Rimanti in pace a la dolente e bella Fillida | 74a |    NaN | NaN  |      |              |
 | 15b. Ond'ei di morte la sua faccia impressa, SV74, 5vv  | Ond'ei di morte la sua faccia impressa       | 74b |      5 | NaN  |      |              |
-# Libro 4 (1603)
+### Libro 4 (1603)
 | full_title                                                      | title                                      |  SV | voices | link                                               | annotator(s) |
 |-----------------------------------------------------------------|--------------------------------------------|----:|-------:|----------------------------------------------------|--------------|
 | 1. Ah! dolente partita, ah fin de la mia vita, SV 75, 5vv, 1603 | Ah! dolente partita, ah fin de la mia vita |  75 |      5 | Ah!_dolente_partita_(Claudio_Monteverdi)           |              |
@@ -91,7 +195,7 @@
 | 17. Anima del cor mio poi che da me misera me, SV 91, 5vv, 1603 | Anima del cor mio poi che da me misera me  |  91 |      5 | Anima_del_cor_mio_(Claudio_Monteverdi)             |              |
 | 18. Longe da te, cor mio                                        | Longe da te, cor mio                       |  92 |    NaN |                                                    |              |
 | 19. Piagn' e sospira                                            | Piagn' e sospira                           |  93 |    NaN |                                                    | Adrian       |
-# Libro 5 (1605)
+### Libro 5 (1605)
 | full_title                                                 | title                                      |   SV | voices | link                            | annotator(s) |
 |------------------------------------------------------------|--------------------------------------------|-----:|-------:|---------------------------------|--------------|
 | 1. Cruda Amarilli, 5vv, 1605                               | Cruda Amarilli                             |   94 |      5 |                                 | Adrian       |
@@ -114,7 +218,7 @@
 | 12. E cosi à poco à poco                                   | E cosi à poco à poco                       |  105 |    NaN |                                 |              |
 | 13a. Questi vaghi concenti                                  | Questi vaghi concenti                      | 106a |    NaN |                                 |              |
 | 13b. Ecco piegando                                          | Ecco piegando                              | 106b |    NaN |                                 |              |
-# Libro 6 (1614)
+### Libro 6 (1614)
 | full_title                                                   | title                                      | SV   | voices | link                                                       | annotator(s) |
 |--------------------------------------------------------------|--------------------------------------------|------|-------:|------------------------------------------------------------|--------------|
 | 1a. Lasciatemi morire, 5vv, 1614                              | Lasciatemi morire                          | 107a |      5 |                                                            | Adrian       |
@@ -135,7 +239,7 @@
 | 8. Misero Alceo, 5vv, bc, 1614                              | Misero Alceo                               | 114  |      5 |                                                            |              |
 | 9. Batto, qui pianse Ergasto, 5vv, bc, 1614                 | Batto, qui pianse Ergasto                  | 115  |      5 |                                                            |              |
 | 10. Presso un fiume tranquillo, 7vv, bc, 1614                | Presso un fiume tranquillo                 | 116  |      7 |                                                            |              |
-# Libro 7 (1619)
+### Libro 7 (1619)
 | full_title                                                            | title                                         |  SV | voices | link                                               | annotator(s) |
 |-----------------------------------------------------------------------|-----------------------------------------------|----:|-------:|----------------------------------------------------|--------------|
 | 1. Tempro la cetra, 1v, 1619                                          | Tempro la cetra                               | 117 |      1 | Tempro_la_cetra_(Claudio_Monteverdi)               |              |
@@ -167,7 +271,7 @@
 | 27. Chiome d'oro, 2vv, 1619                                           | Chiome d'oro                                  | 143 |      2 | Chiome_d%27oro_(Claudio_Monteverdi)                |              |
 | 28. Amor che deggio far se non mi giova amar, SV 144, 4vv, 1619       | Amor che deggio far se non mi giova amar      | 144 |      4 | Se_non_mi_date_(Claudio_Monteverdi)                |              |
 | 29. Tirsi e Clori                                                     | Tirsi e Clori                                 | 145 |    NaN | Tirsi_e_Clori_(Claudio_Monteverdi)                 |              |
-# Libro 8 (1638)
+### Libro 8 (1638)
 | full_title                                                           | title                                         |   SV | voices | link                                                                        | annotator(s) |
 |----------------------------------------------------------------------|-----------------------------------------------|-----:|-------:|-----------------------------------------------------------------------------|--------------|
 | 1. Altri canti d'Amor, tenero arciero, SV 146, 6vv, 1638             | Altri canti d'Amor, tenero arciero            |  146 |      6 | Altri_canti_d%27Amor,_tenero_arciero_(Claudio_Monteverdi)                   |              |
@@ -193,7 +297,7 @@
 | 20. Non partir, ritrosetta, 3vv, bc, 1638                            | Non partir, ritrosetta                        |  165 |      3 | Non_partir,_ritrosetta_(Claudio_Monteverdi)                                 |              |
 | 21. Su, su, su pastorelli vezzosi, 3vv, bc, 1638                     | Su, su, su pastorelli vezzosi                 |  166 |      3 | Su,_su,_su_pastorelli_vezzosi_(Claudio_Monteverdi)                          |              |
 | 22. Ballo delle Ingrate, SV 167                                      | Ballo delle Ingrate                           |  167 |    NaN |                                                                             |              |
-# Libro 9 (1651)
+### Libro 9 (1651)
 | full_title                                                          | title                                       |  SV | voices | year | link                                                           | annotator(s) |
 |---------------------------------------------------------------------|---------------------------------------------|----:|-------:|-----:|----------------------------------------------------------------|--------------|
 | 1. Bel pastor dal cui bel guardo                                    | Bel pastor dal cui bel guardo               | 168 |    NaN |  NaN |                                                                |              |
@@ -219,12 +323,20 @@
 | Laudate pueri Dominum | 5      | 1650 | Laudate_pueri_a_5_voci_da_Cappella_(Claudio_Monteverdi) | adrian       |
 
 
+## File naming convention
+
+Except for `laudate_pueri_dominum`, the madrigals follow the convention
+
+```regex
+(?<book>\d)-
+(?<no>\d{2}(?<part>a|b|c|d|e)?)
+```
+
 ## Overview
 |      file_name      |measures|labels|standard|  annotators   |
 |---------------------|-------:|-----:|--------|---------------|
 |2-12                 |      93|   225|2.1.0   |Adrian Nagel   |
 |3-09                 |      84|   190|2.1.0   |Adrian Nagel   |
-|3-11                 |      84|   190|2.1.0   |               |
 |4-19                 |     111|   185|2.1.0   |Adrian Nagel   |
 |5-01                 |      67|   176|2.1.0   |Adrian Nagel   |
 |5-03                 |      74|   152|2.1.0   |Adrian Nagel   |
@@ -234,15 +346,9 @@
 |5-04e                |      95|   219|2.1.0   |Adrian Nagel   |
 |5-05b                |      58|    98|2.1.0   |Adrian Nagel   |
 |5-05c                |      75|   151|2.1.0   |Adrian Nagel   |
-|5-06                 |      53|   105|2.1.0   |               |
-|5-07                 |      59|   125|2.1.0   |               |
-|5-08                 |      95|   219|2.1.0   |Adrian Nagel   |
+|5-08                 |      91|   167|2.1.0   |               |
 |5-09                 |      84|   167|2.1.0   |Adrian Nagel   |
-|5-10                 |      58|    98|2.1.0   |               |
-|5-11                 |      75|   151|2.1.0   |Adrian Nagel   |
-|5-14                 |      91|   167|2.1.0   |               |
-|5-15                 |      84|   167|2.1.0   |               |
-|5-17                 |      57|   104|2.1.0   |               |
+|5-11                 |      57|   104|2.1.0   |               |
 |6-01a                |      34|    83|2.1.0   |Adrian Nagel   |
 |8-18                 |     106|   295|2.1.0   |Adrian Nagel   |
 |8-19                 |     142|   281|2.1.0   |Lars & Ya-Chuan|
