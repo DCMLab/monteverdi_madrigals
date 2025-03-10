@@ -15297,7 +15297,7 @@ smguy@ihug.com.au</metaTag>
             <name>i</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15311,13 +15311,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
@@ -15398,7 +15391,7 @@ smguy@ihug.com.au</metaTag>
             <name>VI</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15412,13 +15405,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
@@ -15596,7 +15582,7 @@ smguy@ihug.com.au</metaTag>
             <name>i</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15610,13 +15596,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
@@ -15679,7 +15658,7 @@ smguy@ihug.com.au</metaTag>
             <name>i</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15693,13 +15672,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
@@ -15850,7 +15822,7 @@ smguy@ihug.com.au</metaTag>
             <name>iv6</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15864,13 +15836,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           <location>
             <fractions>-1921/1920</fractions>
             </location>
@@ -15930,7 +15895,7 @@ smguy@ihug.com.au</metaTag>
             <name>iv6</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15945,14 +15910,7 @@ smguy@ihug.com.au</metaTag>
               </Note>
             </Chord>
           <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
-          <location>
-            <fractions>-3839/1920</fractions>
+            <fractions>-1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16197,7 +16155,7 @@ smguy@ihug.com.au</metaTag>
             <name>viio6/VII</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16212,14 +16170,7 @@ smguy@ihug.com.au</metaTag>
               </Note>
             </Chord>
           <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
-          <location>
-            <fractions>-1921/1920</fractions>
+            <fractions>-2/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16509,7 +16460,7 @@ smguy@ihug.com.au</metaTag>
             <name>iv6</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16523,13 +16474,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
@@ -16589,7 +16533,7 @@ smguy@ihug.com.au</metaTag>
             <name>iv6</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16604,14 +16548,7 @@ smguy@ihug.com.au</metaTag>
               </Note>
             </Chord>
           <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
-          <location>
-            <fractions>-1921/1920</fractions>
+            <fractions>-2/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16676,7 +16613,7 @@ smguy@ihug.com.au</metaTag>
             <name>iv</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16690,13 +16627,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
@@ -16877,7 +16807,7 @@ smguy@ihug.com.au</metaTag>
             <name>VI6</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16891,13 +16821,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
@@ -17062,7 +16985,7 @@ smguy@ihug.com.au</metaTag>
             <name>viio6/VII</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -17076,13 +16999,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
@@ -17194,7 +17110,7 @@ smguy@ihug.com.au</metaTag>
             <name>iv7</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -17209,21 +17125,14 @@ smguy@ihug.com.au</metaTag>
               </Note>
             </Chord>
           <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
-          <location>
-            <fractions>-1921/1920</fractions>
+            <fractions>-2/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(4)</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -17281,7 +17190,7 @@ smguy@ihug.com.au</metaTag>
             <name>iv6</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -17295,13 +17204,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
@@ -17410,7 +17312,7 @@ smguy@ihug.com.au</metaTag>
             <name>iv6</name>
             </Harmony>
           <location>
-            <fractions>1/1920</fractions>
+            <fractions>1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -17424,13 +17326,6 @@ smguy@ihug.com.au</metaTag>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-3841/1920</fractions>
-            </location>
-          <Rest>
-            <dots>1</dots>
-            <durationType>breve</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="6/1">
