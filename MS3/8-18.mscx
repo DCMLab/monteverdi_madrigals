@@ -242,8 +242,8 @@ smguy@ihug.com.au</metaTag>
         </Staff>
       <trackName>Tenor</trackName>
       <Instrument id="tenor">
-        <longName>Tenor</longName>
-        <trackName>Tenor</trackName>
+        <longName>Tenor I</longName>
+        <trackName>Tenor I</trackName>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
         <instrumentId>voice.tenor</instrumentId>
@@ -277,11 +277,11 @@ smguy@ihug.com.au</metaTag>
           </Articulation>
         <Channel>
           <program value="52"/>
-          <controller ctrl="10" value="63"/>
+          <controller ctrl="32" value="17"/>
           <synti>Fluid</synti>
           <controller ctrl="32" value="17"/>
           </Channel>
-        <shortName>T.</shortName>
+        <shortName>T. I</shortName>
         <clef>G8vb</clef>
         </Instrument>
       </Part>
@@ -294,8 +294,8 @@ smguy@ihug.com.au</metaTag>
         </Staff>
       <trackName>Tenor</trackName>
       <Instrument id="tenor">
-        <longName>Tenor</longName>
-        <trackName>Tenor</trackName>
+        <longName>Tenor II</longName>
+        <trackName>Tenor II</trackName>
         <transposeDiatonic>-7</transposeDiatonic>
         <transposeChromatic>-12</transposeChromatic>
         <instrumentId>voice.tenor</instrumentId>
@@ -329,11 +329,11 @@ smguy@ihug.com.au</metaTag>
           </Articulation>
         <Channel>
           <program value="52"/>
-          <controller ctrl="10" value="63"/>
+          <controller ctrl="32" value="17"/>
           <synti>Fluid</synti>
           <controller ctrl="32" value="17"/>
           </Channel>
-        <shortName>T.</shortName>
+        <shortName>T. II</shortName>
         <clef>G8vb</clef>
         </Instrument>
       </Part>
@@ -679,7 +679,7 @@ smguy@ihug.com.au</metaTag>
             <tempo>7.2000000000000002</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 144</b></text>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 144</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
