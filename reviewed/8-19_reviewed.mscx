@@ -223,13 +223,13 @@
         </Staff>
       <trackName>Bass</trackName>
       <Instrument id="bass">
-        <longName>Bass</longName>
-        <shortName>B.</shortName>
-        <trackName>Bass</trackName>
+        <longName>Bass I</longName>
+        <shortName>B. I</shortName>
+        <trackName>Bass I</trackName>
         <instrumentId>voice.bass</instrumentId>
         <clef>F</clef>
         <Channel>
-          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -244,21 +244,15 @@
         </Staff>
       <trackName>Bass</trackName>
       <Instrument id="bass">
-        <longName>Bass</longName>
-        <shortName>B.</shortName>
-        <trackName>Bass</trackName>
+        <longName>Bass II</longName>
+        <shortName>B. II</shortName>
+        <trackName>Bass II</trackName>
         <instrumentId>voice.bass</instrumentId>
         <clef>F</clef>
         <Channel>
-          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <controller ctrl="0" value="0"/>
-          <controller ctrl="32" value="17"/>
-          <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>

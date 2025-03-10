@@ -159,15 +159,15 @@
     <metaTag name="harmony_version">2.1.0</metaTag>
     <metaTag name="imslp">https://imslp.org/wiki/Madrigals%2C_Book_5%2C_SV_94%E2%80%93106_(Monteverdi%2C_Claudio)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber">14</metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">8</metaTag>
+    <metaTag name="movementTitle">Ahi come a un vago sol cortese giro</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workNumber">SV 101</metaTag>
     <metaTag name="workTitle">Il quinto libro de madrigali</metaTag>
     <Part>
       <Staff id="1">
@@ -176,12 +176,12 @@
         </Staff>
       <trackName>Soprano</trackName>
       <Instrument id="soprano">
-        <longName>Soprano</longName>
-        <shortName>S.</shortName>
-        <trackName>Soprano</trackName>
+        <longName>Soprano I</longName>
+        <shortName>S. I</shortName>
+        <trackName>Soprano I</trackName>
         <instrumentId>voice.soprano</instrumentId>
         <Channel>
-          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -195,12 +195,12 @@
         </Staff>
       <trackName>Soprano</trackName>
       <Instrument id="soprano">
-        <longName>Soprano</longName>
-        <shortName>S.</shortName>
-        <trackName>Soprano</trackName>
+        <longName>Soprano II</longName>
+        <shortName>S. II</shortName>
+        <trackName>Soprano II</trackName>
         <instrumentId>voice.soprano</instrumentId>
         <Channel>
-          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -281,7 +281,7 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <text>14</text>
+          <text>8. Ahi come a un vago sol cortese giro, SV 101</text>
           </Text>
         <Text>
           <style>Subtitle</style>
