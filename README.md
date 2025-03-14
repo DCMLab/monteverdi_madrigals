@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/monteverdi_madrigals?display_name=tag)
-[![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://doi.org/{{ concept_doi }})
+[![DOI](https://zenodo.org/badge/388175939.svg)](https://doi.org/10.5281/zenodo.15003026)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/monteverdi_madrigals)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
@@ -92,7 +92,7 @@ Please [create an issue](https://github.com/DCMLab/monteverdi_madrigals/issues) 
 
 ## Cite as
 
-> Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Claudio Monteverdi – Madrigals (A corpus of annotated scores) [Data set]. Zenodo. https://doi.org/{{ concept_doi }}
+> Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Claudio Monteverdi – Madrigals (A corpus of annotated scores) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15003026
 
 ## License
 
