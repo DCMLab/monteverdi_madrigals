@@ -2,26 +2,26 @@
     "license": "CC-BY-NC-SA-4.0",
     "contributors": [
         {
-            "type": "DataCollector",
-            "name": "Adrian Nagel"
+            "name": "Nagel, Adrian",
+            "type": "Annotator"
         },
         {
-            "type": "DataCollector",
-            "name": "Lars Opfermann"
+            "name": "Opfermann, Lars",
+            "type": "Annotator"
         },
         {
-            "type": "DataCollector",
-            "name": "Ya-Chuan Wu"
+            "name": "Wu, Ya-Chuan",
+            "type": "Annotator"
         },
         {
-            "orcid": "0000-0002-6329-7492",
+            "name": "Brey, Amelia",
             "type": "DataCurator",
-            "name": "Amelia Brey"
+            "orcid": "0000-0002-6329-7492"
         },
         {
-            "orcid": "0000-0002-1986-9545",
+            "name": "Hentschel, Johannes",
             "type": "DataCurator",
-            "name": "Johannes Hentschel"
+            "orcid": "0000-0002-1986-9545"
         }
     ],
     "title": "Claudio Monteverdi – Madrigals (A corpus of annotated scores)",
