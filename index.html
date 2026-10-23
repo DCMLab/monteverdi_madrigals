@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Libro 1 &#8212; Claudio Monteverdi – Madrigals v2.3 documentation</title>
+    <title>Claudio Monteverdi – Madrigals (A corpus of annotated scores) &#8212; Claudio Monteverdi – Madrigals v2.3 documentation</title>
   
   
   
@@ -286,24 +286,151 @@ document.write(`
   <nav class="contents local" id="readme" role="doc-toc">
 <p class="topic-title">README</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#libro-1" id="id1">Libro 1</a></p></li>
-<li><p><a class="reference internal" href="#libro-2-1590" id="id2">Libro 2 (1590)</a></p></li>
-<li><p><a class="reference internal" href="#libro-3-1592" id="id3">Libro 3 (1592)</a></p></li>
-<li><p><a class="reference internal" href="#libro-4-1603" id="id4">Libro 4 (1603)</a></p></li>
-<li><p><a class="reference internal" href="#libro-5-1605" id="id5">Libro 5 (1605)</a></p></li>
-<li><p><a class="reference internal" href="#libro-6-1614" id="id6">Libro 6 (1614)</a></p></li>
-<li><p><a class="reference internal" href="#libro-7-1619" id="id7">Libro 7 (1619)</a></p></li>
-<li><p><a class="reference internal" href="#libro-8-1638" id="id8">Libro 8 (1638)</a></p></li>
-<li><p><a class="reference internal" href="#libro-9-1651" id="id9">Libro 9 (1651)</a></p></li>
-<li><p><a class="reference internal" href="#others" id="id10">Others</a></p>
+<li><p><a class="reference internal" href="#claudio-monteverdi-madrigals-a-corpus-of-annotated-scores" id="id1">Claudio Monteverdi – Madrigals (A corpus of annotated scores)</a></p>
 <ul>
-<li><p><a class="reference internal" href="#overview" id="id11">Overview</a></p></li>
+<li><p><a class="reference internal" href="#getting-the-data" id="id2">Getting the data</a></p></li>
+<li><p><a class="reference internal" href="#data-formats" id="id3">Data Formats</a></p>
+<ul>
+<li><p><a class="reference internal" href="#opening-scores" id="id4">Opening Scores</a></p></li>
+<li><p><a class="reference internal" href="#opening-tsv-files-in-a-spreadsheet" id="id5">Opening TSV files in a spreadsheet</a></p></li>
+<li><p><a class="reference internal" href="#loading-tsv-files-in-python" id="id6">Loading TSV files in Python</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#version-history" id="id7">Version history</a></p></li>
+<li><p><a class="reference internal" href="#questions-suggestions-corrections-bug-reports" id="id8">Questions, Suggestions, Corrections, Bug Reports</a></p></li>
+<li><p><a class="reference internal" href="#cite-as" id="id9">Cite as</a></p></li>
+<li><p><a class="reference internal" href="#license" id="id10">License</a></p></li>
+<li><p><a class="reference internal" href="#the-nine-books" id="id11">The nine books</a></p>
+<ul>
+<li><p><a class="reference internal" href="#libro-1" id="id12">Libro 1</a></p></li>
+<li><p><a class="reference internal" href="#libro-2-1590" id="id13">Libro 2 (1590)</a></p></li>
+<li><p><a class="reference internal" href="#libro-3-1592" id="id14">Libro 3 (1592)</a></p></li>
+<li><p><a class="reference internal" href="#libro-4-1603" id="id15">Libro 4 (1603)</a></p></li>
+<li><p><a class="reference internal" href="#libro-5-1605" id="id16">Libro 5 (1605)</a></p></li>
+<li><p><a class="reference internal" href="#libro-6-1614" id="id17">Libro 6 (1614)</a></p></li>
+<li><p><a class="reference internal" href="#libro-7-1619" id="id18">Libro 7 (1619)</a></p></li>
+<li><p><a class="reference internal" href="#libro-8-1638" id="id19">Libro 8 (1638)</a></p></li>
+<li><p><a class="reference internal" href="#libro-9-1651" id="id20">Libro 9 (1651)</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#others" id="id21">Others</a></p>
+<ul>
+<li><p><a class="reference internal" href="#file-naming-convention" id="id22">File naming convention</a></p></li>
+<li><p><a class="reference internal" href="#overview" id="id23">Overview</a></p></li>
 </ul>
 </li>
 </ul>
 </nav>
+<p><img alt="Version" src="https://img.shields.io/github/v/release/DCMLab/monteverdi_madrigals?display_name=tag" />
+<a class="reference external" href="https://doi.org/10.5281/zenodo.15003026"><img alt="DOI" src="https://zenodo.org/badge/388175939.svg" /></a>
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DCMLab/monteverdi_madrigals" />
+<img alt="License" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf" /></p>
+<p>This is a README file for a data repository originating from the <a class="reference external" href="https://github.com/DCMLab/dcml_corpora">DCML corpus initiative</a>
+and serves as welcome page for both</p>
+<ul class="simple">
+<li><p>the GitHub repo <a class="github reference external" href="https://github.com/DCMLab/monteverdi_madrigals">DCMLab/monteverdi_madrigals</a> and the corresponding</p></li>
+<li><p>documentation page <a class="reference external" href="https://dcmlab.github.io/monteverdi_madrigals">https://dcmlab.github.io/monteverdi_madrigals</a></p></li>
+</ul>
+<p>For information on how to obtain and use the dataset, please refer to <a class="reference external" href="https://dcmlab.github.io/monteverdi_madrigals/introduction">this documentation page</a>.</p>
+<p>When you use (parts of) this dataset in your work, please read and cite the accompanying data report:</p>
+<p><em>Hentschel, J., Rammos, Y., Neuwirth, M., &amp; Rohrmeier, M. (2025). A corpus and a modular infrastructure for the
+empirical study of (an)notated music. Scientific Data, 12(1), 685. https://doi.org/10.1038/s41597-025-04976-z</em></p>
+<section id="claudio-monteverdi-madrigals-a-corpus-of-annotated-scores">
+<h1><a class="toc-backref" href="#id1" role="doc-backlink">Claudio Monteverdi – Madrigals (A corpus of annotated scores)</a><a class="headerlink" href="#claudio-monteverdi-madrigals-a-corpus-of-annotated-scores" title="Permalink to this heading">#</a></h1>
+<p>This corpus of annotated <a class="reference external" href="https://musescore.org">MuseScore</a> files has been created within
+the <a class="reference external" href="https://github.com/DCMLab/dcml_corpora">DCML corpus initiative</a> and employs
+the   <a class="reference external" href="https://github.com/DCMLab/standards">DCML harmony annotation standard</a>.
+Claudio Monteverdi’s nine books of madrigals span the entirety of the composer’s
+career, from his adolescence to his very old age. For this reason, they evince the transition, Monteverdi’s
+great innovation, from the blended interlocking lines of Renaissance polyphony to the solid verticals and
+speech-like rhythms of Baroque operatic homophony. Arguably the centrepiece of this collection is the
+ubiquitous and sensational “Cruda Amarilli,” whose striking unprepared dissonances scandalized fellow
+composer Giovanni Artusi and prompted an infamous feud between the two musicians. Besides a selection
+of madrigals, this repository also features the stunning and energetic “Laudate pueri,” a posthumously
+published psalm setting that merges rich Renaissance-style imitation with definitively Monteverdian
+text-setting techniques.</p>
+<section id="getting-the-data">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Getting the data</a><a class="headerlink" href="#getting-the-data" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>download repository as a <a class="reference external" href="https://github.com/DCMLab/monteverdi_madrigals/archive/main.zip">ZIP file</a></p></li>
+<li><p>download a <a class="reference external" href="https://specs.frictionlessdata.io/data-package/">Frictionless Datapackage</a> that includes concatenations
+of the TSV files in the four folders (<code class="docutils literal notranslate"><span class="pre">measures</span></code>, <code class="docutils literal notranslate"><span class="pre">notes</span></code>, <code class="docutils literal notranslate"><span class="pre">chords</span></code>, and <code class="docutils literal notranslate"><span class="pre">harmonies</span></code>) and a JSON descriptor:</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/DCMLab/monteverdi_madrigals/releases/latest/download/monteverdi_madrigals.zip">monteverdi_madrigals.zip</a></p></li>
+<li><p><a class="reference external" href="https://github.com/DCMLab/monteverdi_madrigals/releases/latest/download/monteverdi_madrigals.datapackage.json">monteverdi_madrigals.datapackage.json</a></p></li>
+</ul>
+</li>
+<li><p>clone the repo: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">https://github.com/DCMLab/monteverdi_madrigals.git</span></code></p></li>
+</ul>
+</section>
+<section id="data-formats">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Data Formats</a><a class="headerlink" href="#data-formats" title="Permalink to this heading">#</a></h2>
+<p>Each piece in this corpus is represented by five files with identical name prefixes, each in its own folder.
+For example, the 12th madrigal from the 2nd book has the following files:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">MS3/2-12.mscx</span></code>: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">notes/2-12.notes.tsv</span></code>: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">measures/2-12.measures.tsv</span></code>: A table with relevant information about the measures in the score.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chords/2-12.chords.tsv</span></code>: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">harmonies/2-12.harmonies.tsv</span></code>: A table of the included harmony labels (including cadences and phrases) with their positions in the score.</p></li>
+</ul>
+<p>Each TSV file comes with its own JSON descriptor that describes the meanings and datatypes of the columns (“fields”) it contains,
+follows the <a class="reference external" href="https://specs.frictionlessdata.io/tabular-data-resource/">Frictionless specification</a>,
+and can be used to validate and correctly load the described file.</p>
+<section id="opening-scores">
+<h3><a class="toc-backref" href="#id4" role="doc-backlink">Opening Scores</a><a class="headerlink" href="#opening-scores" title="Permalink to this heading">#</a></h3>
+<p>After navigating to your local copy, you can open the scores in the folder <code class="docutils literal notranslate"><span class="pre">MS3</span></code> with the free and open source score
+editor <a class="reference external" href="https://musescore.org">MuseScore</a>. Please note that the scores have been edited, annotated and tested with
+<a class="reference external" href="https://github.com/musescore/MuseScore/releases/tag/v3.6.2">MuseScore 3.6.2</a>.
+MuseScore 4 has since been released which renders them correctly but cannot store them back in the same format.</p>
+</section>
+<section id="opening-tsv-files-in-a-spreadsheet">
+<h3><a class="toc-backref" href="#id5" role="doc-backlink">Opening TSV files in a spreadsheet</a><a class="headerlink" href="#opening-tsv-files-in-a-spreadsheet" title="Permalink to this heading">#</a></h3>
+<p>Tab-separated value (TSV) files are like Comma-separated value (CSV) files and can be opened with most modern text
+editors. However, for correctly displaying the columns, you might want to use a spreadsheet or an addon for your
+favourite text editor. When you use a spreadsheet such as Excel, it might annoy you by interpreting fractions as
+dates. This can be circumvented by using <code class="docutils literal notranslate"><span class="pre">Data</span> <span class="pre">--&gt;</span> <span class="pre">From</span> <span class="pre">Text/CSV</span></code> or the free alternative
+<a class="reference external" href="https://www.libreoffice.org/download/download/">LibreOffice Calc</a>. Other than that, TSV data can be loaded with
+every modern programming language.</p>
+</section>
+<section id="loading-tsv-files-in-python">
+<h3><a class="toc-backref" href="#id6" role="doc-backlink">Loading TSV files in Python</a><a class="headerlink" href="#loading-tsv-files-in-python" title="Permalink to this heading">#</a></h3>
+<p>Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
+to use this code to load any TSV files related to this repository (provided you’re doing it in Python). After a quick
+<code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-U</span> <span class="pre">ms3</span></code> (requires Python 3.10 or later) you’ll be able to load any TSV like this:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ms3</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">load_tsv</span><span class="p">(</span><span class="s2">&quot;harmonies/2-12.harmonies.tsv&quot;</span><span class="p">)</span>
+<span class="n">notes</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">load_tsv</span><span class="p">(</span><span class="s2">&quot;notes/2-12.notes.tsv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="version-history">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Version history</a><a class="headerlink" href="#version-history" title="Permalink to this heading">#</a></h2>
+<p>See the <a class="reference external" href="https://github.com/DCMLab/monteverdi_madrigals/releases">GitHub releases</a>.</p>
+</section>
+<section id="questions-suggestions-corrections-bug-reports">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Questions, Suggestions, Corrections, Bug Reports</a><a class="headerlink" href="#questions-suggestions-corrections-bug-reports" title="Permalink to this heading">#</a></h2>
+<p>Please <a class="reference external" href="https://github.com/DCMLab/monteverdi_madrigals/issues">create an issue</a> and/or feel free to fork and submit pull requests.</p>
+</section>
+<section id="cite-as">
+<h2><a class="toc-backref" href="#id9" role="doc-backlink">Cite as</a><a class="headerlink" href="#cite-as" title="Permalink to this heading">#</a></h2>
+<blockquote>
+<div><p>Hentschel, J., Rammos, Y., Neuwirth, M., &amp; Rohrmeier, M. (2025). A corpus and a modular infrastructure for the empirical study of (an)notated music. Scientific Data, 12(1), 685. https://doi.org/10.1038/s41597-025-04976-z</p>
+</div></blockquote>
+</section>
+<section id="license">
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">License</a><a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
+<p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>).</p>
+<p><img alt="cc-by-nc-sa-image" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" /></p>
+</section>
+<section id="the-nine-books">
+<h2><a class="toc-backref" href="#id11" role="doc-backlink">The nine books</a><a class="headerlink" href="#the-nine-books" title="Permalink to this heading">#</a></h2>
 <section id="libro-1">
-<h1><a class="toc-backref" href="#id1" role="doc-backlink">Libro 1</a><a class="headerlink" href="#libro-1" title="Permalink to this heading">#</a></h1>
+<h3><a class="toc-backref" href="#id12" role="doc-backlink">Libro 1</a><a class="headerlink" href="#libro-1" title="Permalink to this heading">#</a></h3>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>full_title</p></th>
@@ -466,7 +593,7 @@ document.write(`
 </table>
 </section>
 <section id="libro-2-1590">
-<h1><a class="toc-backref" href="#id2" role="doc-backlink">Libro 2 (1590)</a><a class="headerlink" href="#libro-2-1590" title="Permalink to this heading">#</a></h1>
+<h3><a class="toc-backref" href="#id13" role="doc-backlink">Libro 2 (1590)</a><a class="headerlink" href="#libro-2-1590" title="Permalink to this heading">#</a></h3>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>full_title</p></th>
@@ -622,7 +749,7 @@ document.write(`
 </table>
 </section>
 <section id="libro-3-1592">
-<h1><a class="toc-backref" href="#id3" role="doc-backlink">Libro 3 (1592)</a><a class="headerlink" href="#libro-3-1592" title="Permalink to this heading">#</a></h1>
+<h3><a class="toc-backref" href="#id14" role="doc-backlink">Libro 3 (1592)</a><a class="headerlink" href="#libro-3-1592" title="Permalink to this heading">#</a></h3>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>full_title</p></th>
@@ -799,7 +926,7 @@ document.write(`
 </table>
 </section>
 <section id="libro-4-1603">
-<h1><a class="toc-backref" href="#id4" role="doc-backlink">Libro 4 (1603)</a><a class="headerlink" href="#libro-4-1603" title="Permalink to this heading">#</a></h1>
+<h3><a class="toc-backref" href="#id15" role="doc-backlink">Libro 4 (1603)</a><a class="headerlink" href="#libro-4-1603" title="Permalink to this heading">#</a></h3>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>full_title</p></th>
@@ -955,7 +1082,7 @@ document.write(`
 </table>
 </section>
 <section id="libro-5-1605">
-<h1><a class="toc-backref" href="#id5" role="doc-backlink">Libro 5 (1605)</a><a class="headerlink" href="#libro-5-1605" title="Permalink to this heading">#</a></h1>
+<h3><a class="toc-backref" href="#id16" role="doc-backlink">Libro 5 (1605)</a><a class="headerlink" href="#libro-5-1605" title="Permalink to this heading">#</a></h3>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>full_title</p></th>
@@ -1111,7 +1238,7 @@ document.write(`
 </table>
 </section>
 <section id="libro-6-1614">
-<h1><a class="toc-backref" href="#id6" role="doc-backlink">Libro 6 (1614)</a><a class="headerlink" href="#libro-6-1614" title="Permalink to this heading">#</a></h1>
+<h3><a class="toc-backref" href="#id17" role="doc-backlink">Libro 6 (1614)</a><a class="headerlink" href="#libro-6-1614" title="Permalink to this heading">#</a></h3>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>full_title</p></th>
@@ -1253,7 +1380,7 @@ document.write(`
 </table>
 </section>
 <section id="libro-7-1619">
-<h1><a class="toc-backref" href="#id7" role="doc-backlink">Libro 7 (1619)</a><a class="headerlink" href="#libro-7-1619" title="Permalink to this heading">#</a></h1>
+<h3><a class="toc-backref" href="#id18" role="doc-backlink">Libro 7 (1619)</a><a class="headerlink" href="#libro-7-1619" title="Permalink to this heading">#</a></h3>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>full_title</p></th>
@@ -1472,7 +1599,7 @@ document.write(`
 </table>
 </section>
 <section id="libro-8-1638">
-<h1><a class="toc-backref" href="#id8" role="doc-backlink">Libro 8 (1638)</a><a class="headerlink" href="#libro-8-1638" title="Permalink to this heading">#</a></h1>
+<h3><a class="toc-backref" href="#id19" role="doc-backlink">Libro 8 (1638)</a><a class="headerlink" href="#libro-8-1638" title="Permalink to this heading">#</a></h3>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>full_title</p></th>
@@ -1649,7 +1776,7 @@ document.write(`
 </table>
 </section>
 <section id="libro-9-1651">
-<h1><a class="toc-backref" href="#id9" role="doc-backlink">Libro 9 (1651)</a><a class="headerlink" href="#libro-9-1651" title="Permalink to this heading">#</a></h1>
+<h3><a class="toc-backref" href="#id20" role="doc-backlink">Libro 9 (1651)</a><a class="headerlink" href="#libro-9-1651" title="Permalink to this heading">#</a></h3>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>full_title</p></th>
@@ -1785,8 +1912,10 @@ document.write(`
 </tbody>
 </table>
 </section>
+</section>
+</section>
 <section id="others">
-<h1><a class="toc-backref" href="#id10" role="doc-backlink">Others</a><a class="headerlink" href="#others" title="Permalink to this heading">#</a></h1>
+<h1><a class="toc-backref" href="#id21" role="doc-backlink">Others</a><a class="headerlink" href="#others" title="Permalink to this heading">#</a></h1>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>title</p></th>
@@ -1805,8 +1934,16 @@ document.write(`
 </tr>
 </tbody>
 </table>
+<section id="file-naming-convention">
+<h2><a class="toc-backref" href="#id22" role="doc-backlink">File naming convention</a><a class="headerlink" href="#file-naming-convention" title="Permalink to this heading">#</a></h2>
+<p>Except for <code class="docutils literal notranslate"><span class="pre">laudate_pueri_dominum</span></code>, the madrigals follow the convention</p>
+<div class="highlight-regex notranslate"><div class="highlight"><pre><span></span>(?&lt;book&gt;\d)-
+(?&lt;no&gt;\d{2}(?&lt;part&gt;a|b|c|d|e)?)
+</pre></div>
+</div>
+</section>
 <section id="overview">
-<h2><a class="toc-backref" href="#id11" role="doc-backlink">Overview</a><a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
+<h2><a class="toc-backref" href="#id23" role="doc-backlink">Overview</a><a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>file_name</p></th>
@@ -1829,145 +1966,103 @@ document.write(`
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-even"><td><p>3-11</p></td>
-<td class="text-right"><p>84</p></td>
-<td class="text-right"><p>190</p></td>
-<td><p>2.1.0</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>4-19</p></td>
+<tr class="row-even"><td><p>4-19</p></td>
 <td class="text-right"><p>111</p></td>
 <td class="text-right"><p>185</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-even"><td><p>5-01</p></td>
+<tr class="row-odd"><td><p>5-01</p></td>
 <td class="text-right"><p>67</p></td>
 <td class="text-right"><p>176</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-odd"><td><p>5-03</p></td>
+<tr class="row-even"><td><p>5-03</p></td>
 <td class="text-right"><p>74</p></td>
 <td class="text-right"><p>152</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-even"><td><p>5-04a</p></td>
+<tr class="row-odd"><td><p>5-04a</p></td>
 <td class="text-right"><p>82</p></td>
 <td class="text-right"><p>128</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-odd"><td><p>5-04c</p></td>
+<tr class="row-even"><td><p>5-04c</p></td>
 <td class="text-right"><p>53</p></td>
 <td class="text-right"><p>105</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-even"><td><p>5-04d</p></td>
+<tr class="row-odd"><td><p>5-04d</p></td>
 <td class="text-right"><p>59</p></td>
 <td class="text-right"><p>125</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-odd"><td><p>5-04e</p></td>
+<tr class="row-even"><td><p>5-04e</p></td>
 <td class="text-right"><p>95</p></td>
 <td class="text-right"><p>219</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-even"><td><p>5-05b</p></td>
+<tr class="row-odd"><td><p>5-05b</p></td>
 <td class="text-right"><p>58</p></td>
 <td class="text-right"><p>98</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-odd"><td><p>5-05c</p></td>
+<tr class="row-even"><td><p>5-05c</p></td>
 <td class="text-right"><p>75</p></td>
 <td class="text-right"><p>151</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-even"><td><p>5-06</p></td>
-<td class="text-right"><p>53</p></td>
-<td class="text-right"><p>105</p></td>
-<td><p>2.1.0</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>5-07</p></td>
-<td class="text-right"><p>59</p></td>
-<td class="text-right"><p>125</p></td>
-<td><p>2.1.0</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>5-08</p></td>
-<td class="text-right"><p>95</p></td>
-<td class="text-right"><p>219</p></td>
-<td><p>2.1.0</p></td>
-<td><p>Adrian Nagel</p></td>
-</tr>
-<tr class="row-odd"><td><p>5-09</p></td>
-<td class="text-right"><p>84</p></td>
-<td class="text-right"><p>167</p></td>
-<td><p>2.1.0</p></td>
-<td><p>Adrian Nagel</p></td>
-</tr>
-<tr class="row-even"><td><p>5-10</p></td>
-<td class="text-right"><p>58</p></td>
-<td class="text-right"><p>98</p></td>
-<td><p>2.1.0</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>5-11</p></td>
-<td class="text-right"><p>75</p></td>
-<td class="text-right"><p>151</p></td>
-<td><p>2.1.0</p></td>
-<td><p>Adrian Nagel</p></td>
-</tr>
-<tr class="row-even"><td><p>5-14</p></td>
+<tr class="row-odd"><td><p>5-08</p></td>
 <td class="text-right"><p>91</p></td>
 <td class="text-right"><p>167</p></td>
 <td><p>2.1.0</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>5-15</p></td>
+<tr class="row-even"><td><p>5-09</p></td>
 <td class="text-right"><p>84</p></td>
 <td class="text-right"><p>167</p></td>
 <td><p>2.1.0</p></td>
-<td><p></p></td>
+<td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-even"><td><p>5-17</p></td>
+<tr class="row-odd"><td><p>5-11</p></td>
 <td class="text-right"><p>57</p></td>
 <td class="text-right"><p>104</p></td>
 <td><p>2.1.0</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>6-01a</p></td>
+<tr class="row-even"><td><p>6-01a</p></td>
 <td class="text-right"><p>34</p></td>
 <td class="text-right"><p>83</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-even"><td><p>8-18</p></td>
+<tr class="row-odd"><td><p>8-18</p></td>
 <td class="text-right"><p>106</p></td>
 <td class="text-right"><p>295</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Adrian Nagel</p></td>
 </tr>
-<tr class="row-odd"><td><p>8-19</p></td>
+<tr class="row-even"><td><p>8-19</p></td>
 <td class="text-right"><p>142</p></td>
 <td class="text-right"><p>281</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Lars &amp; Ya-Chuan</p></td>
 </tr>
-<tr class="row-even"><td><p>9-12</p></td>
+<tr class="row-odd"><td><p>9-12</p></td>
 <td class="text-right"><p>26</p></td>
 <td class="text-right"><p>52</p></td>
 <td><p>2.1.0</p></td>
 <td><p>Lars &amp; Ya-Chuan</p></td>
 </tr>
-<tr class="row-odd"><td><p>laudate_pueri_dominum</p></td>
+<tr class="row-even"><td><p>laudate_pueri_dominum</p></td>
 <td class="text-right"><p>177</p></td>
 <td class="text-right"><p>386</p></td>
 <td><p>2.1.0</p></td>
@@ -2024,16 +2119,34 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Libro 1</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-2-1590">Libro 2 (1590)</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-3-1592">Libro 3 (1592)</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-4-1603">Libro 4 (1603)</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-5-1605">Libro 5 (1605)</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-6-1614">Libro 6 (1614)</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-7-1619">Libro 7 (1619)</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-8-1638">Libro 8 (1638)</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-9-1651">Libro 9 (1651)</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Claudio Monteverdi – Madrigals (A corpus of annotated scores)</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-the-data">Getting the data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-formats">Data Formats</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-scores">Opening Scores</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-tsv-files-in-a-spreadsheet">Opening TSV files in a spreadsheet</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#loading-tsv-files-in-python">Loading TSV files in Python</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-history">Version history</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-suggestions-corrections-bug-reports">Questions, Suggestions, Corrections, Bug Reports</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cite-as">Cite as</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-nine-books">The nine books</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-1">Libro 1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-2-1590">Libro 2 (1590)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-3-1592">Libro 3 (1592)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-4-1603">Libro 4 (1603)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-5-1605">Libro 5 (1605)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-6-1614">Libro 6 (1614)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-7-1619">Libro 7 (1619)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-8-1638">Libro 8 (1638)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#libro-9-1651">Libro 9 (1651)</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#others">Others</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
 </ul>
 </li>
